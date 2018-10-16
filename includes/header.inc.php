@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php include "config.php"; ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
