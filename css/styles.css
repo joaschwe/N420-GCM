@@ -1,3 +1,15 @@
+/*
+#fafafa : background light grey
+#8e8e8e : gray (usually HRs or borders)
+#a6a7aa : dark gray
+#8CC63F : light green
+#53735B : dark green
+
+grey: #A7A9AD
+Myriad Pro is main font
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +18,63 @@
 html, body {
     height: 100%;
     font-family: sans-serif;
+    background-color: #fafafa;
+    width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 16px;
+    color:#8e8e8e;
 }
 
-nav {
+span {
+    color: #aed77a;
+}
+
+nav.top {
+    /*position: relative;*/
+    width:40%;
+    margin-left: auto;
+    margin-right: 5%;
+    height: 50px;
+    /*min-height:50px;*/
+    background-color: darkgray;
+    display: flex;
+}
+nav.top div {
+    margin:auto;
+    min-height:100%;
+    /*width:40%;*/
+    padding:0 10px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+nav.top div:hover {
+    /*background-color: grey;*/
+
+}
+nav.top a {
+    /*color:#fff;*/
+    text-decoration: none;
+    margin:auto;
+    white-space: nowrap;
+}
+
+.bag {
+    width: 50px;
+    color:#aed77a;
+}
+
+
+nav.bottom {
     position: relative;
     height: 80px;
     min-height:80px;
     background-color: rgba(0,0,0,1);
     display: flex;
 }
-nav div {
+nav.bottom div {
     margin:auto;
     min-height:100%;
     padding:0 30px;
@@ -27,81 +82,108 @@ nav div {
     box-sizing: border-box;
 
 }
-nav div:hover {
+nav.bottom div:hover {
     background-color: grey;
 
 }
-nav a {
+nav.bottom a {
     color:#fff;
     text-decoration: none;
     margin:auto;
     white-space: nowrap;
 }
 
-nav .join-button:hover .joinHolder {
-    display: flex;
-    left:3em;
-    right:3em;
-    height: 500%;
-}
-nav .joinHolder {
-    position: absolute;
-    padding:0;
-    top:80px;
-    height:500%;
-    background-color: grey;
-    display: none;
-    /*transition: all 1s ease;*/
 
-}
-nav .joinHolder form {
-    /*background-color: blueviolet;*/
-    height:90%;
-    width:90%;
-    margin: auto;
-}
+/*nav {*/
+    /*position: relative;*/
+    /*height: 80px;*/
+    /*min-height:80px;*/
+    /*background-color: rgba(0,0,0,1);*/
+    /*display: flex;*/
+/*}*/
+/*nav div {*/
+    /*margin:auto;*/
+    /*min-height:100%;*/
+    /*padding:0 30px;*/
+    /*display: flex;*/
+    /*box-sizing: border-box;*/
 
-nav .joinHolder .sign-in {
-    height:100%;
-    width:100%;
-    /*background-color: antiquewhite;*/
-    display: flex;
-}
-nav .joinHolder .sign-up {
-    height:100%;
-    width:100%;
-    /*background-color:darkgreen;*/
-}
-nav .joinHolder:hover {
-    display: block;
-    /*transition: all 1s ease;*/
-}
-nav div:nth-child(odd) {
-    color:#fff;
-    text-decoration: none;
-    margin:auto;
-}
-nav .joinHolder form label {
-    display: block;
-    margin-bottom:10px;
-}
-nav .joinHolder form input {
-    display: block;
-    height:40px;
-    width: 95%;
-    border-radius: 5px;
-    border-style: none;
-    margin-bottom:10px;
-    font-size: 120%;
-    padding:5px;
-    box-sizing: border-box;
-}
+/*}*/
+/*nav div:hover {*/
+    /*background-color: grey;*/
 
-nav .joinHolder form .submit-button {
-    background-color: white;
-    margin:30px auto 0px auto;
-    width: 50%;
-}
+/*}*/
+/*nav a {*/
+    /*color:#fff;*/
+    /*text-decoration: none;*/
+    /*margin:auto;*/
+    /*white-space: nowrap;*/
+/*}*/
+
+/*nav .join-button:hover .joinHolder {*/
+    /*display: flex;*/
+    /*left:3em;*/
+    /*right:3em;*/
+    /*height: 500%;*/
+/*}*/
+/*nav .joinHolder {*/
+    /*position: absolute;*/
+    /*padding:0;*/
+    /*top:80px;*/
+    /*height:500%;*/
+    /*background-color: grey;*/
+    /*display: none;*/
+    /*!*transition: all 1s ease;*!*/
+
+/*}*/
+/*nav .joinHolder form {*/
+    /*!*background-color: blueviolet;*!*/
+    /*height:90%;*/
+    /*width:90%;*/
+    /*margin: auto;*/
+/*}*/
+
+/*nav .joinHolder .sign-in {*/
+    /*height:100%;*/
+    /*width:100%;*/
+    /*!*background-color: antiquewhite;*!*/
+    /*display: flex;*/
+/*}*/
+/*nav .joinHolder .sign-up {*/
+    /*height:100%;*/
+    /*width:100%;*/
+    /*!*background-color:darkgreen;*!*/
+/*}*/
+/*nav .joinHolder:hover {*/
+    /*display: block;*/
+    /*!*transition: all 1s ease;*!*/
+/*}*/
+/*nav div:nth-child(odd) {*/
+    /*color:#fff;*/
+    /*text-decoration: none;*/
+    /*margin:auto;*/
+/*}*/
+/*nav .joinHolder form label {*/
+    /*display: block;*/
+    /*margin-bottom:10px;*/
+/*}*/
+/*nav .joinHolder form input {*/
+    /*display: block;*/
+    /*height:40px;*/
+    /*width: 95%;*/
+    /*border-radius: 5px;*/
+    /*border-style: none;*/
+    /*margin-bottom:10px;*/
+    /*font-size: 120%;*/
+    /*padding:5px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*nav .joinHolder form .submit-button {*/
+    /*background-color: white;*/
+    /*margin:30px auto 0px auto;*/
+    /*width: 50%;*/
+/*}*/
 
 .home {
     background-color: cadetblue;
