@@ -1,78 +1,109 @@
+colors {
+    color: #fafafa;
+    color: #A7A9AC;
+    color: #8e8e8e;
+    color: #8DC63F;
+    color: #52735B;
+    color: #6b6b6b;
+
+}
+
 /*
 #fafafa : background light grey
+#A7A9AC : gray text
 #8e8e8e : gray (usually HRs or borders)
 #a6a7aa : dark gray
-#8CC63F : light green
-#53735B : dark green
+#8DC63F : light green
+#52735B : dark green
 
 grey: #A7A9AD
 Myriad Pro is main font
 */
 
 
+/* ---- RESETS ---- */
 * {
     margin: 0;
     padding: 0;
 }
-
 html, body {
     height: 100%;
     font-family: sans-serif;
     background-color: #fafafa;
     width: 100%;
+    margin:auto;
 }
-
 h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 16px;
-    color:#8e8e8e;
+    color:#6b6b6b;
+}
+.container {
+    width: 90%;
+    margin: auto;
 }
 
-span {
-    color: #aed77a;
-}
+/* ---- LOGO & KNOT ---- */
 
-nav.top {
-    /*position: relative;*/
-    width:40%;
-    margin-left: auto;
-    margin-right: 5%;
-    height: 50px;
-    /*min-height:50px;*/
-    background-color: darkgray;
+
+
+/* ---- HEADER ---- */
+header {
+    width: 100%;
+    margin:0 auto 20px auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo {
+    height: 90px;
+}
+.bag {
+    height: 50px;
+    color:#aed77a;
+}
+
+/* ---- NAVS ---- */
+/* --- top nav --- */
+nav.top {
+    width:95%;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+    background-color: white;
 }
 nav.top div {
-    margin:auto;
     min-height:100%;
-    /*width:40%;*/
-    padding:0 10px;
+    padding:0 30px;
     display: flex;
     box-sizing: border-box;
-
 }
-nav.top div:hover {
-    /*background-color: grey;*/
-
+nav.top a:hover {
+    /*color: #8DC63F;*/
 }
 nav.top a {
     /*color:#fff;*/
     text-decoration: none;
     margin:auto;
     white-space: nowrap;
+    color: #8e8e8e;
+    font-weight: lighter;
 }
-
-.bag {
-    width: 50px;
-    color:#aed77a;
+span {
+    color: #aed77a;
+    text-decoration: underline;
 }
-
-
+/* --- bottom nav --- */
 nav.bottom {
-    position: relative;
-    height: 80px;
-    min-height:80px;
-    background-color: rgba(0,0,0,1);
+    height: 50px;
     display: flex;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: thin;
+    border-color: #8e8e8e;
+    background-color: white;
 }
 nav.bottom div {
     margin:auto;
@@ -80,17 +111,284 @@ nav.bottom div {
     padding:0 30px;
     display: flex;
     box-sizing: border-box;
-
+}
+nav.bottom a:hover {
+    color: #8DC63F;
 }
 nav.bottom div:hover {
-    background-color: grey;
-
+    border-bottom: 1px solid darkgreen;
 }
 nav.bottom a {
-    color:#fff;
     text-decoration: none;
     margin:auto;
     white-space: nowrap;
+    color: #8e8e8e;
+    /*font-weight: lighter;*/
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* ---- BANNER ---- */
+.banner {
+    width: 90%;
+    margin: 70px auto;
+    /*background-color: #8e8e8e;*/
+}
+.banner img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    /*background-color: #b3d4fc;*/
+}
+.banner button {
+    margin: 30px auto 0 auto;
+    display: block;
+    padding: 20px 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #8DC63F;
+    border-radius: 8px;
+    border: 3px solid #8DC63F;
+}
+.banner button:hover {
+    color: #8DC63F;
+    background-color: white;
+}
+
+/* ---- DIVIDERS ---- */
+/* --- title dividers --- */
+h1 {
+    font-family: serif;
+    font-size: 60px;
+    font-weight: normal;
+    overflow: hidden;
+    text-align: center;
+    width:100%;
+    margin:auto;
+}
+h1:before,
+h1:after {
+    background-color: #6b6b6b;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1:before {
+    right: 0.7em;
+    margin-left: -50%;
+}
+h1:after {
+    left: 0.7em;
+    margin-right: -50%;
+}
+/* --- knot divider --- */
+.knotDivider {
+    width: 100%;
+    align-items: center;
+    margin: 30px auto 100px auto;
+    display: flex;
+}
+.knotDivider div {
+    background-color: #BCBEC0;
+    width: 45%;
+    height: 0.18em;
+    margin-bottom:2px;
+}
+img.knot {
+    width: 10%;
+    margin: 0 -2px;
+    padding-top: 0.25px;
+}
+
+/* ---- SUB BANNER & CRAFTSMAN ---- */
+.subBanner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:8vh 0;
+}
+.section {
+    width:30%;
+    /*background-color: white;*/
+    flex:auto;
+}
+.section:nth-child(2) {
+    margin: 0 2vw;
+}
+.section img {
+    width: 100%;
+    height: auto;
+}
+.section h2, .section h3, .section p {
+    flex: auto;
+    /*margin: 0 1.5vw;*/
+}
+.section h2, .section h3 {
+    text-align: center;
+    font-weight: normal;
+    margin: 1vw 0
+}
+.section p {
+    margin: 0 0 2vw 2vw;
+
+}
+
+/* ---- GALLERY ---- */
+.gallery {
+    padding: 2vw 3vw;
+    font-size: 14px;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+.gallery .product {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 280px;
+    margin: 2vw;
+    background-color: white;
+}
+.gallery .product img {
+    width: 100%;
+    height: auto;
+}
+.gallery .product h4:hover {
+    color: #8DC63F;
+}
+.gallery .product h4,
+.gallery .product p {
+    /*color: blue;*/
+    flex: auto;
+    margin: 1vw 1.5vw;
+}
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float:right;
+}
+@media screen and (max-width: 400px) {
+    .gallery .product {
+        margin: 0;
+    }
+    .gallery {
+        padding: 0;
+    }
+}
+
+/* ---- SORTS ---- */
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /*align-content: center;*/
+    background-color: #b3d4fc;
+
+}
+.filters .drop {
+    display: flex;
+    vertical-align: middle;
+}
+.filters .drop select {
+    display: flex;
+    /*vertical-align: middle;*/
+    /*box-sizing: border-box;*/
+    /*align-items: center;*/
+    /*margin: auto;*/
+    /*padding: 0 2vw 0 0;*/
+    background-color: #aed77a;
+}
+.filters .drop h3 {
+    display: flex;
+    color: #A7A9AC;
+    font-weight: normal;
+    justify-content: space-around;
+}
+select {
+    margin: 0 1vh;
+}
+.filters button {
+    display: flex;
+    margin-left: auto;
+    background-color: #8DC63F;
+}
+
+/* ---- CAUSES ---- */
+.causes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:8vh 0;
+}
+.craftPPL {
+    width:30%;
+    /*background-color: white;*/
+    flex:auto;
+    margin: 0 4.5vw;
+}
+.craftPPL img {
+    width: 100%;
+    height: 80%;
+}
+.craftPPL h2, .craftPPL h3, .craftPPL p {
+    flex: auto;
+    /*margin: 0 1.5vw;*/
+}
+.craftPPL h2, .craftPPL h3 {
+    text-align: center;
+    font-weight: normal;
+    margin: 1vw 0
+}
+.craftPPL p {
+    margin: 0 0 2vw 2vw;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    width:100%;
+    padding: 2vw 0;
+    background-color: #aed77a;
+    color: #52735B;
+}
+
+.contents {
+    width: 90%;
+    /*padding-left: 1vw;*/
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    /*background-color: bisque;*/
+}
+.column {
+    /*background-color: white;*/
+}
+.column p, .column h4 {
+    font-size:12px;
+    margin:3px 0;
+}
+.column h4 {
+    font-weight: normal;
+    margin:0 0 0.5vw 0;
+}
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: #cccccc;*/
+    align-content: center;
+}
+.social img {
+    width: 25px;
+    height:25px;
+    padding: 0 0.5vw;
 }
 
 
