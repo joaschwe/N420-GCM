@@ -28,7 +28,7 @@ Myriad Pro is main font
 }
 html, body {
     height: 100%;
-    font-family: sans-serif;
+    font-family: "Myriad Pro", sans-serif;
     background-color: #fafafa;
     width: 100%;
     margin:auto;
@@ -40,11 +40,23 @@ h1, h2, h3, h4, h5, h6, p, a {
 .container {
     width: 90%;
     margin: auto;
+    /*background-color:yellow;*/
 }
 
 /* ---- LOGO & KNOT ---- */
 
+.hamburger {
+    display: none;
+}
 
+.navContainer {
+    position: fixed;
+    top:0;
+    z-index: 5;
+    overflow: hidden;
+    width:100%;
+    background-color: white;
+}
 
 /* ---- HEADER ---- */
 header {
@@ -55,21 +67,30 @@ header {
     justify-content: space-between;
     background-color: white;
 }
+header a {
+    margin:7px 10px 0 10px;
+    color: #8DC63F;
+    font-size:20px;
+    text-decoration: none;
+}
+header a:hover {
+    color: #6b6b6b;
+}
 .logo {
-    height: 90px;
+    height: 70px;
 }
 .bag {
-    height: 50px;
+    height: 30px;
     color:#aed77a;
+    margin-left: auto;
 }
 
 /* ---- NAVS ---- */
 /* --- top nav --- */
 nav.top {
     width:95%;
-    height: 50px;
+    height: 45px;
     display: flex;
-    flex-flow: row wrap;
     /* This aligns items to the end line on main-axis */
     justify-content: flex-end;
     background-color: white;
@@ -84,7 +105,6 @@ nav.top a:hover {
     /*color: #8DC63F;*/
 }
 nav.top a {
-    /*color:#fff;*/
     text-decoration: none;
     margin:auto;
     white-space: nowrap;
@@ -97,12 +117,12 @@ span {
 }
 /* --- bottom nav --- */
 nav.bottom {
-    height: 50px;
+    height: 40px;
     display: flex;
     border-bottom: solid;
     border-top: solid;
     border-width: thin;
-    border-color: #8e8e8e;
+    border-color: #BCBEC0;
     background-color: white;
 }
 nav.bottom div {
@@ -123,16 +143,15 @@ nav.bottom a {
     margin:auto;
     white-space: nowrap;
     color: #8e8e8e;
-    /*font-weight: lighter;*/
-    text-transform: uppercase;
+    font-weight: lighter;
     font-size: 18px;
 }
 
 /* ---- BANNER ---- */
 .banner {
     width: 90%;
-    margin: 70px auto;
-    /*background-color: #8e8e8e;*/
+    margin: 280px auto 120px auto;
+    /*background-color: blue;*/
 }
 .banner img {
     width: 60%;
@@ -141,24 +160,37 @@ nav.bottom a {
     /*background-color: #b3d4fc;*/
 }
 .banner button {
-    margin: 30px auto 0 auto;
+    margin: 8% auto 0 auto;
     display: block;
-    padding: 20px 60px;
-    font-size: 20px;
+    padding: 15px 10px;
+    width:40%;
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 1px;
     color: white;
     background-color: #8DC63F;
-    border-radius: 8px;
+    border-radius: 40px;
     border: 3px solid #8DC63F;
 }
 .banner button:hover {
     color: #8DC63F;
     background-color: white;
 }
+.banner button span {
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: none;
+    color:white;
+    font-family: "Times New Roman", serif;
+}
+.banner button span:hover {
+    color: #8DC63F;
+}
 
 /* ---- DIVIDERS ---- */
 /* --- title dividers --- */
 h1 {
-    font-family: serif;
+    font-family: "Times New Roman", serif;
     font-size: 60px;
     font-weight: normal;
     overflow: hidden;
@@ -168,33 +200,34 @@ h1 {
 }
 h1:before,
 h1:after {
-    background-color: #6b6b6b;
+    background-color: #BCBEC0;
     content: "";
     display: inline-block;
-    height: 1px;
+    height: 2px;
     position: relative;
     vertical-align: middle;
     width: 50%;
 }
 h1:before {
-    right: 0.7em;
+    right: 0.3em;
     margin-left: -50%;
 }
 h1:after {
-    left: 0.7em;
+    left: 0.3em;
     margin-right: -50%;
 }
+h1 span { color: #8DC63F; font-style: italic; text-decoration: none;}
 /* --- knot divider --- */
 .knotDivider {
     width: 100%;
     align-items: center;
-    margin: 30px auto 100px auto;
+    margin: 30px auto 120px auto;
     display: flex;
 }
 .knotDivider div {
     background-color: #BCBEC0;
     width: 45%;
-    height: 0.18em;
+    height: 0.13em;
     margin-bottom:2px;
 }
 img.knot {
@@ -204,11 +237,26 @@ img.knot {
 }
 
 /* ---- SUB BANNER & CRAFTSMAN ---- */
+
 .subBanner {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin:8vh 0;
+    margin:5vh 0;
+    /*background-color:orange;*/
+}
+.subBannerCraft {
+    width: 100%;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    margin:5vh 0 2vw 0;
+    /*background-color:orange;*/
 }
 .section {
     width:30%;
@@ -224,21 +272,21 @@ img.knot {
 }
 .section h2, .section h3, .section p {
     flex: auto;
-    /*margin: 0 1.5vw;*/
+}
+.section h2 {
+    font-size: 36px;
 }
 .section h2, .section h3 {
-    text-align: center;
     font-weight: normal;
-    margin: 1vw 0
+    margin: 1vw 1vw
 }
 .section p {
-    margin: 0 0 2vw 2vw;
-
+    margin: 0 1vw 2vw 1vw;
 }
 
 /* ---- GALLERY ---- */
-.gallery {
-    padding: 2vw 3vw;
+.gallery, .causes, .subBannerCraft {
+    padding: .5vw;
     font-size: 14px;
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
@@ -247,25 +295,27 @@ img.knot {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
+    /*background-color:pink;*/
 }
-.gallery .product {
+.gallery .product, .causes .cause, .subBannerCraft .section {
     -webkit-box-flex: auto;
     -ms-flex: auto;
     flex: auto;
-    width: 280px;
-    margin: 2vw;
+    width: 175px;
+    margin: 1.5vw 1.75vw 3.5vw 1.75vw;
     background-color: white;
+}
+.causes .cause {
+    background-color: transparent;
 }
 .gallery .product img {
     width: 100%;
-    height: auto;
 }
 .gallery .product h4:hover {
     color: #8DC63F;
 }
 .gallery .product h4,
 .gallery .product p {
-    /*color: blue;*/
     flex: auto;
     margin: 1vw 1.5vw;
 }
@@ -275,6 +325,15 @@ img.knot {
 .floatRight {
     float:right;
 }
+
+p.more {
+    width: 100%;
+    margin-right:1.5vw;
+    text-align: right;
+    color: #8DC63F;
+    margin-bottom: 8vw;
+}
+
 @media screen and (max-width: 400px) {
     .gallery .product {
         margin: 0;
@@ -284,70 +343,25 @@ img.knot {
     }
 }
 
-/* ---- SORTS ---- */
-.filters {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    /*align-content: center;*/
-    background-color: #b3d4fc;
-
-}
-.filters .drop {
-    display: flex;
-    vertical-align: middle;
-}
-.filters .drop select {
-    display: flex;
-    /*vertical-align: middle;*/
-    /*box-sizing: border-box;*/
-    /*align-items: center;*/
-    /*margin: auto;*/
-    /*padding: 0 2vw 0 0;*/
-    background-color: #aed77a;
-}
-.filters .drop h3 {
-    display: flex;
-    color: #A7A9AC;
-    font-weight: normal;
-    justify-content: space-around;
-}
-select {
-    margin: 0 1vh;
-}
-.filters button {
-    display: flex;
-    margin-left: auto;
-    background-color: #8DC63F;
-}
 
 /* ---- CAUSES ---- */
-.causes {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin:8vh 0;
-}
-.craftPPL {
-    width:30%;
-    /*background-color: white;*/
-    flex:auto;
-    margin: 0 4.5vw;
-}
-.craftPPL img {
+/*.causeSection {*/
+    /*width: 100%;*/
+/*}*/
+
+.cause img {
     width: 100%;
     height: 80%;
 }
-.craftPPL h2, .craftPPL h3, .craftPPL p {
+.cause h2, .cause h3, .cause p {
     flex: auto;
-    /*margin: 0 1.5vw;*/
 }
-.craftPPL h2, .craftPPL h3 {
+.cause h2, .cause h3 {
     text-align: center;
     font-weight: normal;
     margin: 1vw 0
 }
-.craftPPL p {
+.cause p {
     margin: 0 0 2vw 2vw;
 }
 
@@ -358,17 +372,11 @@ footer {
     background-color: #aed77a;
     color: #52735B;
 }
-
 .contents {
     width: 90%;
-    /*padding-left: 1vw;*/
     margin:auto;
     display:flex;
     justify-content: space-between;
-    /*background-color: bisque;*/
-}
-.column {
-    /*background-color: white;*/
 }
 .column p, .column h4 {
     font-size:12px;
@@ -382,7 +390,6 @@ footer {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    /*background-color: #cccccc;*/
     align-content: center;
 }
 .social img {
@@ -392,98 +399,98 @@ footer {
 }
 
 
-/*nav {*/
-    /*position: relative;*/
-    /*height: 80px;*/
-    /*min-height:80px;*/
-    /*background-color: rgba(0,0,0,1);*/
-    /*display: flex;*/
-/*}*/
-/*nav div {*/
-    /*margin:auto;*/
-    /*min-height:100%;*/
-    /*padding:0 30px;*/
-    /*display: flex;*/
-    /*box-sizing: border-box;*/
 
-/*}*/
-/*nav div:hover {*/
-    /*background-color: grey;*/
 
-/*}*/
-/*nav a {*/
-    /*color:#fff;*/
-    /*text-decoration: none;*/
-    /*margin:auto;*/
-    /*white-space: nowrap;*/
-/*}*/
 
-/*nav .join-button:hover .joinHolder {*/
-    /*display: flex;*/
-    /*left:3em;*/
-    /*right:3em;*/
-    /*height: 500%;*/
-/*}*/
-/*nav .joinHolder {*/
-    /*position: absolute;*/
-    /*padding:0;*/
-    /*top:80px;*/
-    /*height:500%;*/
-    /*background-color: grey;*/
-    /*display: none;*/
-    /*!*transition: all 1s ease;*!*/
 
-/*}*/
-/*nav .joinHolder form {*/
-    /*!*background-color: blueviolet;*!*/
-    /*height:90%;*/
-    /*width:90%;*/
-    /*margin: auto;*/
-/*}*/
 
-/*nav .joinHolder .sign-in {*/
-    /*height:100%;*/
-    /*width:100%;*/
-    /*!*background-color: antiquewhite;*!*/
-    /*display: flex;*/
-/*}*/
-/*nav .joinHolder .sign-up {*/
-    /*height:100%;*/
-    /*width:100%;*/
-    /*!*background-color:darkgreen;*!*/
-/*}*/
-/*nav .joinHolder:hover {*/
-    /*display: block;*/
-    /*!*transition: all 1s ease;*!*/
-/*}*/
-/*nav div:nth-child(odd) {*/
-    /*color:#fff;*/
-    /*text-decoration: none;*/
-    /*margin:auto;*/
-/*}*/
-/*nav .joinHolder form label {*/
-    /*display: block;*/
-    /*margin-bottom:10px;*/
-/*}*/
-/*nav .joinHolder form input {*/
-    /*display: block;*/
-    /*height:40px;*/
-    /*width: 95%;*/
-    /*border-radius: 5px;*/
-    /*border-style: none;*/
-    /*margin-bottom:10px;*/
-    /*font-size: 120%;*/
-    /*padding:5px;*/
-    /*box-sizing: border-box;*/
-/*}*/
 
-/*nav .joinHolder form .submit-button {*/
-    /*background-color: white;*/
-    /*margin:30px auto 0px auto;*/
-    /*width: 50%;*/
-/*}*/
 
-.home {
-    background-color: cadetblue;
-    min-height:100%;
+
+
+
+
+
+
+
+
+
+
+/* -------  1024px LAPTOP ------- */
+@media screen and (max-width: 1024px) {
+    .gallery .product {
+        width: 250px;
+    }
+    .subBanner .section h2 {
+        font-size:26px;
+    }
 }
+
+
+/* -------  768px IPAD ------- */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    nav.top div {
+        padding: 0 15px;
+    }
+    h1 {
+        font-size:48px;
+    }
+    .banner img {
+        width:60%;
+    }
+    .banner button {
+        width:40%;
+        font-size:16px;
+    }
+    img.knot {
+        width:17%;
+    }
+
+    .gallery .product, .causes .cause, .subBannerCraft .section {
+        width:300px;
+    }
+    .subBannerCraft .section:nth-child(n+3),
+    .causes .cause:nth-child(n+3){
+        display: none;
+    }
+}
+
+
+/* -------  425px PHONE ------- */
+@media screen and (max-width: 425px) {
+    .top, .bottom {
+        display:none;
+    }
+    .navContainer {
+        z-index: 0;
+        /*position: relative;*/
+        height:186px;
+        top:-30px;
+    }
+
+    header {
+        margin-top:50px;
+        /*margin-left:10px;*/
+    }
+    header img.bag {
+        margin-left: auto;
+    }
+    /* -- see hamburger.css for hamburger nav that shows at this width -- */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
