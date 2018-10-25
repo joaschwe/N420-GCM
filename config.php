@@ -2,8 +2,9 @@
 ini_set('display_errors', E_ALL);
 
 //added paths for files to reference to
-define('ABSOLUTE_PATH', '/home/joaschwe/htdocs/CIT313/SP2018/a1-phpDebug');
-define('URL_ROOT', 'http://corsair.cs.iupui.edu:21791/CIT313/SP2018/a1-phpDebug');
+define('ABSOLUTE_PATH', '/home/students/joaschwe/public_html/N420-Multimedia-Proj-Dev');
+define('URL_ROOT', 'https://in-info-web4.informatics.iupui.edu/~joaschwe/N420-Multimedia-Proj-Dev/index.php');
+
 
 
 //database info

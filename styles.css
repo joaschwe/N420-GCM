@@ -205,91 +205,10 @@ nav.bottom a {
 .banner button span:hover {
     color: #8DC63F;
 }
-/* banerFAQS */
-.bannerFAQS {
-    width: 90%;
-    margin: 260px auto 80px auto;
-}
-.bannerFAQS h1.h1FAQS {
-    width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 60px;
-    color: #8DC63F;
-    font-family: "Times New Roman", serif;
-    font-weight: normal;
-}
-.bannerFAQS span{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    text-decoration: none;
-}
-.bannerFAQS h2.h1FAQS {
-    width: 100%;
-    margin-bottom: 130px;
-    text-align: center;
-    color: #6b6b6b;
-    font-weight: normal;
-    font-size:26px;
-}
-
-/* ---- QUESTIONS ---- */
-.questions {
-    width:100%;
-    margin-bottom:8vw;
-}
-.question {
-    width: 90%;
-    border-bottom: 1px solid #6b6b6b;
-    display: flex;
-    align-content: center;
-    margin:20px auto;
-    justify-content: space-between;
-}
-.questionDown {
-    width: 90%;
-    border-bottom: none;
-    display: flex;
-    align-content: center;
-    margin:20px auto 0 auto;
-    justify-content: space-between;
-}
-.questionDown h3.h3Questions {
-    font-weight: normal;
-}
-.question h3.h3Questions {
-    font-weight: normal;
-
-}
-.question img.arrow {
-    margin-left: auto;
-    width:3%;
-    height:3%;
-}
-.questionDown img.arrowDown {
-    margin-left: auto;
-    width:3%;
-    height:3%;
-    transform: rotate(90deg);
-}
-.answer {
-    width:90%;
-    margin:auto;
-    border-bottom: 1px solid #6b6b6b;
-    /*background-color:orange;*/
-}
-p.pAnswer {
-    width:90%;
-    font-size:18px;
-    margin-left: auto;
-    color: #8e8e8e;
-    /*padding: 0px 0px 0px 50px;*/
-    /*background-color: pink;*/
-}
 
 /* ---- DIVIDERS ---- */
 /* --- title dividers --- */
-.products h1.h1products, .craftman h1.h1products .h1products, .causeSection h1.h1products .h1products {
+h1 {
     font-family: "Times New Roman", serif;
     font-size: 52px;
     font-weight: normal;
@@ -299,8 +218,8 @@ p.pAnswer {
     margin:auto auto 1.5vw auto;
     /*background-color: yellow;*/
 }
-.products h1.h1products:before, .craftman h1.h1products:before, .causeSection h1.h1products:before,
-.products h1.h1products:after, .craftman h1.h1products:after, .causeSection h1.h1products:after {
+h1:before,
+h1:after {
     background-color: #585858;
     content: "";
     display: inline-block;
@@ -309,15 +228,15 @@ p.pAnswer {
     vertical-align: middle;
     width: 50%;
 }
-.products h1.h1products:before, .craftman h1.h1products:before, .causeSection h1.h1products:before {
+h1:before {
     right: 0.3em;
     margin-left: -50%;
 }
-.products h1.h1products:after, .craftman h1.h1products:after, .causeSection h1.h1products:after {
+h1:after {
     left: 0.3em;
     margin-right: -50%;
 }
-/*.products h1 span, .craftman h1 span, .causeSection h1 span { color: #8DC63F; font-style: italic; text-decoration: none;}*/
+h1 span { color: #8DC63F; font-style: italic; text-decoration: none;}
 /* --- knot divider --- */
 .knotDivider {
     width: 100%;
@@ -517,7 +436,7 @@ footer {
     width:100%;
     padding: 2vw 0;
     background-color: #aed77a;
-
+    color: #52735B;
 }
 .contents {
     width: 90%;
@@ -528,7 +447,6 @@ footer {
 .column p, .column h4 {
     font-size:12px;
     margin:3px 0;
-    color: #fafafa;
 }
 .column h4 {
     font-weight: normal;
