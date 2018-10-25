@@ -5,18 +5,11 @@ colors {
     color: #8DC63F;
     color: #52735B;
     color: #6b6b6b;
+    color: #585858;
 
 }
 
 /*
-#fafafa : background light grey
-#A7A9AC : gray text
-#8e8e8e : gray (usually HRs or borders)
-#a6a7aa : dark gray
-#8DC63F : light green
-#52735B : dark green
-
-grey: #A7A9AD
 Myriad Pro is main font
 */
 
@@ -35,7 +28,11 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 16px;
-    color:#6b6b6b;
+    color:#585858;
+}
+
+p {
+    font-size: 14px;
 }
 .container {
     width: 90%;
@@ -53,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     position: fixed;
     top:0;
     z-index: 5;
-    overflow: hidden;
+    /*overflow: hidden;*/
     width:100%;
     background-color: white;
 }
@@ -65,7 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    /*background-color: white;*/
 }
 header a {
     margin:7px 10px 0 10px;
@@ -74,7 +71,7 @@ header a {
     text-decoration: none;
 }
 header a:hover {
-    color: #6b6b6b;
+    color: #585858;
 }
 .logo {
     height: 70px;
@@ -91,7 +88,6 @@ nav.top {
     width:95%;
     height: 45px;
     display: flex;
-    /* This aligns items to the end line on main-axis */
     justify-content: flex-end;
     background-color: white;
 }
@@ -131,12 +127,34 @@ nav.bottom div {
     padding:0 30px;
     display: flex;
     box-sizing: border-box;
+    /*background-color: yellow;*/
 }
 nav.bottom a:hover {
     color: #8DC63F;
 }
+nav.bottom div:hover:after {
+    content: url("../images/icons/navHover.gif");
+    display: block;
+    position: absolute;
+    /*left: -10px; */
+    top: 40px;
+}
+nav.bottom div:nth-child(5):hover:after {
+    content: url("../images/icons/navHoverEnd.gif");
+    display: block;
+    position: absolute;
+    /*left: -10px; */
+    top: 40px;
+}
+nav.bottom div:nth-child(4):hover:after {
+    content: url("../images/icons/navHoverStart.gif");
+    display: block;
+    position: absolute;
+    /*left: -10px; */
+    top: 40px;
+}
 nav.bottom div:hover {
-    border-bottom: 1px solid darkgreen;
+    position: relative;
 }
 nav.bottom a {
     text-decoration: none;
@@ -147,24 +165,25 @@ nav.bottom a {
     font-size: 18px;
 }
 
+
+
 /* ---- BANNER ---- */
 .banner {
     width: 90%;
-    margin: 280px auto 120px auto;
+    margin: 260px auto 80px auto;
     /*background-color: blue;*/
 }
 .banner img {
-    width: 60%;
+    width: 65%;
     margin: auto;
     display: block;
-    /*background-color: #b3d4fc;*/
 }
 .banner button {
     margin: 8% auto 0 auto;
     display: block;
-    padding: 15px 10px;
-    width:40%;
-    font-size: 22px;
+    padding: 10px 10px;
+    width:37%;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: 1px;
     color: white;
@@ -191,19 +210,20 @@ nav.bottom a {
 /* --- title dividers --- */
 h1 {
     font-family: "Times New Roman", serif;
-    font-size: 60px;
+    font-size: 52px;
     font-weight: normal;
     overflow: hidden;
     text-align: center;
     width:100%;
-    margin:auto;
+    margin:auto auto 1.5vw auto;
+    /*background-color: yellow;*/
 }
 h1:before,
 h1:after {
-    background-color: #BCBEC0;
+    background-color: #585858;
     content: "";
     display: inline-block;
-    height: 2px;
+    height: 1px;
     position: relative;
     vertical-align: middle;
     width: 50%;
@@ -220,29 +240,44 @@ h1 span { color: #8DC63F; font-style: italic; text-decoration: none;}
 /* --- knot divider --- */
 .knotDivider {
     width: 100%;
-    align-items: center;
-    margin: 30px auto 120px auto;
+    margin: 30px auto 80px auto;
     display: flex;
+    /*background-color: pink;*/
+
 }
 .knotDivider div {
-    background-color: #BCBEC0;
-    width: 45%;
-    height: 0.13em;
-    margin-bottom:2px;
+    /*background-color: #BCBEC0;*/
+    /*width: 45%;*/
+    /*height: 0.13em;*/
+    /*margin-bottom:2px;*/
 }
 img.knot {
-    width: 10%;
-    margin: 0 -2px;
-    padding-top: 0.25px;
+    width: 100%;
+    margin: auto;
+    /*margin: 0 -2px;*/
+    /*padding-top: 0.25px;*/
+
 }
 
 /* ---- SUB BANNER & CRAFTSMAN ---- */
 
 .subBanner {
+    /*width: 100%;*/
+    /*display: -ms-flexbox;*/
+    /*-ms-flex-wrap: wrap;*/
+    /*-ms-flex-direction: column;*/
+    /*-webkit-flex-flow: row wrap;*/
+    /*flex-flow: row wrap;*/
+    /*display: -webkit-box;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+
+
+
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin:5vh 0;
+    margin-bottom:5vh;
     /*background-color:orange;*/
 }
 .subBannerCraft {
@@ -255,12 +290,11 @@ img.knot {
     display: -webkit-box;
     display: flex;
     justify-content: space-between;
-    margin:5vh 0 2vw 0;
+    /*margin:5vh 0 2vw 0;*/
     /*background-color:orange;*/
 }
 .section {
     width:30%;
-    /*background-color: white;*/
     flex:auto;
 }
 .section:nth-child(2) {
@@ -274,10 +308,9 @@ img.knot {
     flex: auto;
 }
 .section h2 {
-    font-size: 36px;
+    font-size: 28px;
 }
 .section h2, .section h3 {
-    font-weight: normal;
     margin: 1vw 1vw
 }
 .section p {
@@ -286,7 +319,7 @@ img.knot {
 
 /* ---- GALLERY ---- */
 .gallery, .causes, .subBannerCraft {
-    padding: .5vw;
+    /*padding: .5vw;*/
     font-size: 14px;
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
@@ -295,6 +328,7 @@ img.knot {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
+    margin-bottom: 8vw;
     /*background-color:pink;*/
 }
 .gallery .product, .causes .cause, .subBannerCraft .section {
@@ -304,13 +338,44 @@ img.knot {
     width: 175px;
     margin: 1.5vw 1.75vw 3.5vw 1.75vw;
     background-color: white;
+
+    /*position: relative;*/
+    /*width: 50%;*/
 }
 .causes .cause {
     background-color: transparent;
 }
 .gallery .product img {
     width: 100%;
+
+    /*opacity: 1;*/
+    /*display: block;*/
+    /*height: auto;*/
+    /*transition: .5s ease;*/
+    /*backface-visibility: hidden;*/
 }
+/*.gallery .product:hover img {*/
+    /*opacity: 0.3;*/
+/*}*/
+/*.gallery .product:hover .middle {*/
+    /*opacity: 1;*/
+/*}*/
+/*.gallery .product .middle {*/
+    /*transition: .5s ease;*/
+    /*opacity: 0;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*text-align: center;*/
+/*}*/
+/*h2.quickAdd {*/
+    /*background-color: #4CAF50;*/
+    /*color: white;*/
+    /*font-size: 16px;*/
+    /*padding: 16px 32px;*/
+/*}*/
 .gallery .product h4:hover {
     color: #8DC63F;
 }
@@ -321,6 +386,7 @@ img.knot {
 }
 .floatLeft {
     float: left;
+    font-weight: bold;
 }
 .floatRight {
     float:right;
@@ -331,7 +397,7 @@ p.more {
     margin-right:1.5vw;
     text-align: right;
     color: #8DC63F;
-    margin-bottom: 8vw;
+
 }
 
 @media screen and (max-width: 400px) {
@@ -446,7 +512,13 @@ footer {
         font-size:16px;
     }
     img.knot {
-        width:17%;
+        /*width:17%;*/
+    }
+    .subBanner .section {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: wrap;
+        width:400px;
     }
 
     .gallery .product, .causes .cause, .subBannerCraft .section {

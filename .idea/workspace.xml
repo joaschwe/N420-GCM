@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa314ad0-a7a0-451e-83d8-157aebbbec67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/hamburger.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexFilter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/causes/hsefootball.png" afterPath="$PROJECT_DIR$/images/causes/hsefootball.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Carmanah-Castile.jpg" afterPath="$PROJECT_DIR$/images/products/Botanical-Bliss-Carmanah-Castile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Clean-Castile.jpg" afterPath="$PROJECT_DIR$/images/products/Botanical-Bliss-Clean-Castile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Hope-Castile.jpg" afterPath="$PROJECT_DIR$/images/products/Botanical-Bliss-Hope-Castile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Lavendar-Castile.jpg" afterPath="$PROJECT_DIR$/images/products/Botanical-Bliss-Lavendar-Castile.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Spice-Soap.jpg" afterPath="$PROJECT_DIR$/images/products/Botanical-Bliss-Spice-Soap.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Licorice-Castile-Soap-Scents.png" afterPath="$PROJECT_DIR$/images/products/Licorice-Castile-Soap-Scents.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/Uplift-Soap2.png" afterPath="$PROJECT_DIR$/images/products/Uplift-Soap2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logos/GCM-logo-no-lines.png" afterPath="$PROJECT_DIR$/images/logos/GCM-logo-no-lines.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/config.php" afterPath="$PROJECT_DIR$/includes/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +34,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+                <state relative-caret-position="315">
+                  <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
                   <folding>
                     <element signature="e#1374#1381#0" expanded="true" />
                   </folding>
@@ -61,13 +50,11 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="914">
-                  <caret line="480" column="10" lean-forward="true" selection-start-line="480" selection-start-column="10" selection-end-line="480" selection-end-column="10" />
+                <state relative-caret-position="629">
+                  <caret line="534" column="13" lean-forward="true" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="13" />
                   <folding>
-                    <element signature="e#5847#5867#0" expanded="false" />
-                    <element signature="e#5880#5900#0" expanded="false" />
-                    <element signature="e#5909#6020#0" expanded="false" />
-                    <element signature="e#6022#6152#0" expanded="false" />
+                    <element signature="e#7306#7326#0" expanded="false" />
+                    <element signature="e#7425#7555#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -88,7 +75,12 @@
     <findStrings>
       <find>form</find>
       <find>craft</find>
+      <find>background-color</find>
+      <find>6b6b6b</find>
     </findStrings>
+    <replaceStrings>
+      <replace>585858</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,8 +93,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/header.inc.php" />
         <option value="$PROJECT_DIR$/includes/config.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/hamburger.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
@@ -192,6 +184,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="N420-GCM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="N420-GCM" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,12 +323,12 @@
       <workItem from="1539580527537" duration="4451000" />
       <workItem from="1539733912502" duration="34357000" />
       <workItem from="1540004134441" duration="114000" />
-      <workItem from="1540179910632" duration="19700000" />
+      <workItem from="1540179910632" duration="30405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58622000" />
+    <option name="totallyTimeSpent" value="69327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="24" width="1786" height="1391" extended-state="0" />
@@ -329,6 +339,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -339,7 +350,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -373,10 +383,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5847#5867#0" expanded="false" />
-            <element signature="e#5880#5900#0" expanded="false" />
-            <element signature="e#5909#6020#0" expanded="false" />
-            <element signature="e#6022#6152#0" expanded="false" />
+            <element signature="e#7306#7326#0" expanded="false" />
+            <element signature="e#7425#7555#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -465,19 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="480" column="10" lean-forward="true" selection-start-line="480" selection-start-column="10" selection-end-line="480" selection-end-column="10" />
-          <folding>
-            <element signature="e#5847#5867#0" expanded="false" />
-            <element signature="e#5880#5900#0" expanded="false" />
-            <element signature="e#5909#6020#0" expanded="false" />
-            <element signature="e#6022#6152#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/hamburger.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -488,10 +483,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="315">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="e#1374#1381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="534" column="13" lean-forward="true" selection-start-line="534" selection-start-column="13" selection-end-line="534" selection-end-column="13" />
+          <folding>
+            <element signature="e#7306#7326#0" expanded="false" />
+            <element signature="e#7425#7555#0" expanded="false" />
           </folding>
         </state>
       </provider>
