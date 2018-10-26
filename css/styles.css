@@ -25,6 +25,7 @@ html, body {
     background-color: #fafafa;
     width: 100%;
     margin:auto;
+    min-width: 1024px;
 }
 h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 16px;
@@ -53,6 +54,7 @@ p {
     /*overflow: hidden;*/
     width:100%;
     background-color: white;
+    min-width: 1024px;
 }
 
 /* ---- HEADER ---- */
@@ -289,7 +291,7 @@ p.pAnswer {
 
 /* ---- DIVIDERS ---- */
 /* --- title dividers --- */
-.products h1.h1products, .craftman h1.h1products .h1products, .causeSection h1.h1products .h1products {
+.products h1.h1products, .craftsman h1.h1Craftsman, .causeSection h1.h1CauseSection {
     font-family: "Times New Roman", serif;
     font-size: 52px;
     font-weight: normal;
@@ -299,8 +301,8 @@ p.pAnswer {
     margin:auto auto 1.5vw auto;
     /*background-color: yellow;*/
 }
-.products h1.h1products:before, .craftman h1.h1products:before, .causeSection h1.h1products:before,
-.products h1.h1products:after, .craftman h1.h1products:after, .causeSection h1.h1products:after {
+.products h1.h1products:before, .craftsman h1.h1Craftsman:before, .causeSection h1.h1CauseSection:before,
+.products h1.h1products:after, .craftsman h1.h1Craftsman:after, .causeSection h1.h1CauseSection:after {
     background-color: #585858;
     content: "";
     display: inline-block;
@@ -309,15 +311,15 @@ p.pAnswer {
     vertical-align: middle;
     width: 50%;
 }
-.products h1.h1products:before, .craftman h1.h1products:before, .causeSection h1.h1products:before {
+.products h1.h1products:before, .craftsman h1.h1Craftsman:before, .causeSection h1.h1CauseSection:before {
     right: 0.3em;
     margin-left: -50%;
 }
-.products h1.h1products:after, .craftman h1.h1products:after, .causeSection h1.h1products:after {
+.products h1.h1products:after, .craftsman h1.h1Craftsman:after, .causeSection h1.h1CauseSection:after {
     left: 0.3em;
     margin-right: -50%;
 }
-/*.products h1 span, .craftman h1 span, .causeSection h1 span { color: #8DC63F; font-style: italic; text-decoration: none;}*/
+.products h1.h1products span, .craftsman h1.h1Craftsman span, .causeSection h1.h1CauseSection span { color: #8DC63F; font-style: italic; text-decoration: none;}
 /* --- knot divider --- */
 .knotDivider {
     width: 100%;
@@ -572,6 +574,7 @@ footer {
     .subBanner .section h2 {
         font-size:26px;
     }
+
 }
 
 
