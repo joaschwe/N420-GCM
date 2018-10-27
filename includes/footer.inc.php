@@ -17,15 +17,15 @@
             <p>adobexd@mail.com</p>
         </div>
         <div class="social">
-            <img src="images/icons/facebookIcon.gif">
-            <img src="images/icons/instaIcon.gif">
-            <img src="images/icons/twitterIcon.gif">
+            <img src="../images/icons/facebookIcon.gif">
+            <img src="../images/icons/instaIcon.gif">
+            <img src="../images/icons/twitterIcon.gif">
         </div>
     </div>
 </footer>
 
 
-<script src="lib/jquery-3.1.1.min.js"></script>
+<script src="../lib/jquery-3.1.1.min.js"></script>
 <!--<script src="app/app.js"></script>-->
 
 

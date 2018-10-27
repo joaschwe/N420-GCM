@@ -20,18 +20,17 @@ include_once "config.php";
     <!--HEADER-->
     <div class="container">
         <header>
-            <a href="index.html"><img class="logo" src="images/logos/GCM-logo-short.png"></a>
-            <a href="cart.html"><img class="bag" src="images/icons/shopping-bag-solid-green.png"></a>
-            <a href="#">3</a>
+            <a href="../index.php"><img class="logo" src="../images/logos/GCM-logo-short.png"></a>
+            <a href="../cart.php"><img class="bag" src="../images/icons/shopping-bag-solid-green.png">&nbsp;&nbsp;3</a>
         </header>
     </div>
 
     <nav class="bottom">
         <!--<div class="iconHover"><img src="images/icons/nav%20hover.png"></div>-->
-        <div><a href="#">Products</a></div>
-        <div><a href="#">Craftsman</a></div>
-        <div><a href="#">Causes</a></div>
-        <div><a href="#">About</a></div>
-        <div><a href="faqs.html">FAQs</a></div>
+        <div><a href="../products.php">Products</a></div>
+        <div><a href="../craftsman.php">Craftsman</a></div>
+        <div><a href="../causes.php">Causes</a></div>
+        <div><a href="../about.php">About</a></div>
+        <div><a href="../faqs.php">FAQs</a></div>
     </nav>
 </div>

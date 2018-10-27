@@ -1,6 +1,6 @@
 <?php
-require './header.inc.php';
-require './nav.inc.php';
+require './includes/header.inc.php';
+require './includes/nav.inc.php';
 ?>
 
 <div class="container">
@@ -155,5 +155,5 @@ require './nav.inc.php';
 
 <!--FOOTER-->
 <?php
-include './footer.inc.php';
+include './includes/footer.inc.php';
 ?>

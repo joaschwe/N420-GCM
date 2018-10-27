@@ -40,6 +40,11 @@ p {
     margin: auto;
     /*background-color:yellow;*/
 }
+h1.comingSoon {
+    width:500px;
+    margin:500px auto 0 auto;
+    color: #8DC63F;
+}
 
 /* ---- LOGO & KNOT ---- */
 
