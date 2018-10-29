@@ -26,6 +26,7 @@ html, body {
     width: 100%;
     margin:auto;
     min-width: 1024px;
+    /*background-color: pink;*/
 }
 h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 16px;
@@ -38,6 +39,7 @@ p {
 .container {
     width: 90%;
     margin: auto;
+    /*height:100%;*/
     /*background-color:yellow;*/
 }
 h1.comingSoon {
@@ -173,7 +175,7 @@ nav.bottom a {
 }
 
 
-
+/*--------------INDEX--------------*/
 /* ---- BANNER ---- */
 .banner {
     width: 90%;
@@ -195,7 +197,7 @@ nav.bottom a {
     letter-spacing: 1px;
     color: white;
     background-color: #8DC63F;
-    border-radius: 40px;
+    border-radius: 10px;
     border: 3px solid #8DC63F;
 }
 .banner button:hover {
@@ -211,87 +213,6 @@ nav.bottom a {
 }
 .banner button span:hover {
     color: #8DC63F;
-}
-/* banerFAQS */
-.bannerFAQS {
-    width: 90%;
-    margin: 260px auto 80px auto;
-}
-.bannerFAQS h1.h1FAQS {
-    width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 60px;
-    color: #8DC63F;
-    font-family: "Times New Roman", serif;
-    font-weight: normal;
-}
-.bannerFAQS span{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    text-decoration: none;
-}
-.bannerFAQS h2.h1FAQS {
-    width: 100%;
-    margin-bottom: 130px;
-    text-align: center;
-    color: #6b6b6b;
-    font-weight: normal;
-    font-size:26px;
-}
-
-/* ---- QUESTIONS ---- */
-.questions {
-    width:100%;
-    margin-bottom:8vw;
-}
-.question {
-    width: 90%;
-    border-bottom: 1px solid #6b6b6b;
-    display: flex;
-    align-content: center;
-    margin:20px auto;
-    justify-content: space-between;
-}
-.questionDown {
-    width: 90%;
-    border-bottom: none;
-    display: flex;
-    align-content: center;
-    margin:20px auto 0 auto;
-    justify-content: space-between;
-}
-.questionDown h3.h3Questions {
-    font-weight: normal;
-}
-.question h3.h3Questions {
-    font-weight: normal;
-
-}
-.question img.arrow {
-    margin-left: auto;
-    width:3%;
-    height:3%;
-}
-.questionDown img.arrowDown {
-    margin-left: auto;
-    width:3%;
-    height:3%;
-    transform: rotate(90deg);
-}
-.answer {
-    width:90%;
-    margin:auto;
-    border-bottom: 1px solid #6b6b6b;
-    /*background-color:orange;*/
-}
-p.pAnswer {
-    width:90%;
-    font-size:18px;
-    margin-left: auto;
-    color: #8e8e8e;
-    /*padding: 0px 0px 0px 50px;*/
-    /*background-color: pink;*/
 }
 
 /* ---- DIVIDERS ---- */
@@ -331,7 +252,6 @@ p.pAnswer {
     margin: 30px auto 80px auto;
     display: flex;
     /*background-color: pink;*/
-
 }
 .knotDivider div {
     /*background-color: #BCBEC0;*/
@@ -346,9 +266,7 @@ img.knot {
     /*padding-top: 0.25px;*/
 
 }
-
 /* ---- SUB BANNER & CRAFTSMAN ---- */
-
 .subBanner {
     /*width: 100%;*/
     /*display: -ms-flexbox;*/
@@ -435,7 +353,6 @@ img.knot {
 }
 .gallery .product img {
     width: 100%;
-
     /*opacity: 1;*/
     /*display: block;*/
     /*height: auto;*/
@@ -479,15 +396,18 @@ img.knot {
 .floatRight {
     float:right;
 }
-
 p.more {
     width: 100%;
+    font-size:18px;
     margin-right:1.5vw;
     text-align: right;
     color: #8DC63F;
-
+    cursor: pointer;
 }
-
+p.more a {
+    color: #8DC63F;
+    text-decoration: none;
+}
 @media screen and (max-width: 400px) {
     .gallery .product {
         margin: 0;
@@ -497,12 +417,10 @@ p.more {
     }
 }
 
-
 /* ---- CAUSES ---- */
 /*.causeSection {*/
     /*width: 100%;*/
 /*}*/
-
 .cause img {
     width: 100%;
     height: 80%;
@@ -515,16 +433,13 @@ p.more {
     font-weight: normal;
     margin: 1vw 0
 }
-.cause p {
-    margin: 0 0 2vw 2vw;
-}
 
 /* ---- FOOTER ---- */
 footer {
     width:100%;
     padding: 2vw 0;
     background-color: #aed77a;
-
+    margin-top: 10vh;
 }
 .contents {
     width: 90%;
@@ -555,16 +470,420 @@ footer {
 
 
 
+/*--------------FAQS--------------*/
+/* bannerFAQS */
+.bannerFAQS {
+    width: 90%;
+    margin: 260px auto 80px auto;
+}
+.bannerFAQS h1.h1FAQS {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: #8DC63F;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+}
+.bannerFAQS span{
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.bannerFAQS h2.h1FAQS {
+    width: 100%;
+    margin-bottom: 130px;
+    text-align: center;
+    color: #6b6b6b;
+    font-weight: normal;
+    font-size:26px;
+}
+/* ---- QUESTIONS ---- */
+.questions {
+    width:100%;
+    /*margin-bottom:;*/
+}
+.question {
+    width: 90%;
+    border-bottom: 1px solid #6b6b6b;
+    display: flex;
+    align-content: center;
+    margin:20px auto;
+    justify-content: space-between;
+}
+.question:nth-child(5) {
+    border-top: 1px solid #6b6b6b;
+}
+.questionDown {
+    width: 90%;
+    /*border-bottom: 1px solid black;*/
+    display: flex;
+    align-content: center;
+    margin:20px auto 0 auto;
+    justify-content: space-between;
+}
+.questionDown h3.h3Questions {
+    font-weight: normal;
+}
+.question h3.h3Questions {
+    font-weight: normal;
+}
+.question img.arrow {
+    margin-left: auto;
+    width:3%;
+    height:3%;
+}
+.questionDown img.arrowDown {
+    margin-left: auto;
+    width:3%;
+    height:3%;
+    transform: rotate(90deg);
+}
+.answer {
+    width:90%;
+    margin:auto;
+    border-bottom: 1px solid #6b6b6b;
+    display:none;
+    /*background-color:orange;*/
+}
+p.pAnswer {
+    width:90%;
+    font-size:18px;
+    margin-left: auto;
+    color: #8e8e8e;
+    /*padding: 0px 0px 0px 50px;*/
+    /*background-color: pink;*/
+}
+
+
+
+
+
+/*--------------CART--------------*/
+
+/*--used for cart & checkout & confirmation container and title block--*/
+.container80 {
+    width: 80%;
+    margin: auto auto 0 auto;
+    height:100%;
+    /*background-color:yellow;*/
+}
+.title {
+    width: 100%;
+    display: flex;
+    margin:260px auto 30px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h3, .confirm h3 {
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 36px;
+    color: #8DC63F;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+    /*background-color:yellow;*/
+}
+.title p a {
+    text-align: right;
+    color:#8DC63F;
+    font-family: "Times New Roman", serif;
+    /*background-color: pink;*/
+}
+.title p a:hover {
+    color: #6b6b6b;
+}
+/*-----------------*/
+
+.cart {
+    width: 100%;
+    display: flex;
+}
+.cart a {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.cart a:hover {
+    color:#8DC63F;
+}
+.vendorItem {
+    width:65%;
+    background-color:white;
+    margin-bottom:50px;
+    padding:20px 30px 50px 30px;
+}
+.vendor {
+    display: flex;
+    width: 100%;
+}
+.vendor p, .itemCost p {
+    font-size:16px;
+}
+.vendor p.venName {
+    color: #8e8e8e;
+    font-size: 18px;
+}
+.vendor p.cost {
+    text-align: right;
+    margin-left: auto;
+    margin-bottom:0;
+    font-size:22px;
+    font-weight: bold;
+}
+.item {
+    width: 100%;
+    display:flex;
+    font-size: 16px;
+    margin-top:-5px;
+}
+.item .itemDescrip {
+    margin-left: 20px;
+}
+.item p.itemName {
+    font-size:22px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.costCol {
+    width: 25%;
+}
+.costCol .itemCost {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.costCol a {
+    display: block;
+}
+.costCol button {
+    margin: -5px auto 15px auto;
+    padding: 5px 7px;
+    width:100%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    background-color: #8DC63F;
+    border-radius: 3px;
+    border: 2px solid #8DC63F;
+}
+.costCol button:hover {
+    color: #8DC63F;
+    background-color: white;
+}
+.causeAmt {
+    width: 100%;
+    margin: 40px auto 0 auto;
+}
+h3.amt {
+    color: #8DC63F;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+}
 
 
 
 
 
 
+/*--------------SHIPPING--------------*/
+form, .confirm {
+    width: 40%;
+    margin: auto;
+    color: #8e8e8e;
+}
+label {
+    display: block;
+}
+legend.title h3 {
+    text-align: center;
+}
+input {
+    display: block;
+    margin: 5px 0 15px 5px;
+    padding:7px;
+    width:95%;
+    min-width: 300px;
+    font-size:14px;
+    border-radius: 3px;
+    color: #6b6b6b;
+    outline:none;
+    -webkit-box-shadow: none;
+    border:1px solid #6b6b6b;
+}
+input, button, textarea, input[type="checkbox"] {
+    outline:none;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/0 0 0 30px white inset;
+    -webkit-text-fill-color: #6b6b6b;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: #6b6b6b;
+}
+
+/*---check box---*/
+.checkbox {
+    margin:15px 0 20px 5px;
+}
+input[type="checkbox"] { display: none; }
+input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    /*color: orange;*/
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #6b6b6b;
+    border-radius: 4px;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: -5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border: 2px solid #8DC63F;
+    background-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.zipCity {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: lightcyan;*/
+}
+.zipGrp label, .zipGrp input {
+    min-width: 125px;
+    /*background-color: pink;*/
+}
+.cityGrp label, .cityGrp input {
+    margin:0 0px 0 35px;
+    min-width: 250px;
+    /*background-color: yellow;*/
+}
+.cityGrp label.city {
+    margin: 0 0 5px 25px;
+}
+input#city, input#bill_city {
+    width: 20%;
+}
+
+form button, .confirm button {
+    display: inline;
+    margin: -5px 0 15px 5px;
+    padding: 5px 7px;
+    width:45%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    background-color: #8DC63F;
+    border-radius: 3px;
+    border: 2px solid #8DC63F;
+}
+.form button:hover {
+    color: #8DC63F;
+    background-color: white;
+}
+form .buttons, .confirm .buttonsConfirm {
+    width: 100%;
+    /*margin: auto;*/
+    display: flex;
+    justify-content: space-between;
+}
+form .buttons button:hover, .confirm .buttonsConfirm button:hover {
+    color: #8DC63F;
+    background-color: white;
+
+}
+form .buttons button.cartPg {
+    background-color: #8e8e8e;
+    border-color: #8e8e8e;
+    width:25%;
+}
+button.continue {
+    width: 35%;
+    min-width:250px;
+}
+fieldset.billingInfo {
+    display:none;
+}
 
 
 
 
+/*--------------CONFIRM--------------*/
+.confirm {
+    width: 60%;
+    text-align: center;
+    margin: 260px auto 80px auto;
+    /*background-color: pink;*/
+}
+.confirm .banner {
+    margin:-150px auto 80px auto;
+
+    /*background-color: lightblue;*/
+}
+.confirm .banner img.smallLogo {
+    width: 25%;
+}
+.confirm img.truck {
+    /*truck*/
+    width: 60%;
+    min-width: 375px;
+    margin:0 auto 50px auto;
+}
+.confirm h3 {
+    text-align: center;
+    margin-bottom:10px;
+}
+.confirm .buttonsConfirm {
+    width: 80%;
+    margin: 2.5vh auto 8vh auto;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    background-color: yellow;
+}
+.buttonsConfirm button.shopping {
+    background-color: #8DC63F;
+    border-color: #8DC63F;
+    color: white;
+    margin:auto;
+    padding: 5px 10px;
+    width: 225px;
+}
 
 
 
@@ -581,8 +900,6 @@ footer {
     }
 
 }
-
-
 /* -------  768px IPAD ------- */
 @media screen and (max-width: 768px) {
     .hamburger {
@@ -619,8 +936,6 @@ footer {
         display: none;
     }
 }
-
-
 /* -------  425px PHONE ------- */
 @media screen and (max-width: 425px) {
     .top, .bottom {
@@ -632,7 +947,6 @@ footer {
         height:186px;
         top:-30px;
     }
-
     header {
         margin-top:50px;
         /*margin-left:10px;*/

@@ -1,5 +1,5 @@
 
-<?php include_once "config.php"; ?>
+<?php //include_once "config.php"; ?>
 
 <!--<!DOCTYPE html>-->
 <!--<html lang="en">-->
@@ -24,7 +24,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
     <title>GCM</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <!--<link rel="stylesheet" href="css/hamburger.css">-->
 </head>
 
