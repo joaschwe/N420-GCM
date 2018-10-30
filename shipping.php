@@ -1,6 +1,6 @@
 <?php
 require './includes/header.inc.php';
-require './includes/nav.inc.php';
+require './includes/navLogoOnly.inc.php';
 ?>
 
     <div class="container">
@@ -8,7 +8,7 @@ require './includes/nav.inc.php';
             <!--checkout page title-->
             <div class="title">
 <!--                <h3>Shipping</h3>-->
-                <p><a href="cart.php">Back to Cart</a></p>
+<!--                <p><a href="cart.php">Back to Cart</a></p>-->
             </div>
             <!---shipping form--->
             <form method="post" action="checkout.php">
@@ -36,10 +36,10 @@ require './includes/nav.inc.php';
                 <input type="text" id="state" />
 
                     <div class="buttons">
-                    <button class="cartPg">Back</button>
+<!--                    <button class="cartPg">Back to Cart</button>-->
                     <button class="continue" type="button">Continue to Billing</button>
                     </div>
-                    <button class="showAll">SHOW ALL INFO</button>
+<!--                    <button class="showAll">SHOW ALL INFO</button>-->
                 </fieldset>
 
                 <fieldset class="billingInfo">
@@ -71,7 +71,38 @@ require './includes/nav.inc.php';
                     <input type="text" id="bill_state" />
 
                     <div class="buttons">
-                        <button class="cartPg">Back</button>
+                        <button class="payment" type="button">Continue to Payment</button>
+
+                    </div>
+                </fieldset>
+
+                <fieldset class="paymentInfo">
+                    <legend class="title"><h3>Payment</h3></legend>
+                    <div class="zipCity">
+                        <div class="zipGrp">
+                            <label for="zip" class="zip">Card Type</label>
+                            <input type="text" id="visa" class="visa"/>
+                        </div>
+                        <div class="cityGrp">
+                            <label for="city" class="city">Card Number</label>
+                            <input type="text" id="city" />
+                        </div>
+                    </div>
+                    <label>Cardholder Name</label>
+                    <input type="text" id="state" />
+                    <div class="zipCity">
+                        <div class="zipGrp">
+                            <label for="zip" class="zip">Expire Date</label>
+                            <input type="text" id="zip" />
+                        </div>
+                        <div class="cityGrp">
+                            <label for="city" class="city">CVV</label>
+                            <input type="text" id="city" placeholder="05 / 21"/>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="cartPg">Back to Cart</button>
                         <button class="checkout" type="submit">Review Order</button>
                     </div>
                 </fieldset>

@@ -29,19 +29,6 @@
 
 <script>
     $(document).ready(function () {
-        //index pg "more" arrows
-//        $(".craftsman p.more").click(function() {
-//            var url = "craftsman.php";
-//            $(location).attr('href', url);
-//        });
-//        $(".product p.more").click(function() {
-//            var url = "products.php";
-//            $(location).attr('href', url);
-//        });
-//        $(".causeSection p.more").click(function() {
-//            var url = "causes.php";
-//            $(location).attr('href', url);
-//        });
 
         //faqs questions
         $(this).click(function () {
@@ -50,11 +37,10 @@
         });
 
         //various buttons
-        $("button.shipping").click(function () {
-//            window.history.back();
+        $("button.shipping").click(function (evt) {
             var url = "shipping.php";
             $(location).attr('href', url);
-//            $('button.continue').trigger('click');
+            evt.preventDefault();
         });
         $("button.checkout").click(function (evt) {
             var url = "checkout.php";
@@ -77,6 +63,7 @@
             var url = "cart.php";
             $(location).attr('href', url);
         });
+
 
         //form
         $("#checkbox1").change(function () {
@@ -117,10 +104,15 @@
 //            $("div.questionDown").css({border: 'none'});
             $("fieldset.billingInfo").slideDown("slow");
         });
+        $("button.payment").click(function () {
+//            $("div.questionDown").css({border: 'none'});
+            $("fieldset.paymentInfo").slideDown("slow");
+        });
 
         $("button.showAll").click(function (evt) {
 //            $("div.questionDown").css({border: 'none'});
             $("fieldset.billingInfo").slideDown("slow");
+            $("fieldset.paymentInfo").slideDown("slow");
             evt.preventDefault();
         });
 

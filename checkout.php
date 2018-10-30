@@ -1,6 +1,6 @@
 <?php
 require './includes/header.inc.php';
-require './includes/nav.inc.php';
+require './includes/navLogoOnly.inc.php';
 ?>
 
     <div class="container">
@@ -8,7 +8,7 @@ require './includes/nav.inc.php';
             <!--checkout page title-->
             <div class="title">
                 <h3>Review your order</h3>
-                <p><a href="cart.php">Back to Cart</a></p>
+<!--                <p><a href="cart.php">Back to Cart</a></p>-->
             </div>
             <!--cart page content-->
             <div class="cart">
@@ -54,8 +54,8 @@ require './includes/nav.inc.php';
                         <p class="cost">$0.00</p>
                     </div>
                     <div>
-                        <button class="order">Place Order</button></a>
-                        <button class="shipping">Back to Shipping</button>
+                        <button class="order">Place Order</button>
+                        <button class="cartPg">Back to Cart</button>
                     </div>
                 </div>
 

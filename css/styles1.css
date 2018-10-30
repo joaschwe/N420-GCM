@@ -20,14 +20,12 @@ Myriad Pro is main font
     padding: 0;
 }
 html, body {
-    /*height: 100%;*/
+    height: 100%;
     font-family: "Myriad Pro", sans-serif;
     background-color: #fafafa;
     width: 100%;
     margin:auto;
     min-width: 1024px;
-    overflow:scroll;
-    /*max-width: 1440px;*/
     /*background-color: pink;*/
 }
 h1, h2, h3, h4, h5, h6, p, a {
@@ -41,8 +39,7 @@ p {
 .container {
     width: 90%;
     margin: auto;
-    height:100%;
-    max-width: 1440px;
+    /*height:100%;*/
     /*background-color:yellow;*/
 }
 h1.comingSoon {
@@ -58,13 +55,14 @@ h1.comingSoon {
 }
 
 .navContainer {
-    /*position: absolute;*/
-    /*top:0;*/
+    position: fixed;
+    top:0;
     /*z-index: 5;*/
     /*overflow: hidden;*/
     width:100%;
-    background-color: white;
+    /*background-color: pink;*/
     min-width: 1024px;
+    /*height:200px;*/
 }
 
 /* ---- HEADER ---- */
@@ -124,6 +122,76 @@ span {
     text-decoration: underline;
 }
 /* --- bottom nav --- */
+
+/*.menu {*/
+    /*font-family: sans-serif;*/
+/*}*/
+/*.menu ul {*/
+    /*list-style: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*display: flex;*/
+/*}*/
+/*.menu ul li {*/
+    /*width: 20%;*/
+/*}*/
+/*@media (max-width: 40em) {*/
+    /*.menu ul li {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+/*.menu ul li > ul {*/
+    /*display: flex;*/
+    /*visibility: hidden;*/
+    /*position: absolute;*/
+    /*left: -99999;*/
+    /*flex-direction: column;*/
+/*}*/
+/*.menu ul li > ul li {*/
+    /*width: 100%;*/
+/*}*/
+/*.menu ul li:hover a {*/
+    /*background: white;*/
+/*}*/
+/*.menu ul li:hover a:hover {*/
+    /*color: green;*/
+/*}*/
+/*.menu ul li:hover img {*/
+    /*width: 100%;*/
+    /*background-color: orange;*/
+    /*margin-top:-20px;*/
+/*}*/
+/*.menu ul li:hover > ul {*/
+    /*visibility: visible;*/
+    /*position: relative;*/
+    /*left: 0;*/
+    /*background-color: transparent;*/
+/*}*/
+/*.menu a {*/
+    /*display: block;*/
+    /*background: transparent;*/
+    /*border-top: 1px solid #6b6b6b;*/
+    /*border-bottom: 1px solid #6b6b6b;*/
+    /*padding: 15px;*/
+    /*color: #6b6b6b;*/
+    /*text-decoration: none;*/
+    /*text-align: center;*/
+/*}*/
+/*.menu a:hover {*/
+    /*background: orange;*/
+    /*color: green;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
 nav.bottom {
     height: 40px;
     display: flex;
@@ -148,22 +216,22 @@ nav.bottom div:hover:after {
     content: url("../images/icons/navHover.gif");
     display: block;
     position: absolute;
-    left: -10px;
+    /*left: -10px; */
     top: 40px;
 }
-nav.bottom div:nth-child(3):hover:after {
-    /*causes*/
-    left: -16px;
+nav.bottom div:nth-child(5):hover:after {
+    content: url("../images/icons/navHoverEnd.gif");
+    display: block;
+    position: absolute;
+    /*left: -10px; */
+    top: 40px;
 }
 nav.bottom div:nth-child(4):hover:after {
-    /*content: url("../images/icons/navHoverStart.gif");*/
-    /*about*/
-    left: -19px;
-}
-nav.bottom div:nth-child(5):hover:after {
-    /*content: url("../images/icons/navHoverEnd.gif");*/
-    /*faqs*/
-    left: -25px;
+    content: url("../images/icons/navHoverStart.gif");
+    display: block;
+    position: absolute;
+    /*left: -10px; */
+    top: 40px;
 }
 nav.bottom div:hover {
     position: relative;
@@ -178,11 +246,18 @@ nav.bottom a {
 }
 
 
+
+
+
+
+
+
+
 /*--------------INDEX--------------*/
 /* ---- BANNER ---- */
 .banner {
     width: 90%;
-    margin: 100px auto 80px auto;
+    margin: 260px auto 80px auto;
     /*background-color: blue;*/
 }
 .banner img {
@@ -337,7 +412,7 @@ img.knot {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex;
-    /*margin-bottom: 8vw;*/
+    margin-bottom: 8vw;
     /*background-color:pink;*/
 }
 .gallery .product, .causes .cause, .subBannerCraft .section {
@@ -356,34 +431,7 @@ img.knot {
 }
 .gallery .product img {
     width: 100%;
-    /*opacity: 1;*/
-    /*display: block;*/
-    /*height: auto;*/
-    /*transition: .5s ease;*/
-    /*backface-visibility: hidden;*/
 }
-/*.gallery .product:hover img {*/
-/*opacity: 0.3;*/
-/*}*/
-/*.gallery .product:hover .middle {*/
-/*opacity: 1;*/
-/*}*/
-/*.gallery .product .middle {*/
-/*transition: .5s ease;*/
-/*opacity: 0;*/
-/*position: absolute;*/
-/*top: 50%;*/
-/*left: 50%;*/
-/*transform: translate(-50%, -50%);*/
-/*-ms-transform: translate(-50%, -50%);*/
-/*text-align: center;*/
-/*}*/
-/*h2.quickAdd {*/
-/*background-color: #4CAF50;*/
-/*color: white;*/
-/*font-size: 16px;*/
-/*padding: 16px 32px;*/
-/*}*/
 .gallery .product h4:hover {
     color: #8DC63F;
 }
@@ -403,11 +451,9 @@ p.more {
     width: 100%;
     font-size:18px;
     margin-right:1.5vw;
-    margin-bottom:3.5vw;
     text-align: right;
     color: #8DC63F;
     cursor: pointer;
-    /*background-color: pink;*/
 }
 p.more a {
     color: #8DC63F;
@@ -424,7 +470,7 @@ p.more a {
 
 /* ---- CAUSES ---- */
 /*.causeSection {*/
-/*width: 100%;*/
+    /*width: 100%;*/
 /*}*/
 .cause img {
     width: 100%;
@@ -442,7 +488,7 @@ p.more a {
 /* ---- FOOTER ---- */
 footer {
     width:100%;
-    padding: 1vw 0;
+    padding: 2vw 0;
     background-color: #aed77a;
     margin-top: 10vh;
 }
@@ -453,9 +499,9 @@ footer {
     justify-content: space-between;
 }
 .column p, .column h4 {
-    font-size:13px;
+    font-size:12px;
     margin:3px 0;
-    color: white;
+    color: #fafafa;
 }
 .column h4 {
     font-weight: normal;
@@ -475,58 +521,11 @@ footer {
 
 
 
-
-/*-------------ABOUT--------------*/
-.about {
-    width: 80%;
-    margin:0 auto;
-    height: 100%;
-}
-.aboutTitle {
-    width: 100%;
-    margin: 100px auto 80px auto;
-}
-h1.h1About {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left:0;
-    padding-left:0;
-    text-align: center;
-    font-size: 60px;
-    color: #8DC63F;
-    font-family: "Times New Roman", serif;
-    font-weight: normal;
-}
-.about span{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    text-decoration: none;
-}
-.aboutContent {
-    margin: auto;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-content: center;*/
-    display: inline-block;
-}
-.aboutContent p {
-    width: 45%;
-    font-size:16px;
-    float:left;
-}
-.about .aboutContent img {
-    margin-left: 40px;
-    width:50%;
-    float:right;
-}
-
-
-
 /*--------------FAQS--------------*/
 /* bannerFAQS */
 .bannerFAQS {
     width: 90%;
-    margin: 100px auto 80px auto;
+    margin: 260px auto 80px auto;
 }
 .bannerFAQS h1.h1FAQS {
     width: 100%;
@@ -553,6 +552,7 @@ h1.h1About {
 /* ---- QUESTIONS ---- */
 .questions {
     width:100%;
+    /*margin-bottom:;*/
 }
 .question {
     width: 90%;
@@ -616,13 +616,13 @@ p.pAnswer {
 .container80 {
     width: 80%;
     margin: auto auto 0 auto;
-    /*height:100%;*/
+    height:100%;
     /*background-color:yellow;*/
 }
 .title {
     width: 100%;
     display: flex;
-    margin:100px auto 30px auto;
+    margin:260px auto 30px auto;
     align-items: center;
     justify-content: space-between;
 }
@@ -634,18 +634,13 @@ p.pAnswer {
     color: #8DC63F;
     font-family: "Times New Roman", serif;
     font-weight: normal;
-    width: 100%;
     /*background-color:yellow;*/
 }
-.title p {
+.title p a {
     text-align: right;
     color:#8DC63F;
     font-family: "Times New Roman", serif;
     /*background-color: pink;*/
-    width:100%;
-}
-.title p a {
-    color:#8DC63F;
 }
 .title p a:hover {
     color: #6b6b6b;
@@ -723,7 +718,6 @@ p.pAnswer {
     background-color: #8DC63F;
     border-radius: 3px;
     border: 2px solid #8DC63F;
-    min-width: 175px;
 }
 .costCol button:hover {
     color: #8DC63F;
@@ -752,15 +746,11 @@ form, .confirm {
     margin: auto;
     color: #8e8e8e;
 }
-fieldset {
-    border: none;
-}
 label {
     display: block;
 }
 legend.title h3 {
     text-align: center;
-    margin-bottom:0;
 }
 input {
     display: block;
@@ -861,16 +851,6 @@ input[type="checkbox"]:checked + label:before {
 input#city, input#bill_city {
     width: 20%;
 }
-input#visa.visa {
-    /*background-image: url("../images/icons/visa.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    /*background-position: center;*/
-    /*width: 100px;*/
-    /*border:0;*/
-    /*background-color: transparent;*/
-}
-
 
 form button, .confirm button {
     display: inline;
@@ -890,7 +870,6 @@ form button, .confirm button {
 }
 form .buttons, .confirm .buttonsConfirm {
     width: 100%;
-    margin:30px auto 0 auto;
     /*margin: auto;*/
     display: flex;
     justify-content: space-between;
@@ -905,21 +884,12 @@ form .buttons button.cartPg {
     border-color: #8e8e8e;
     width:25%;
 }
-.costCol button.cartPg {
-    background-color: #8e8e8e;
-    border-color: #8e8e8e;
-}
-form .buttons button.cartPg:hover, .costCol button.cartPg:hover {
-    background-color:white;
-    color: #8e8e8e;
-}
 button.continue {
     width: 35%;
     min-width:250px;
 }
-fieldset.billingInfo, fieldset.paymentInfo {
+fieldset.billingInfo {
     display:none;
-    margin-top:65px;
 }
 
 
@@ -929,16 +899,16 @@ fieldset.billingInfo, fieldset.paymentInfo {
 .confirm {
     width: 60%;
     text-align: center;
-    margin: 100px auto 80px auto;
+    margin: 260px auto 80px auto;
     /*background-color: pink;*/
 }
 .confirm .banner {
-    /*margin:-150px auto 80px auto;*/
+    margin:-150px auto 80px auto;
 
     /*background-color: lightblue;*/
 }
 .confirm .banner img.smallLogo {
-    width: 40%;
+    width: 25%;
 }
 .confirm img.truck {
     /*truck*/
@@ -969,6 +939,13 @@ fieldset.billingInfo, fieldset.paymentInfo {
 
 
 
+/*-------- 1440 wide screen ------*/
+/*@media screen and (min-width: 1440px) {*/
+     /*html, body {*/
+         /*width: 1440px;*/
+         /*margin:0 auto;*/
+     /*}*/
+/*}*/
 
 
 /* -------  1024px LAPTOP ------- */
@@ -978,6 +955,14 @@ fieldset.billingInfo, fieldset.paymentInfo {
     }
     .subBanner .section h2 {
         font-size:26px;
+    }
+    .menu {
+        min-width: 1024px;
+    }
+    .menu ul li:hover img {
+        /*width: 100%;*/
+        /*background-color: orange;*/
+        margin-top:-80px;
     }
 
 }
@@ -1018,22 +1003,34 @@ fieldset.billingInfo, fieldset.paymentInfo {
     }
 }
 /* -------  425px PHONE ------- */
-@media screen and (max-width: 425px) {
-    nav.top, nav.bottom {
-        display:none;
-    }
-    .navContainer {
-        z-index: 0;
-        height:186px;
-        top:-30px;
-    }
-    header {
+/*@media screen and (max-width: 425px) {*/
+    /*.top, .menu {*/
+        /*display:none;*/
+    /*}*/
+    /*.navContainer {*/
+        /*z-index: 0;*/
+        /*height:186px;*/
+        /*top:-30px;*/
+    /*}*/
+    /*header {*/
         /*margin-top:50px;*/
-        /*margin-left:10px;*/
-    }
-    header img.bag {
-        margin-left: auto;
-    }
+    /*}*/
+    /*header img.bag {*/
+        /*margin-left: auto;*/
+    /*}*/
     /* -- see hamburger.css for hamburger nav that shows at this width -- */
-}
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -8,6 +8,16 @@
 include_once "config.php";
 ?>
 
+<style>
+    nav.top, nav.bottom {
+        display: none;
+    }
+    header img {
+        margin-top:45px;
+    }
+</style>
+
+
 <div class="navContainer">
     <!--TOP NAV-->
     <nav class="top">
@@ -21,7 +31,7 @@ include_once "config.php";
     <div class="container">
         <header>
             <a href="../index.php"><img class="logo" src="../images/logos/GCM-logo-short.png"></a>
-            <a href="../cart.php"><img class="bag" src="../images/icons/shopping-bag-solid-green.png">&nbsp;&nbsp;3</a>
+<!--            <a href="../cart.php"><img class="bag" src="../images/icons/shopping-bag-solid-green.png">&nbsp;&nbsp;3</a>-->
         </header>
     </div>
 
