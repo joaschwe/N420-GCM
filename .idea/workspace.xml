@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa314ad0-a7a0-451e-83d8-157aebbbec67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml___jb_tmp___" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/GCM_logo.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/GCM_web_72 small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Good 10.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Jenny CAUSE (3).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Logo Round w. Tag for Cover of Presentation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/Market 10.JPG" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/config.php" afterPath="$PROJECT_DIR$/includes/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.inc.php" afterPath="$PROJECT_DIR$/includes/footer.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.inc.php" afterPath="$PROJECT_DIR$/includes/header.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,8 +73,8 @@
           <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/includes/config.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -131,11 +118,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+              <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/styles.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="9210">
-                      <caret line="614" column="17" lean-forward="false" selection-start-line="614" selection-start-column="17" selection-end-line="614" selection-end-column="17" />
+                    <state relative-caret-position="1380">
+                      <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -153,7 +140,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="footer.inc.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="footer.inc.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/includes/footer.inc.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
@@ -253,7 +240,6 @@
         <option value="$PROJECT_DIR$/cart.php" />
         <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/checkout.php" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/shipping.php" />
         <option value="$PROJECT_DIR$/includes/title.php" />
@@ -267,6 +253,7 @@
         <option value="$PROJECT_DIR$/includes/header.inc.php" />
         <option value="$PROJECT_DIR$/includes/footer.inc.php" />
         <option value="$PROJECT_DIR$/includes/config.php" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -536,12 +523,12 @@
       <workItem from="1540179910632" duration="47221000" />
       <workItem from="1540671011851" duration="38772000" />
       <workItem from="1540841880284" duration="42584000" />
-      <workItem from="1541040839318" duration="369000" />
+      <workItem from="1541040839318" duration="1112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167868000" />
+    <option name="totallyTimeSpent" value="168611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="24" width="2527" height="1391" extended-state="0" />
@@ -865,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9210">
-          <caret line="614" column="17" lean-forward="false" selection-start-line="614" selection-start-column="17" selection-end-line="614" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/purchase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -952,22 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/your_cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
@@ -984,10 +947,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/your_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
