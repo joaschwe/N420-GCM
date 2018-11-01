@@ -5,7 +5,7 @@
  * Date: 10/26/18
  * Time: 6:51 PM
  */
-include_once "config.php";
+//include_once "config.php";
 ?>
 
 <style>
@@ -88,14 +88,14 @@ include_once "config.php";
 
     <nav class="bottom">
 <!--        <div class="iconHover"><img src="images/icons/nav%20hover.png"></div>-->
-        <div><a href="../products.php">Products</a>
+        <div><a href="../good_products.php">Products</a>
 <!--            <div>-->
 <!--                <img src="https://png2.kisspng.com/20180216/puq/kisspng-student-national-merit-scholarship-program-higher-red-title-box-5a8777e388f4b7.044354661518827491561.png">-->
 <!--            </div>-->
         </div>
-        <div><a href="../craftsman.php">Craftsman</a></div>
-        <div><a href="../causes.php">Causes</a></div>
-        <div><a href="../about.php">About</a></div>
+        <div><a href="../good_craftsmen.php">Craftsman</a></div>
+        <div><a href="../good_causes.php">Causes</a></div>
+        <div><a href="../about_us.php">About</a></div>
         <div><a href="../faqs.php">FAQs</a></div>
     </nav>
 </div>

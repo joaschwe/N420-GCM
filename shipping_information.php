@@ -11,7 +11,7 @@ require './includes/navLogoOnly.inc.php';
 <!--                <p><a href="cart.php">Back to Cart</a></p>-->
             </div>
             <!---shipping form--->
-            <form method="post" action="checkout.php">
+            <form method="post" action="purchase.php">
                 <fieldset class="shippingInfo">
                     <legend class="title"><h3>Shipping</h3></legend>
                 <label>Email</label>
