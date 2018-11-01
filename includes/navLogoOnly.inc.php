@@ -5,7 +5,7 @@
  * Date: 10/26/18
  * Time: 6:51 PM
  */
-include_once "config.php";
+//include_once "config.php";
 ?>
 
 <style>
