@@ -1,6 +1,9 @@
 <?php
+//require './includes/config.php';
 require './includes/header.inc.php';
 require './includes/nav.inc.php';
+
+//echo $_SERVER['SCRIPT_FILENAME'];
 ?>
 
 
@@ -83,7 +86,7 @@ require './includes/nav.inc.php';
                 <h4 class="floatLeft">$0.00</h4>
                 <p class="floatRight">SHARE</p>
             </div>
-            <p class="more"><a href="products.php">More &#8594;</a></p>
+            <p class="more"><a href="good_products.php">More &#8594;</a></p>
         </div>
 
     </div>
@@ -117,7 +120,7 @@ require './includes/nav.inc.php';
                     anim id est laborum.</p>
                 <p>SHARE</p>
             </div>
-            <p class="more"><a href="craftsman.php">More &#8594;</a></p>
+            <p class="more"><a href="good_craftsmen.php">More &#8594;</a></p>
         </div>
 
 
@@ -144,7 +147,7 @@ require './includes/nav.inc.php';
                 <img src="images/causes/sportscomplex.png">
                 <h3>Excepteur Sint</h3>
             </div>
-            <p class="more"><a href="causes.php">More &#8594;</a></p>
+            <p class="more"><a href="good_causes.php">More &#8594;</a></p>
         </div>
 
     </div>

@@ -27,6 +27,7 @@
 
 
 <script src="../lib/jquery-3.1.1.min.js"></script>
+<<<<<<< HEAD
 
 <script>
     $(document).ready(function () {
@@ -129,6 +130,9 @@
 
 <!--<script src="app/app.js"></script>-->
 
+=======
+<script src="../app/app.js"></script>
+>>>>>>> origin/master
 
 </body>
 </html>

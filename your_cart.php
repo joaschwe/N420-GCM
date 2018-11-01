@@ -54,7 +54,7 @@ require './includes/nav.inc.php';
                         <p class="cost">$0.00</p>
                     </div>
                     <div>
-                        <button class="shipping">Proceed to Checkout</button>
+                        <button class="shipping">Proceed to Shipping</button>
                         <a href="#">Calculate shipping</a>
                     </div>
                 </div>
