@@ -1,3 +1,4 @@
+
 <footer>
     <div class="contents">
         <div class="column">
@@ -27,7 +28,6 @@
 
 <script src="../lib/jquery-3.1.1.min.js"></script>
 <script src="../app/app.js"></script>
-
 
 </body>
 </html>
