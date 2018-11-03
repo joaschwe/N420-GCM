@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 colors {
     color: #fafafa;
     color: #A7A9AC;
@@ -15,10 +17,32 @@ Myriad Pro is main font
 
 
 /* ---- RESETS ---- */
+>>>>>>> origin/master
 * {
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+nav {
+    position: relative;
+    height: 80px;
+    min-height:80px;
+    background-color: rgba(0,0,0,1);
+    display: flex;
+}
+nav div {
+    margin:auto;
+=======
 html, body {
     /*height: 100%;*/
     font-family: "Myriad Pro", sans-serif;
@@ -104,10 +128,95 @@ nav.top {
     background-color: white;
 }
 nav.top div {
+>>>>>>> origin/master
     min-height:100%;
     padding:0 30px;
     display: flex;
     box-sizing: border-box;
+<<<<<<< HEAD
+
+}
+nav div:hover {
+    background-color: grey;
+
+}
+nav a {
+    color:#fff;
+    text-decoration: none;
+    margin:auto;
+    white-space: nowrap;
+}
+
+nav .join-button:hover .joinHolder {
+    display: flex;
+    left:3em;
+    right:3em;
+    height: 500%;
+}
+nav .joinHolder {
+    position: absolute;
+    padding:0;
+    top:80px;
+    height:500%;
+    background-color: grey;
+    display: none;
+    /*transition: all 1s ease;*/
+
+}
+nav .joinHolder form {
+    /*background-color: blueviolet;*/
+    height:90%;
+    width:90%;
+    margin: auto;
+}
+
+nav .joinHolder .sign-in {
+    height:100%;
+    width:100%;
+    /*background-color: antiquewhite;*/
+    display: flex;
+}
+nav .joinHolder .sign-up {
+    height:100%;
+    width:100%;
+    /*background-color:darkgreen;*/
+}
+nav .joinHolder:hover {
+    display: block;
+    /*transition: all 1s ease;*/
+}
+nav div:nth-child(odd) {
+    color:#fff;
+    text-decoration: none;
+    margin:auto;
+}
+nav .joinHolder form label {
+    display: block;
+    margin-bottom:10px;
+}
+nav .joinHolder form input {
+    display: block;
+    height:40px;
+    width: 95%;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom:10px;
+    font-size: 120%;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+nav .joinHolder form .submit-button {
+    background-color: white;
+    margin:30px auto 0px auto;
+    width: 50%;
+}
+
+.home {
+    background-color: cadetblue;
+    min-height:100%;
+}
+=======
 }
 nav.top a:hover {
     /*color: #8DC63F;*/
@@ -938,7 +1047,7 @@ fieldset.billingInfo, fieldset.paymentInfo {
     /*background-color: lightblue;*/
 }
 .confirm .banner img.smallLogo {
-    width: 60%;
+    width: 40%;
 }
 .confirm img.truck {
     /*truck*/
@@ -1037,3 +1146,4 @@ fieldset.billingInfo, fieldset.paymentInfo {
     /* -- see hamburger.css for hamburger nav that shows at this width -- */
 }
 
+>>>>>>> origin/master
