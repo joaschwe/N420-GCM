@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'ClickerScript-Regular';
+  src: url('ClickerScript-Regular.eot');
+  src: url('ClickerScript-Regular.woff2') format('woff2'),
+       url('ClickerScript-Regular.woff') format('woff'),
+       url('ClickerScript-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

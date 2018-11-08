@@ -10,6 +10,18 @@ $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
 ?>
 
 <div class="navContainer">
+
+
+    <!--HEADER-->
+    <div class="container">
+
+
+        <header>
+            <a href="../index.php" <?php if ($currentPage == 'index.php') {echo ' id="here" ';} ?> ><img class="logo" src="../images/logos/GCM-logo-short.png"></a>
+            <a href="../your_cart.php" <?php if ($currentPage == 'your_cart.php') {echo ' id="here" ';} ?> ><img class="bag" src="../images/icons/shopping-bag-solid-green.png">&nbsp;&nbsp;3</a>
+        </header>
+    </div>
+
     <!--TOP NAV-->
     <nav class="top">
         <div><a href="#"><span>Become a Cause</span></a></div>
@@ -17,16 +29,6 @@ $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
         <div><a href="#">Sign Up</a></div>
         <div><a href="#">Log In</a></div>
     </nav>
-
-    <!--HEADER-->
-    <div class="container">
-        <header>
-            <a href="../index.php" <?php if ($currentPage == 'index.php') {echo ' id="here" ';} ?> ><img class="logo" src="../images/logos/GCM-logo-short.png"></a>
-            <a href="../your_cart.php" <?php if ($currentPage == 'your_cart.php') {echo ' id="here" ';} ?> ><img class="bag" src="../images/icons/shopping-bag-solid-green.png">&nbsp;&nbsp;3</a>
-        </header>
-    </div>
-
-
 
     <nav class="bottom">
         <div><a href="../good_products.php" <?php if ($currentPage == 'good_products.php') {echo ' id="here" ';} ?> >Products</a>
