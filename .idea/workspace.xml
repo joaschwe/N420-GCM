@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa314ad0-a7a0-451e-83d8-157aebbbec67" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml___jb_tmp___" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/GCM_logo.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/GCM_web_72 small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Good 10.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Jenny CAUSE (3).JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Logo Round w. Tag for Cover of Presentation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Market 10.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/fyb.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/fyb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/hsefootball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/hsefootball2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/royalsVB.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/royalsVB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/sportscomplex.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/causes/sportscomplex.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/craftsman/craftsman1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/craftsman/craftsman2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/craftsman/craftsman3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Carmanah-Castile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Clean-Castile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Hope-Castile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Lavendar-Castile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Botanical-Bliss-Spice-Soap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Licorice-Castile-Soap-Scents.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Lump-Of-Coal2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Uplift-Soap2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/product8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sitePics.zip" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -357,12 +388,12 @@
       <workItem from="1541040839318" duration="1501000" />
       <workItem from="1541052487868" duration="2503000" />
       <workItem from="1541527405026" duration="161000" />
-      <workItem from="1541632966568" duration="45000" />
+      <workItem from="1541632966568" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171709000" />
+    <option name="totallyTimeSpent" value="171897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="24" width="2527" height="1391" extended-state="0" />
