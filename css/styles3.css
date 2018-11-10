@@ -518,28 +518,30 @@ img.knot {
     /*transition: .5s ease;*/
     /*backface-visibility: hidden;*/
 }
-/*.gallery .product:hover img {*/
-/*opacity: 0.3;*/
-/*}*/
-/*.gallery .product:hover .middle {*/
-/*opacity: 1;*/
-/*}*/
-/*.gallery .product .middle {*/
-/*transition: .5s ease;*/
-/*opacity: 0;*/
-/*position: absolute;*/
-/*top: 50%;*/
-/*left: 50%;*/
-/*transform: translate(-50%, -50%);*/
-/*-ms-transform: translate(-50%, -50%);*/
-/*text-align: center;*/
-/*}*/
-/*h2.quickAdd {*/
-/*background-color: #4CAF50;*/
-/*color: white;*/
-/*font-size: 16px;*/
-/*padding: 16px 32px;*/
-/*}*/
+/*
+.gallery .product:hover img {
+opacity: 0.3;
+}
+.gallery .product:hover .middle {
+opacity: 1;
+}
+.gallery .product .middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+h2.quickAdd {
+background-color: #4CAF50;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+*/
 .gallery .product h4:hover {
     color: #8DC63F;
 }
@@ -567,7 +569,9 @@ p.more {
 }
 p.more a {
     color: #8DC63F;
-    text-decoration: none;
+}
+p.more span {
+    font-family: "ClickerScript-Regular", serif;
 }
 @media screen and (max-width: 400px) {
     .gallery .product {
