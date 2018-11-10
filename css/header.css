@@ -1,0 +1,33 @@
+/* ---- HEADER ---- */
+header {
+    width: 100%;
+    margin:0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height:100px;
+    /*background-color: white;*/
+}
+header a {
+    margin:7px 10px 0 10px;
+    color: #8DC63F;
+    font-size:20px;
+    text-decoration: none;
+}
+header a:hover {
+    color: #585858;
+}
+.logo {
+    height: 80px;
+    position:absolute;
+    top:20px;
+    left:0;
+    z-index: 5;
+}
+.bag {
+    height: 30px;
+    color:#aed77a;
+    margin-left: auto;
+}

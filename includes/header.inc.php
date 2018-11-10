@@ -38,6 +38,9 @@ if ($title == 'Faqs') {
           content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
     <title>GCM<?php echo '&#8212;' . $title; ?></title>
     <link rel="stylesheet" type="text/css" href="../css/styles3.css" />
+    <link rel="stylesheet" type="text/css" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cards.css" />
     <link rel="stylesheet" type="text/css" href="../css/fonts/clicker-font.css" />
 <!--    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />-->
 </head>

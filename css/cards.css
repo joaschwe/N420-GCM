@@ -1,0 +1,118 @@
+/*---------------------*/
+/*
+flex: 1 0 calc(25% - 10px); <--gives a max # of cards in the row, past limit it enlarges the next row to take up space
+margin-left:20px; <--but then there's 20px added on to last child, too
+*/
+.card-container, .x3 .card-container, .x2 .card-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction:row;
+    /*background-color: pink;*/
+}
+.card {
+    background-color: white;
+    margin: 20px;
+    width:20%;
+    min-width:200px;
+    box-sizing: border-box;
+    flex:auto; /*puts as many in the row it can, with fixed width it keeps all cards that width, bumps rest to next row.....with % it keeps to a set # in a row and shrinks down to min-width*/
+}
+.x3 .card { /*-- 3 cards/row --*/
+    background-color: white;
+    margin: 20px;
+    width:30%;
+    min-width:200px;
+    box-sizing: border-box;
+    flex:auto;
+    height:100%;
+}
+.x2 .card { /*-- 2 cards/row --*/
+    background-color: white;
+    margin: 20px;
+    width:35%;
+    min-width:200px;
+    box-sizing: border-box;
+    flex:auto;
+    height:100%;
+    position:relative;
+}
+.card img {
+    width: 100%;
+}
+.card:hover {
+    box-shadow: 0 0 40px 2px #e6e6e6;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+}
+.card-content { /*padding around content*/
+    padding: 2px 16px;
+    position: relative;
+}
+p.price {
+    text-align: left;
+    display:inline-block;
+    font-weight:bold;
+}
+img.share {
+    display:inline-block;
+    float:right;
+    height: 18px;
+    width:18px;
+    margin-bottom: 20px;
+}
+img.share:hover {
+    height:25px;
+    width:25px;
+}
+
+/*----- used for Products page------*/
+.blur img {
+    -webkit-filter: blur(3px);
+    filter: blur(0.1em);
+}
+.overlay { /*---if you want to add in an opacity overlay on the img---*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left:0;*/
+    /*height:100%;*/
+    /*width:100%;*/
+    /*background-color: black;*/
+    /*opacity: 0.3;*/
+}
+button.over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%);
+    background-color: #8DC63F;
+    color: white;
+    font-size: 16px;
+    padding: 18px 0;
+    width:260px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+
+    -webkit-transition: 3s ease;
+    -moz-transition: 3s ease;
+    -o-transition: 3s ease;
+    -ms-transition: 3s ease;
+    transition: 200ms ease;
+}
+button.over:hover {
+    background-color: whitesmoke;
+    color:#8DC63F;
+    /*width:300px;*/
+    /*padding:20px 0;*/
+    -moz-box-shadow: 0 0 10px #585858;
+    -webkit-box-shadow: 0 0 10px #585858;
+    box-shadow: 0 0 10px #585858;
+    /*-webkit-transform: scale(1.1) ;*/
+}
+/*------------------------------*/
+

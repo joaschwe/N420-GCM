@@ -1,0 +1,145 @@
+/* ---- NAVS ---- */
+nav {
+    position: relative;
+    background-color: white;
+    display: flex;
+}
+nav div {
+    /*margin: auto;*/
+}
+.navContainer {
+    /*position: absolute;*/
+    /*top:0;*/
+    /*z-index: 5;*/
+    /*overflow: hidden;*/
+    width:100%;
+    background-color: white;
+    min-width: 1024px;
+    height: 140px;
+    margin-bottom: 175px;
+}
+/* --- top nav --- */
+nav.top {
+    width:95%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    margin-right:0;
+    padding:0;
+}
+nav.top div {
+    padding:0 15px;
+    display: flex;
+    box-sizing: border-box;
+}
+nav div:hover {
+    /*background-color: grey;*/
+}
+nav a {
+    color:#fff;
+    text-decoration: none;
+    margin:auto;
+    white-space: nowrap;
+}
+
+nav.top a:hover {
+    /*color: #8DC63F;*/
+}
+nav.top a {
+    text-decoration: none;
+    margin:auto;
+    white-space: nowrap;
+    color: #8e8e8e;
+    font-weight: lighter;
+    font-size:14px;
+}
+span {
+    color: #aed77a;
+    text-decoration: underline;
+}
+/* --- bottom nav --- */
+nav.bottom {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    height: 40px;
+    display: flex;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: thin;
+    border-color: #BCBEC0;
+    /*background-color: white;*/
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+nav.bottom div {
+    width: 100px;
+    /*padding: 0 5px;*/
+    margin:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*background-color: yellow;*/
+}
+nav.bottom div#here1 {
+    background-color: yellow;
+    position: relative;
+}
+nav.bottom a:hover {
+    color: #8DC63F;
+}
+nav.bottom div:hover:after, nav.bottom div#here:after {
+    content: url("../images/icons/group_331-1.png");
+    display: block;
+    position: absolute;
+    top: 40px;
+}
+nav.bottom div:nth-child(1):hover:after, nav.bottom div.prod:after {
+    left: -29px;
+}
+nav.bottom div:nth-child(2):hover:after, nav.bottom div.craft:after {
+    /*causes*/
+    left: -31px;
+}
+nav.bottom div:nth-child(3):hover:after, nav.bottom div.cause:after {
+    /*causes*/
+    left: -27px;
+}
+nav.bottom div:nth-child(4):hover:after, nav.bottom div.about:after {
+    /*content: url("../images/icons/navHoverStart.gif");*/
+    /*about*/
+    left: -27px;
+}
+nav.bottom div:nth-child(5):hover:after, nav.bottom div.faq:after {
+    /*content: url("../images/icons/navHoverEnd.gif");*/
+    /*faqs*/
+    left: -25px;
+}
+nav.bottom div:hover {
+    position: relative;
+}
+nav.bottom a {
+    text-decoration: none;
+    margin:auto;
+    white-space: nowrap;
+    color: #8e8e8e;
+    font-weight: lighter;
+    font-size: 20px;
+}
+nav.bottom div.selected {
+    /*background-color: yellow;*/
+    position: relative;
+}
+nav.bottom div.selected a {
+    color:#8DC63F;
+    text-decoration:none;
+}
+nav.bottom div#here:after {
+    /*background-color: yellow;*/
+    content: url("../images/icons/group_331-1.png");
+    display: block;
+    position: absolute;
+    top: 40px;
+    /*background-color: orange;*/
+}

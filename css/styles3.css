@@ -34,6 +34,7 @@ html, body {
     margin:auto;
     min-width: 1024px;
     overflow:scroll;
+    height:100%;
     /*max-width: 1440px;*/
     /*background-color: pink;*/
 }
@@ -60,269 +61,56 @@ h1.comingSoon {
     color: #8DC63F;
 }
 
-/* ---- LOGO & KNOT ---- */
-
 .hamburger {
     display: none;
 }
 
-
-
-
-
-.banner {
-
+/* --- title dividers --- */
+h1.clicker, h2.clicker {
+    font-family: "ClickerScript-Regular", serif;
+    font-size: 72px;
+    font-weight: normal;
+    overflow: hidden;
+    text-align: center;
+    width:100%;
+    margin:auto auto 1.5vw auto;
+    color:#6b6b6b;
+    /*background-color: yellow;*/
 }
+h2.clicker {
+    font-size: 60px;
+    margin-bottom: 0;
+    color:#8DC63F;
+}
+h1.clicker:before,
+h1.clicker:after {
+    background-color: #A7A9AC;
+    content: "";
+    display: inline-block;
+    height: 0.03em;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1.clicker:before {
+    right: 0.3em;
+    margin-left: -50%;
+}
+h1.clicker:after {
+    left: 0.3em;
+    margin-right: -50%;
+}
+h1.clicker span { color: #8DC63F; font-style: italic; text-decoration: none;}
+
+
+
+/* ---- LOGO & KNOT ---- */
 
 .banner img {
     width: 100%;
 }
 
-.knot {
 
-}
-
-
-
-
-
-
-
-
-/*---------------------*/
-/*
-flex: 1 0 calc(25% - 10px); <--gives a max # of cards in the row, past limit it enlarges the next row to take up space
-margin-left:20px; <--but then there's 20px added on to last child, too
-*/
-.card-container {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    flex-direction:row;
-    /*background-color: pink;*/
-}
-.card {
-    /*flex:auto; !*puts as many in the row it can, with fixed width it keeps all cards that width, bumps rest to next row.....with % it keeps to a set # in a row and shrinks down to min-width*!*/
-    /*width: 20%;*/
-    /*min-width:150px;*/
-    /*margin: 1.5vw 1.75vw 3.5vw 1.75vw;*/
-    background-color: white;
-    /*box-sizing:border-box;*/
-
-
-    margin: 20px;
-    width:20%;
-    min-width:200px;
-    box-sizing: border-box;
-    flex:auto; /*puts as many in the row it can, with fixed width it keeps all cards that width, bumps rest to next row.....with % it keeps to a set # in a row and shrinks down to min-width*/
-}
-.card img {
-    width: 100%;
-}
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.card-content { /*padding around content*/
-    padding: 2px 16px;
-}
-p.price {
-    text-align: left;
-    display:inline-block;
-    font-weight:bold;
-}
-img.share {
-    display:inline-block;
-    float:right;
-    height: 18px;
-    width:18px;
-    margin-bottom: 20px;
-}
-img.share:hover {
-    height:25px;
-    width:25px;
-}
-
-/*---------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---- HEADER ---- */
-header {
-    width: 100%;
-    margin:0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /*background-color: white;*/
-}
-header a {
-    margin:7px 10px 0 10px;
-    color: #8DC63F;
-    font-size:20px;
-    text-decoration: none;
-}
-header a:hover {
-    color: #585858;
-}
-.logo {
-    height: 80px;
-    position:absolute;
-    top:20px;
-    left:0;
-    z-index: 5;
-}
-.bag {
-    height: 30px;
-    color:#aed77a;
-    margin-left: auto;
-}
-
-/* ---- NAVS ---- */
-nav {
-    position: relative;
-    background-color: white;
-    display: flex;
-}
-nav div {
-    /*margin: auto;*/
-}
-.navContainer {
-    /*position: absolute;*/
-    /*top:0;*/
-    /*z-index: 5;*/
-    /*overflow: hidden;*/
-    width:100%;
-    background-color: white;
-    min-width: 1024px;
-    height: 90px;
-    margin-bottom: 175px;
-}
-/* --- top nav --- */
-nav.top {
-    width:95%;
-    height: 30px;
-    display: flex;
-    justify-content: flex-end;
-    background-color: white;
-    margin-right:0;
-    padding:0;
-}
-nav.top div {
-    padding:0 15px;
-    display: flex;
-    box-sizing: border-box;
-}
-nav div:hover {
-    /*background-color: grey;*/
-}
-nav a {
-    color:#fff;
-    text-decoration: none;
-    margin:auto;
-    white-space: nowrap;
-}
-
-nav.top a:hover {
-    /*color: #8DC63F;*/
-}
-nav.top a {
-    text-decoration: none;
-    margin:auto;
-    white-space: nowrap;
-    color: #8e8e8e;
-    font-weight: lighter;
-    font-size:14px;
-}
-span {
-    color: #aed77a;
-    text-decoration: underline;
-}
-/* --- bottom nav --- */
-nav.bottom {
-    width:100%;
-    margin:0 auto;
-    padding:0;
-    height: 40px;
-    display: flex;
-    border-bottom: solid;
-    border-top: solid;
-    border-width: thin;
-    border-color: #BCBEC0;
-    /*background-color: white;*/
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-nav.bottom div {
-    width: 100px;
-    /*padding: 0 5px;*/
-    margin:0 2%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*background-color: yellow;*/
-}
-nav.bottom a:hover {
-    color: #8DC63F;
-}
-nav.bottom div:hover:after {
-    content: url("../images/icons/group_331-1.png");
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 40px;
-}
-nav.bottom div:nth-child(1):hover:after {
-    /*causes*/
-    left: -29px;
-}
-nav.bottom div:nth-child(2):hover:after {
-    /*causes*/
-    left: -31px;
-}
-nav.bottom div:nth-child(3):hover:after {
-    /*causes*/
-    left: -27px;
-}
-nav.bottom div:nth-child(4):hover:after {
-    /*content: url("../images/icons/navHoverStart.gif");*/
-    /*about*/
-    left: -27px;
-}
-nav.bottom div:nth-child(5):hover:after {
-    /*content: url("../images/icons/navHoverEnd.gif");*/
-    /*faqs*/
-    left: -25px;
-}
-nav.bottom div:hover {
-    position: relative;
-}
-nav.bottom a {
-    text-decoration: none;
-    margin:auto;
-    white-space: nowrap;
-    color: #8e8e8e;
-    font-weight: lighter;
-    font-size: 20px;
-}
 
 
 /*--------------INDEX--------------*/
@@ -364,44 +152,6 @@ nav.bottom a {
 .banner button span:hover {
     color: #8DC63F;
 }
-
-/* ---- DIVIDERS ---- */
-/* --- title dividers --- */
-h1.clicker, h2.clicker {
-    font-family: "ClickerScript-Regular", serif;
-    font-size: 72px;
-    font-weight: normal;
-    overflow: hidden;
-    text-align: center;
-    width:100%;
-    margin:auto auto 1.5vw auto;
-    color:#6b6b6b;
-    /*background-color: yellow;*/
-}
-h2.clicker {
-    font-size: 60px;
-    margin-bottom: 0;
-    color:#8DC63F;
-}
-h1.clicker:before,
-h1.clicker:after {
-    background-color: #A7A9AC;
-    content: "";
-    display: inline-block;
-    height: 0.03em;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
-}
-h1.clicker:before {
-    right: 0.3em;
-    margin-left: -50%;
-}
-h1.clicker:after {
-    left: 0.3em;
-    margin-right: -50%;
-}
-h1.clicker span { color: #8DC63F; font-style: italic; text-decoration: none;}
 
 
 
@@ -559,19 +309,24 @@ padding: 16px 32px;
 }
 p.more {
     width: 100%;
-    font-size:18px;
+    font-size:16px;
     margin-right:1.5vw;
     margin-bottom:3.5vw;
     text-align: right;
     color: #8DC63F;
     cursor: pointer;
+
     /*background-color: pink;*/
 }
 p.more a {
     color: #8DC63F;
+    text-decoration: none;
+    border-bottom:1px solid #8DC63F;
 }
 p.more span {
     font-family: "ClickerScript-Regular", serif;
+    font-size: 20px;
+    text-decoration: none;
 }
 @media screen and (max-width: 400px) {
     .gallery .product {
@@ -599,43 +354,6 @@ p.more span {
     margin: 1vw 0
 }
 
-/* ---- FOOTER ---- */
-footer {
-    /*position: fixed;*/
-    /*bottom:0;*/
-    /*left:0;*/
-    height:auto;
-    width:100%;
-    padding: 1vw 0;
-    background-color: #aed77a;
-    margin-top: 8vh;
-}
-.contents {
-    width: 90%;
-    margin:0 auto;
-    display:flex;
-    justify-content: space-between;
-}
-.column p, .column h4 {
-    font-size:13px;
-    margin:3px 0;
-    color: white;
-}
-.column h4 {
-    font-weight: normal;
-    margin:0;
-}
-.social {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-.social img {
-    width: 25px;
-    height:25px;
-    padding: 0 0.5vw;
-}
 
 
 
@@ -1098,7 +816,6 @@ fieldset.billingInfo, fieldset.paymentInfo {
 }
 .confirm .banner {
     /*margin:-150px auto 80px auto;*/
-
     /*background-color: lightblue;*/
 }
 .confirm .banner img.smallLogo {
@@ -1117,8 +834,6 @@ fieldset.billingInfo, fieldset.paymentInfo {
 .confirm .buttonsConfirm {
     width: 80%;
     margin: 2.5vh auto 8vh auto;
-    /*display: flex;*/
-    /*justify-content: center;*/
     /*background-color: yellow;*/
 }
 .buttonsConfirm button.shopping {
@@ -1129,6 +844,49 @@ fieldset.billingInfo, fieldset.paymentInfo {
     padding: 5px 10px;
     width: 225px;
 }
+
+
+
+
+/* ---- FOOTER ---- */
+footer {
+    /*position: absolute;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    height:70px;
+    width:100%;
+    padding: 1vw 0;
+    background-color: #aed77a;
+    margin-top: 8vh;
+}
+.contents {
+    width: 90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.column p, .column h4 {
+    font-size:13px;
+    margin:3px 0;
+    color: white;
+}
+.column h4 {
+    font-weight: normal;
+    margin:0;
+}
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.social img {
+    width: 25px;
+    height:25px;
+    padding: 0 0.5vw;
+}
+
+
 
 
 
