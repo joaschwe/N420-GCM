@@ -2,39 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa314ad0-a7a0-451e-83d8-157aebbbec67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clothing_accessories_&amp;_jewelry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/cards.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/nav.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/good_causes2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/good_craftsmen2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/good_products2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/causes/cause1.png" afterPath="$PROJECT_DIR$/images/causes/cause1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/causes/cause2.png" afterPath="$PROJECT_DIR$/images/causes/cause2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/causes/cause3.png" afterPath="$PROJECT_DIR$/images/causes/cause3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/causes/cause4.png" afterPath="$PROJECT_DIR$/images/causes/cause4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/craftsman/craftHome/craftsman2.jpg" afterPath="$PROJECT_DIR$/images/craftsman/craftHome/craftsman2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj10.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj11.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj12.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj6.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj7.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj8.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj9.jpg" afterPath="$PROJECT_DIR$/images/products/clothingAccessJewel/caj9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/bath-beauty.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/bath-beauty.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/candles.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/candles.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/clothing-accessories.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/clothing-accessories.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/home.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/home.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/incredEd.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/incredEd.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/kiddos.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/kiddos.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/pet-dept.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/pet-dept.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/products/prodHome/rugged.jpg" afterPath="$PROJECT_DIR$/images/products/prodHome/rugged.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/N420-GCM.iml" afterPath="$PROJECT_DIR$/.idea/N420-GCM.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/good_causes2.php" afterPath="$PROJECT_DIR$/good_causes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/good_craftsmen2.php" afterPath="$PROJECT_DIR$/good_craftsmen.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/good_products2.php" afterPath="$PROJECT_DIR$/good_products.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index2.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles3.css" afterPath="$PROJECT_DIR$/css/styles3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.inc.php" afterPath="$PROJECT_DIR$/includes/header.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/nav.inc.php" afterPath="$PROJECT_DIR$/includes/nav.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.php" afterPath="$PROJECT_DIR$/index2.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,11 +64,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index2.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index2.php">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="182" column="77" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="82" />
+                <state relative-caret-position="914">
+                  <caret line="232" column="48" lean-forward="false" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
@@ -111,28 +84,8 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="good_causes2.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/good_causes2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="good_craftsmen2.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/good_craftsmen2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1635">
-                  <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="good_products2.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/good_products2.php">
+          <file leaf-file-name="good_products.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/good_products.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
                   <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
@@ -221,7 +174,6 @@
         <option value="$PROJECT_DIR$/includes/title.php" />
         <option value="$PROJECT_DIR$/includes/get_filename.inc.php" />
         <option value="$PROJECT_DIR$/includes/title.inc.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/includes/navLogoOnly.inc.php" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/your_cart.php" />
@@ -233,7 +185,6 @@
         <option value="$PROJECT_DIR$/css/styles2.css" />
         <option value="$PROJECT_DIR$/includes/footer.inc.php" />
         <option value="$PROJECT_DIR$/good_craftsmen2.php" />
-        <option value="$PROJECT_DIR$/index2.php" />
         <option value="$PROJECT_DIR$/css/header.css" />
         <option value="$PROJECT_DIR$/css/styles3.css" />
         <option value="$PROJECT_DIR$/includes/header.inc.php" />
@@ -243,6 +194,8 @@
         <option value="$PROJECT_DIR$/good_causes2.php" />
         <option value="$PROJECT_DIR$/css/nav.css" />
         <option value="$PROJECT_DIR$/includes/nav.inc.php" />
+        <option value="$PROJECT_DIR$/index2.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -285,88 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="causes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="causes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="causeHome" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="N420-GCM" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,22 +365,23 @@
       <workItem from="1541527405026" duration="161000" />
       <workItem from="1541632966568" duration="15100000" />
       <workItem from="1541812921482" duration="1868000" />
-      <workItem from="1541820474900" duration="18906000" />
+      <workItem from="1541820474900" duration="19492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207538000" />
+    <option name="totallyTimeSpent" value="208124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="24" width="2527" height="1391" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18185654" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09814009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14048278" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -521,7 +393,6 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094135806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -848,7 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good_craftsmen2.php">
+    <entry file="file://$PROJECT_DIR$/good_craftsmen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
@@ -864,26 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/good_products2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/good_causes2.php">
+    <entry file="file://$PROJECT_DIR$/good_causes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="182" column="77" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -892,6 +747,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="91" column="53" lean-forward="false" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="232" column="48" lean-forward="false" selection-start-line="232" selection-start-column="48" selection-end-line="232" selection-end-column="48" />
           <folding />
         </state>
       </provider>
