@@ -7,7 +7,7 @@ require './includes/nav.inc.php';
         <div class="container80">
             <!--cart page title-->
             <div class="title">
-                <h3>2 items in your bag</h3>
+                <h3>2 Items In Your Bag</h3>
                 <p><a href="index.php">Continue shopping</a></p>
             </div>
             <!--cart page content-->
@@ -62,7 +62,7 @@ require './includes/nav.inc.php';
             </div><!-- end cart -->
 
             <div class="causeAmt">
-                <h3 class="amt">$00.00 of this purchase will go to a Good Cause</h3>
+                <h3 class="amt">$0.00 of this purchase will go to a <span>Good</span> Cause</h3>
             </div>
 
         </div><!--end container80-->

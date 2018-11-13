@@ -43,6 +43,9 @@ if ($title == 'Faqs') {
     <link rel="stylesheet" type="text/css" href="../css/cards.css" />
     <link rel="stylesheet" type="text/css" href="../css/fonts/clicker-font.css" />
 <!--    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />-->
+
+    <script src="../app/lib/jquery-3.1.1.js"></script>
+
 </head>
 
 

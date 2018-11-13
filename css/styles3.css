@@ -106,9 +106,9 @@ h1.clicker span { color: #8DC63F; font-style: italic; text-decoration: none;}
 
 /* ---- LOGO & KNOT ---- */
 
-.banner img {
-    width: 100%;
-}
+/*.banner img {*/
+    /*width: 100%;*/
+/*}*/
 
 
 
@@ -360,78 +360,62 @@ p.more span {
 
 /*-------------ABOUT--------------*/
 .about {
-    width: 80%;
+    width: 100%;
     margin:0 auto;
     height: 100%;
-}
-.aboutTitle {
-    width: 100%;
-    margin: 100px auto 80px auto;
-}
-h1.h1About {
-    width: 100%;
-    margin-bottom: 30px;
-    margin-left:0;
-    padding-left:0;
-    text-align: center;
-    font-size: 60px;
-    color: #8DC63F;
-    font-family: "Times New Roman", serif;
-    font-weight: normal;
-}
-.about span{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 .aboutContent {
-    margin: auto;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-content: center;*/
-    display: inline-block;
+    width:45%;
+    /*background-color: yellow;*/
+}
+/*.aboutTitle {*/
+    /*width: 100%;*/
+    /*margin: 100px auto 80px auto;*/
+/*}*/
+h3.clicker-sansSerif {
+    font-family: serif;
+    font-size: 44px;
+    font-weight: normal;
+    text-align: left;
+    width:100%;
+    margin-bottom:10px;
+    padding-left:10px;
+    color:#6b6b6b;
+}
+h3.clicker-sansSerif span {
+    color: #8DC63F; font-style: italic; text-decoration: none;
+    font-family: "ClickerScript-Regular", serif;
+    font-size: 60px;
 }
 .aboutContent p {
-    width: 45%;
     font-size:16px;
-    float:left;
+    /*background-color: aqua;*/
 }
-.about .aboutContent img {
-    margin-left: 40px;
-    width:50%;
-    float:right;
+.about-img {
+    margin-left:30px;
+    width: 55%;
+    /*background-color: lightpink;*/
+}
+.about-img img {
+    width:100%;
 }
 
 
 
 /*--------------FAQS--------------*/
 /* bannerFAQS */
-.bannerFAQS {
-    width: 90%;
-    margin: 100px auto 80px auto;
-}
-.bannerFAQS h1.h1FAQS {
-    width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 60px;
-    color: #8DC63F;
+.questions h4 {
+    font-size: 28px;
     font-family: "Times New Roman", serif;
-    font-weight: normal;
-}
-.bannerFAQS span{
-    font-family: "Times New Roman", serif;
-    font-style: italic;
-    text-decoration: none;
-}
-.bannerFAQS h2.h1FAQS {
-    width: 100%;
-    margin-bottom: 130px;
+    font-weight:normal;
+    color: #8e8e8e;
     text-align: center;
-    color: #6b6b6b;
-    font-weight: normal;
-    font-size:26px;
+    margin-bottom:80px;
 }
+
 /* ---- QUESTIONS ---- */
 .questions {
     width:100%;
@@ -443,34 +427,19 @@ h1.h1About {
     align-content: center;
     margin:20px auto;
     justify-content: space-between;
+    background-color: lightcyan;
 }
 .question:nth-child(5) {
-    border-top: 1px solid #6b6b6b;
+    /*border-top: 1px solid #6b6b6b;*/
 }
-.questionDown {
-    width: 90%;
-    /*border-bottom: 1px solid black;*/
-    display: flex;
-    align-content: center;
-    margin:20px auto 0 auto;
-    justify-content: space-between;
-}
-.questionDown h3.h3Questions {
+h5 {
     font-weight: normal;
-}
-.question h3.h3Questions {
-    font-weight: normal;
+    font-size:22px;
 }
 .question img.arrow {
     margin-left: auto;
     width:3%;
     height:3%;
-}
-.questionDown img.arrowDown {
-    margin-left: auto;
-    width:3%;
-    height:3%;
-    transform: rotate(90deg);
 }
 .answer {
     width:90%;
@@ -484,8 +453,20 @@ p.pAnswer {
     font-size:18px;
     margin-left: auto;
     color: #8e8e8e;
-    /*padding: 0px 0px 0px 50px;*/
     /*background-color: pink;*/
+}
+.rotate {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.icon-rotate {
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: inline-block;
 }
 
 
@@ -528,6 +509,7 @@ p.pAnswer {
 }
 .title p a {
     color:#8DC63F;
+    font-size:20px;
 }
 .title p a:hover {
     color: #6b6b6b;
@@ -586,6 +568,9 @@ p.pAnswer {
 .costCol {
     width: 25%;
 }
+.costCol .itemCost p.cost {
+    font-weight:bold;
+}
 .costCol .itemCost {
     width: 100%;
     display: flex;
@@ -618,9 +603,15 @@ p.pAnswer {
 h3.amt {
     color: #8DC63F;
     text-align: center;
-    font-size: 24px;
+    font-size: 38px;
     font-family: "Times New Roman", serif;
     font-weight: normal;
+}
+h3.amt span {
+    color: #8DC63F;
+    font-family: "ClickerScript-Regular", serif;
+    font-size:44px;
+    text-decoration: none;
 }
 
 
@@ -642,7 +633,8 @@ label {
 }
 legend.title h3 {
     text-align: center;
-    margin-bottom:0;
+    margin-bottom:20px;
+    font-size:42px;
 }
 input {
     display: block;
@@ -722,34 +714,47 @@ input[type="checkbox"]:checked + label:before {
     transform: rotate(45deg);
 }
 
-.zipCity {
+.zipCity, .cardNumType, .cvvDate {
     margin: auto;
     display: flex;
     justify-content: space-between;
     /*background-color: lightcyan;*/
 }
-.zipGrp label, .zipGrp input {
-    min-width: 125px;
+.zipGrp label, .zipGrp input, .cardtypeGrp label, .cardtypeGrp input, .cvvGrp label, .cvvGrp input {
+    min-width: 75px;
     /*background-color: pink;*/
 }
-.cityGrp label, .cityGrp input {
-    margin:0 0px 0 35px;
-    min-width: 250px;
+.cityGrp label, .cityGrp input, .cardnumGrp label, .cardnumGrp input, .dateGrp label, .dateGrp input {
+    margin:0 0 0 35px;
+    min-width: 300px;
     /*background-color: yellow;*/
 }
-.cityGrp label.city {
+.cityGrp label.city, .dateGrp label.expdate {
     margin: 0 0 5px 25px;
 }
-input#city, input#bill_city {
+.cardnumGrp label.cardnum {
+    margin: 0 0 5px 0;
+    min-width: 250px;
+}
+input#city, input#bill_city, input#expdate {
     width: 20%;
 }
+input#cardnum {
+    width:380px;
+    margin-left: 5px;
+}
+input#visa {
+    /*width: 0px;*/
+    padding-left:0;
+    padding-right:0;
+}
 input#visa.visa {
-    /*background-image: url("../images/icons/visa.jpg");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    /*background-position: center;*/
-    /*width: 100px;*/
-    /*border:0;*/
+    background-image: url("../images/icons/visa.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /*width: 30px;*/
+    border:0;
     /*background-color: transparent;*/
 }
 
@@ -800,7 +805,7 @@ button.continue {
     min-width:250px;
 }
 fieldset.billingInfo, fieldset.paymentInfo {
-    display:none;
+    /*display:none;*/
     margin-top:65px;
 }
 

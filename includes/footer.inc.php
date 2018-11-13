@@ -26,7 +26,12 @@
 </footer>
 
 
-<script src="../lib/jquery-3.1.1.min.js"></script>
+
+<script src="../app/jQueryRotate.js"></script>
+<script src="../app/dist/jquery.validate.js"></script>
+<script src="../app/dist/additional-methods.js"></script>
+<!--    <script src="../app/lib/require.js"></script>-->
+<script src="../app/formVal.js"></script>
 <script src="../app/app.js"></script>
 
 

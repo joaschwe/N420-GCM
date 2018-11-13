@@ -1,2 +1,4 @@
 
 RewriteEngine on
+
+AddHandler application/x-httpd-php .html .htm
