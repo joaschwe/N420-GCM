@@ -46,6 +46,12 @@ $("#shipForm").validate({
             required: true,
             numbers: true,
             exactlength: 5
+        },
+
+        bill_email: {
+            required: true,
+            email: true,
+            minlength: 5
         }
     },
     messages: {
@@ -75,8 +81,13 @@ $("#shipForm").validate({
             lettersonly: 'Letters only, please.'
         },
         zip: {
-            required: 'Please enter your zipcode.'
+            required: 'Please enter your zip oode.'
             // numbers: 'numbers only, please.'
+        },
+
+        bill_email: {
+            required: 'Please enter your email.',
+            minlength: 'Please enter a valid email.'
         }
     }
 });

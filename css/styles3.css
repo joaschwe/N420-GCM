@@ -641,7 +641,7 @@ fieldset {
 }
 label {
     /*display: block;*/
-    margin-top:15px;
+    margin:15px 0 3px 0;
 }
 
 legend.title h3 {
@@ -737,65 +737,35 @@ input[type="checkbox"]:checked + label:before {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: lightcyan;
+    /*background-color: lightcyan;*/
 }
 .zipGrp label, .zipGrp input {
     min-width: 75px;
     margin-left:15px;
-    background-color: pink;
-}
-.cardtypeGrp label, .cardtypeGrp input, .cvvGrp label, .cvvGrp input {
-    min-width: 75px;
-    background-color: pink;
-}
-/*.cityGrp label, .cityGrp input, .cardnumGrp label, .cardnumGrp input, .dateGrp label, .dateGrp input {*/
-.cardnumGrp label, .cardnumGrp input {
-    margin:0 0 0 35px;
-    min-width: 300px;
-    /*background-color: yellow;*/
+    /*background-color: pink;*/
 }
 /*.cityGrp label.city, .dateGrp label.expdate {*/
 .stateGrp {
     width:10%;
-    background-color:yellow;
+    /*background-color:yellow;*/
 }
 .stateGrp label.state  {
     margin: 0 0 5px 5px;
 }
-input#state {
+input#state, input#zip, input#bill_state, input#bill_zip {
     width:20%;
     min-width:100px;
 }
-input#zip {
-    width:20%;
-    min-width:100px;
+.cardtypeGrp label, .cardtypeGrp input, .cvvGrp label, .cvvGrp input {
+    min-width: 75px;
+    /*background-color: pink;*/
 }
-
-.dateGrp label.expmonth {
-    margin: 0 0 5px 0;
+/*.cityGrp label, .cityGrp input, .cardnumGrp label, .cardnumGrp input, .dateGrp label, .dateGrp input {*/
+.cardnumGrp input {
+    margin:0 0 0 35px;
+    min-width: 300px;
+    /*background-color: yellow;*/
 }
-.dateGrp select {
-    width:100px;
-    min-width: 100px;
-    display:inline-block;
-    height:32px;
-    font-size:14px;
-    border-radius: 1px;
-    margin: 1px 0 15px 5px;
-    background-color: white;
-    color: #6b6b6b;
-    outline:none;
-    -webkit-box-shadow: none;
-    border:1px solid #6b6b6b;
-}
-
-.cardnumGrp label.cardnum {
-    margin: 0 0 5px 0;
-    min-width: 250px;
-}
-/*input#state, input#bill_city, input#expdate {*/
-    /*width: 20%;*/
-/*}*/
 input#cardnum {
     width:380px;
     margin-left: 5px;
@@ -814,6 +784,46 @@ input#visa.visa {
     border:0;
     /*background-color: transparent;*/
 }
+.cardnumGrp label.cardnum {
+    margin: 0 0 5px 0;
+    min-width: 250px;
+}
+.cvvGrp {
+    width:48%;
+    /*background-color:pink;*/
+}
+.cvvDate {
+    /*background-color: lightblue;*/
+}
+.dateGrp {
+    /*background-color: orange;*/
+    width:50%;
+}
+
+.dateGrp label.expmonth {
+    margin: 0 0 0 0;
+    display:block;
+}
+.dateGrp select {
+    width:100px;
+    min-width: 100px;
+    display:inline-block;
+    height:32px;
+    font-size:14px;
+    border-radius: 1px;
+    margin: 0 0 15px 5px;
+    background-color: white;
+    color: #6b6b6b;
+    outline:none;
+    -webkit-box-shadow: none;
+    border:1px solid #6b6b6b;
+}
+
+
+/*input#state, input#bill_city, input#expdate {*/
+    /*width: 20%;*/
+/*}*/
+
 
 
 

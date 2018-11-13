@@ -66,28 +66,44 @@ require './includes/navLogoOnly.inc.php';
                         <label for="checkbox1">Same as Shipping</label>
                     </div>
 
-                    <label for="bill_email">Email</label><label class="error"></label>
+                    <label for="bill_email">Email</label>
+                    <label for="bill_email" generated="true" class="error together"></label>
                     <input type="email" id="bill_email" name="bill_email">
+
                     <label for="bill_fname">First Name</label>
+                    <label for="bill_fname" generated="true" class="error together"></label>
                     <input type="text" id="bill_fname" name="bill_fname"/>
+
                     <label for="bill_lname">Last Name</label>
+                    <label for="bill_lname" generated="true" class="error together"></label>
                     <input type="text" id="bill_lname" name="bill_lname"/>
+
                     <label for="bill_address">Street Address</label>
+                    <label for="bill_address" generated="true" class="error together"></label>
                     <input type="text" id="bill_address" name="bill_address"/>
+
                     <label for="bill_apt">Apt/Suite/Other (optional)</label>
+                    <label for="bill_apt" generated="true" class="error together"></label>
                     <input type="text" id="bill_apt" name="bill_apt"/>
-                    <div class="zipCity">
-                        <div class="zipGrp">
-                            <label for="bill_zip" class="zip">Zip Code</label>
-                            <input type="text" id="bill_zip" name="bill_zip"/>
-                        </div>
-                        <div class="cityGrp">
-                            <label for="bill_city" class="city">City</label>
-                            <input type="text" id="bill_city" name="bill_city"/>
-                        </div>
-                    </div>
+
+                    <label for="bill_city" class="city">City</label>
+                    <label for="bill_city" generated="true" class="error together"></label>
+                    <input type="text" id="bill_city" name="bill_city"/>
+<!--                    <div class="zipCity">-->
+<!--                        <div class="zipGrp">-->
                     <label for="bill_state">State</label>
+                    <label for="bill_state" generated="true" class="error together"></label>
                     <input type="text" id="bill_state" name="bill_state"/>
+
+                    <label for="bill_zip" class="zip">Zip Code</label>
+                    <label for="bill_zip" generated="true" class="error together"></label>
+                            <input type="text" id="bill_zip" name="bill_zip"/>
+<!--                        </div>-->
+<!--                        <div class="cityGrp">-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+
 
                     <div class="buttons">
                         <button class="payment" type="button">Continue to Payment</button>
@@ -99,16 +115,18 @@ require './includes/navLogoOnly.inc.php';
                     <legend class="title"><h3>Payment</h3></legend>
 
                     <label for="cardname">Cardholder Name</label>
+                    <label for="cardname" generated="true" class="error together"></label>
                     <input type="text" id="cardname" name="cardname"/>
 
                     <div class="cardNumType">
                         <div class="cardnumGrp">
                             <label for="cardnum" class="cardnum">Card Number</label>
+                            <label for="cardnum" generated="true" class="error together"></label>
                             <input name="cardnum" type="number" id="cardnum"/>
                         </div>
                         <div class="cardtypeGrp">
                             <label for="visa" class="cardtype">&nbsp;</label>
-                            <input type="text" id="visa" name="visa" class="visa"/>
+                            <input type="text" id="visa" name="visa" class="visa" disabled/>
                         </div>
 
                     </div>
@@ -117,10 +135,12 @@ require './includes/navLogoOnly.inc.php';
                     <div class="cvvDate">
                         <div class="cvvGrp">
                             <label for="cvv" class="cvv">CVV</label>
+                            <label for="cvv" generated="true" class="error together"></label>
                             <input type="number" id="cvv" name="cvv"/>
                         </div>
                         <div class="dateGrp">
                             <label for="expmonth" class="expmonth">Expiration Date</label>
+                            <label for="expmonth" generated="true" class="error together"></label>
                             <select name="expmonth">
                                 <option value="01">01</option>
                                 <option value="02">02</option>
