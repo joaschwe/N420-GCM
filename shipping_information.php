@@ -9,31 +9,49 @@ require './includes/navLogoOnly.inc.php';
         <div class="container80">
 
             <!---shipping form--->
-            <form id="shipForm" method="post" action="" >
+
+
+            <form id="shipForm" method="post" action="purchase.php" >
                 <fieldset class="shippingInfo">
                     <legend class="title"><h3>Shipping</h3></legend>
-                    <label for="email">Email</label>
+
+                    <label for="email" class="together">Email</label>
+                    <label for="email" generated="true" class="error together"></label>
                     <input type="email" id="email" name="email">
+
                     <label for="fname">First Name</label>
+                    <label for="fname" generated="true" class="error together"></label>
                     <input type="text" id="fname" name="fname"/>
+
                     <label for="lname">Last Name</label>
+                    <label for="lname" generated="true" class="error together"></label>
                     <input type="text" id="lname" name="lname"/>
+
                     <label for="address">Street Address</label>
+                    <label for="address" generated="true" class="error together"></label>
                     <input type="text" id="address" name="address"/>
+
                     <label for="apt">Apt/Suite/Other (optional)</label>
                     <input type="text" id="apt" name="apt"/>
-                    <div class="zipCity">
-                        <div class="zipGrp">
+
+                    <label for="city">City</label>
+                    <label for="city" generated="true" class="error together"></label>
+                    <input type="text" id="city" name="city"/>
+
+<!--                    <div class="zipState">-->
+<!--                        <div class="stateGrp">-->
+                            <label for="state" class="state">State</label>
+                            <label for="state" generated="true" class="error together"></label>
+                            <input type="text" id="state" name="state"/>
+<!--                        </div>-->
+<!--                        <div class="zipGrp">-->
                             <label for="zip" class="zip">Zip Code</label>
+                            <label for="zip" generated="true" class="error together"></label>
                             <input type="text" id="zip" name="zip"/>
-                        </div>
-                        <div class="cityGrp">
-                            <label for="city" class="city">City</label>
-                            <input type="text" id="city" name="city"/>
-                        </div>
-                    </div>
-                    <label for="state">State</label>
-                    <input type="text" id="state" name="state"/>
+<!--                        </div>-->
+
+<!--                    </div>-->
+
 
                     <div class="buttons">
                         <button class="continue" type="button">Continue to Billing</button>
@@ -48,7 +66,7 @@ require './includes/navLogoOnly.inc.php';
                         <label for="checkbox1">Same as Shipping</label>
                     </div>
 
-                    <label for="bill_email">Email</label>
+                    <label for="bill_email">Email</label><label class="error"></label>
                     <input type="email" id="bill_email" name="bill_email">
                     <label for="bill_fname">First Name</label>
                     <input type="text" id="bill_fname" name="bill_fname"/>
@@ -102,15 +120,42 @@ require './includes/navLogoOnly.inc.php';
                             <input type="number" id="cvv" name="cvv"/>
                         </div>
                         <div class="dateGrp">
-                            <label for="expdate" class="expdate">Expire Date</label>
-                            <input type="date" id="expdate"name="expdate" placeholder="05 / 21"/>
+                            <label for="expmonth" class="expmonth">Expiration Date</label>
+                            <select name="expmonth">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+
+<!--                            <label for="expyear" class="expyear"></label>-->
+                            <select name="expyear">
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                            </select>
+<!--                            <input type="date" id="expdate"name="expdate" placeholder="05 / 21"/>-->
                         </div>
                     </div>
 
                     <div class="buttons">
                         <button class="cartPg">Back to Cart</button>
 <!--                        <button class="checkout go-checkout" type="submit">Review Order</button>-->
-                        <button class="checkout " type="submit">Review Order</button>
+                        <button class="checkout go-checkout" type="submit">Review Order</button>
                     </div>
                 </fieldset>
             </form>

@@ -22,12 +22,12 @@ function setBindings() {
         $(location).attr('href', url);
         evt.preventDefault();
     });
-    $("button.checkout").click(function (evt) {
-        var url = "purchase.php";
-        $(location).attr('href', url);
-        evt.preventDefault();
-
-    });
+    // $("button.checkout").click(function (evt) {
+    //     var url = "purchase.php";
+    //     $(location).attr('href', url);
+    //     evt.preventDefault();
+    //
+    // });
     $("button.order").click(function () {
         var url = "order_complete.php";
         $(location).attr('href', url);
@@ -50,7 +50,8 @@ function setBindings() {
         if (this.checked) {
             //get the values of the filled fields
             $email = $("#email").val();
-            $name = $("#name").val();
+            $fname = $("#fname").val();
+            $lname = $("#lname").val();
             $address = $("#address").val();
             $apt = $("#apt").val();
             $zip = $("#zip").val();
@@ -60,7 +61,8 @@ function setBindings() {
             // then add those values to your billing infor window fields
 
             $("#bill_email").val($email);
-            $("#bill_name").val($name);
+            $("#bill_fname").val($fname);
+            $("#bill_lname").val($lname);
             $("#bill_address").val($address);
             $("#bill_apt").val($apt);
             $("#bill_zip").val($zip);
