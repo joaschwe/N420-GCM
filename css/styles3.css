@@ -427,7 +427,7 @@ h3.clicker-sansSerif span {
     align-content: center;
     margin:20px auto;
     justify-content: space-between;
-    background-color: lightcyan;
+    /*background-color: lightcyan;*/
 }
 .question:nth-child(5) {
     /*border-top: 1px solid #6b6b6b;*/
