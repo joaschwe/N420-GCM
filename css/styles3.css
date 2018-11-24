@@ -22,14 +22,15 @@ Myriad Pro is main font
 
 html, body {
     height: 100%;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
 }
 
 
 html, body {
     /*height: 100%;*/
-    font-family: "Myriad Pro", sans-serif;
+    font-family: "Avenir", sans-serif;
     background-color: #fafafa;
+    font-size: 16px;
     width: 100%;
     margin:auto;
     min-width: 1024px;
@@ -44,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 .container {
     width: 90%;
@@ -100,7 +101,9 @@ h1.clicker:after {
     left: 0.3em;
     margin-right: -50%;
 }
-h1.clicker span { color: #8DC63F; font-style: italic; text-decoration: none;}
+h1.clicker span { color: #8DC63F;
+    /*font-style: italic;*/
+    text-decoration: none;}
 
 
 
@@ -147,7 +150,7 @@ h1.clicker span { color: #8DC63F; font-style: italic; text-decoration: none;}
     font-weight: lighter;
     text-decoration: none;
     color:white;
-    font-family: "Times New Roman", serif;
+    font-family: "ClickerScript-Regular", serif;
 }
 .banner button span:hover {
     color: #8DC63F;
@@ -371,6 +374,20 @@ p.more span {
     width:45%;
     /*background-color: yellow;*/
 }
+.maintitle {
+    display: flex;
+    margin-bottom:20px;
+
+}
+label#inline, input#inline {
+    display: inline;
+    font-size: 18px;
+    color:#A7A9AC;
+}
+input#inline {
+    width:300px;
+    border:1px solid #A7A9AC;
+}
 /*.aboutTitle {*/
     /*width: 100%;*/
     /*margin: 100px auto 80px auto;*/
@@ -386,7 +403,9 @@ h3.clicker-sansSerif {
     color:#6b6b6b;
 }
 h3.clicker-sansSerif span {
-    color: #8DC63F; font-style: italic; text-decoration: none;
+    color: #8DC63F;
+    /*font-style: italic; */
+    text-decoration: none;
     font-family: "ClickerScript-Regular", serif;
     font-size: 60px;
 }
@@ -395,26 +414,18 @@ h3.clicker-sansSerif span {
     /*background-color: aqua;*/
 }
 .about-img {
-    margin-left:30px;
+    margin-left:60px;
     width: 55%;
     /*background-color: lightpink;*/
 }
 .about-img img {
-    width:100%;
+    width:70%;
+    height:30%;
 }
 
 
 
-/*--------------FAQS--------------*/
-/* bannerFAQS */
-.questions h4 {
-    font-size: 28px;
-    font-family: "Times New Roman", serif;
-    font-weight:normal;
-    color: #8e8e8e;
-    text-align: center;
-    margin-bottom:80px;
-}
+
 
 /* ---- QUESTIONS ---- */
 .questions {
@@ -920,6 +931,72 @@ fieldset.billingInfo, fieldset.paymentInfo {
 }
 
 
+/*--------------FAQS--------------*/
+/* bannerFAQS */
+.questions h4 {
+    font-size: 28px;
+    font-family: "Times New Roman", serif;
+    font-weight:normal;
+    color: #8e8e8e;
+    text-align: center;
+    margin-bottom:80px;
+}
+.cat h5, .cat img {
+    display: inline-block;
+}
+input[type='range']#range {
+    width:50px;
+}
+.radio-row#radio-row {
+    width: 250px;
+    display:inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    margin:0;
+    padding:0;
+    background-color: yellow;
+}
+.radio-row input[type='radio']#blue, .radio-row input[type='radio']#orange {
+    margin:0;
+    padding:0;
+    display: inline-block;
+    width:30px;
+    min-width:30px;
+    position: relative;
+    top:5px;
+    left:0;
+    float: left;
+    /*text-align: left;*/
+    background-color: lightpink;
+}
+.radio-row input[type='radio']#orange {
+position: relative;
+    top:5px;
+    left:20px;
+}
+.radio-row label#label-blue, .radio-row label#label-orange {
+    position: relative;
+    /*top:0;*/
+    /*left:0px;*/
+    margin: 0;padding: 0;
+    float:left;
+    top:5px;
+    left:20px;
+
+}
+.radios {
+    text-align: left;
+    margin:0;
+    padding:0;
+    width:250px;
+    min-width: 150px;
+    /*float: left;*/
+    background-color: lightgreen;
+}
+/*.radio-row input, .radio-row label {*/
+    /*display: inline-block;*/
+    /*display: flex;*/
+/*}*/
 
 
 /* ---- FOOTER ---- */

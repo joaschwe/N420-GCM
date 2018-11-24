@@ -13,12 +13,47 @@ require './includes/nav.inc.php';
     <!-- PRODUCTS -> clothing access & jewel -->
 
     <h1 class="clicker">Clothing, Accessories & Jewelry</h1>
+<div class="inline">
+    <aside class="filterPanel">
+        <h5>Filters</h5>
+        <hr>
+        <div class="cat">
+            <h5>Category</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
+        </div>
+        <div class="cat">
+            <h5>Brand</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
+        </div>
+        <div class="cat">
+            <h5>Organize by:</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
+        </div>
+        <div>
+            <label>Price</label>
+            <input type="range" id="range">
+        </div>
+        <div class="radios">
+            <h5>Color</h5>
+            <div class="radio-row" id="radio-row">
+                <input type="radio" value="Blue" id="blue" checked>
+                <label for="radio" id="label-blue">Blue</label>
+                <input type="radio" value="Orange" id="orange" checked>
+                <label for="radio" id="label-orange">Orange</label>
+            </div>
+            <div class="radio-row">
+                <input type="radio" value="Blue" checked>
+                <label for="radio">Yellow</label>
+                <input type="radio" value="Blue" checked>
+                <label for="radio">Green</label>
+            </div>
+        </div>
+        <hr>
+        <button type="submit" value="Apply Filter">Apply Filter</button>
 
-    <div class="card-container">
-        <div class="card">
+    </aside>
+    <div class="card-container inline-card-container">
+        <div class="card xs">
             <img src="images/products/prodLand/product1.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -27,10 +62,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product2.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -39,10 +74,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product3.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -51,10 +86,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product4.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -63,10 +98,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product5.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -75,10 +110,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product6.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -87,10 +122,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product7.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -99,10 +134,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/prodLand/product8.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -111,10 +146,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj6.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -123,10 +158,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj7.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -135,10 +170,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj8.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -147,10 +182,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj9.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -159,10 +194,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj10.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -171,10 +206,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj11.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -183,10 +218,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj12.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -195,10 +230,10 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
+        <div class="card xs">
             <img src="images/products/clothingAccessJewel/caj6.jpg">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="#"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -208,7 +243,7 @@ require './includes/nav.inc.php';
             </div>
         </div>
     </div>
-
+</div>
 
     <!--FOOTER-->
     <?php

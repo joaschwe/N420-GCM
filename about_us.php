@@ -9,7 +9,11 @@ require './includes/nav.inc.php';
 
         <!--about content-->
         <div class="aboutContent">
+
+            <div class="maintitle">
+                <img src="images/logos/GCM-knot.png" style="display: inline;">
             <h3 class="clicker-sansSerif">About <span>Good Cause Market</span></h3>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. In nibh mauris cursus
@@ -26,11 +30,12 @@ require './includes/nav.inc.php';
                 suspendisse sed nisi lacus. Dolor sit amet consectetur adipiscing elit. Hac habitasse platea dictumst
                 vestibulum rhoncus est pellentesque elit.
             </p>
+
         </div>
 
         <!--about image-->
         <div class="about-img">
-            <img src="images/logos/good.jpg">
+            <img src="images/logos/GCM-knot.png">
         </div>
 
     </div>

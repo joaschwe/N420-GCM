@@ -6,8 +6,8 @@ ini_set('display_errors', E_ALL);
 //basename global function returns filename only in the absolute path
 
 
-define("ABSOLUTE_PATH", "/home/students/joaschwe/public_html/N420-Multimedia-Proj-Dev/N420-GCM/");
-define("URL_ROOT", "https://in-info-web4.informatics.iupui.edu/~joaschwe/N420-Multimedia-Proj-Dev/N420-GCM/");
+//define("ABSOLUTE_PATH", "/home/students/joaschwe/public_html/N420-Multimedia-Proj-Dev/N420-GCM/");
+//define("URL_ROOT", "https://in-info-web4.informatics.iupui.edu/~joaschwe/N420-Multimedia-Proj-Dev/N420-GCM/");
 
 //added paths for files to reference to
 //url_root is absolute path on the server; this file is currently running off of a local server

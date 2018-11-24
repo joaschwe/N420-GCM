@@ -13,7 +13,7 @@ require './includes/nav.inc.php';
     <!--BANNER-->
     <div class="banner">
         <img src="images/logos/GCM-logo-w-tag.png">
-        <button>Support a <span>Good</span> Cause</button>
+        <button>Go Fundshopping!</button>
     </div>
 
     <!--KNOT-->
@@ -168,7 +168,7 @@ require './includes/nav.inc.php';
 
     <!--CRAFTSMAN-->
     <!--    <div class="craftsman">-->
-    <h1 class="clicker">Craftsman</h1>
+    <h1 class="clicker">Craftsmen</h1>
 
     <div class="card-container">
         <div class="card">

@@ -9,14 +9,16 @@ require './includes/nav.inc.php';
 
 <div class="container">
 
-    <div class="x3">
     <h1 class="clicker"><span>Good</span> Craftsmen</h1>
+    <label for="sort-craftsman" id="inline">Sort by: </label>
+    <input type="text" name="sort-craftsman" id="inline">
+    <div class="x3">
 
     <div class="card-container">
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman1.png">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -28,7 +30,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman2.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -40,7 +42,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman3.png">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -52,7 +54,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman4-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -64,7 +66,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman5-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -76,7 +78,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman6-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -88,7 +90,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman7-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -100,7 +102,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman8-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -112,7 +114,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftHome/craftsman9-small.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit

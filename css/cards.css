@@ -10,6 +10,22 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     flex-direction:row;
     /*background-color: pink;*/
 }
+.inline {
+    /*flex: 0 0 auto;*/
+    /*flex-shrink: 0;*/
+    min-width: 1024px;
+    flex-wrap: nowrap;
+    display: inline-flex;
+}
+.inline-card-container {
+    /*display: inline-block;*/
+    width:84%;
+    /*display:inline-flex;*/
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content:space-between;*/
+    /*flex-direction:row;*/
+}
 .card {
     background-color: white;
     margin: 20px;
@@ -17,6 +33,9 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     min-width:200px;
     box-sizing: border-box;
     flex:auto; /*puts as many in the row it can, with fixed width it keeps all cards that width, bumps rest to next row.....with % it keeps to a set # in a row and shrinks down to min-width*/
+}
+.xs {
+    min-width: 150px;
 }
 .x3 .card { /*-- 3 cards/row --*/
     background-color: white;
@@ -37,6 +56,12 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     height:100%;
     position:relative;
 }
+.filterPanel {
+    /*width: 200px;*/
+    /*margin:20px 20px 20px 0;*/
+    /*box-sizing: border-box;*/
+    background-color: lightcyan;
+}
 .card img {
     width: 100%;
 }
@@ -48,6 +73,12 @@ margin-left:20px; <--but then there's 20px added on to last child, too
 .card-content { /*padding around content*/
     padding: 2px 16px;
     position: relative;
+}
+.card-content a {
+    text-decoration: none;
+}
+.card-content h3:hover, .card-content h4:hover {
+    color:#8DC63F;
 }
 p.price {
     text-align: left;
