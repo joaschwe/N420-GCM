@@ -14,7 +14,7 @@ require './includes/nav.inc.php';
             <!--about image-->
             <div class="flex-craft">
                 <div class="craft-img">
-                    <img src="images/causes/causeHome/Home-Brewers-Association.png">
+                    <img src="images/causes/causeHome/autism.png">
                     <div class="social-media">
                         <i class="fa-globe"></i>
                         <i class="fa-twitter"></i>
@@ -25,7 +25,7 @@ require './includes/nav.inc.php';
 
 
                 <div class="maintitle-craft">
-                    <h3 class="clicker-sansSerif">Cause Name</h3>
+                    <h3 class="clicker-sansSerif">Ambitious about Autism</h3>
                     <h3 class="craft-subhead">sub-header</h3>
                     <h4 class="location">Location area here | a <span>Good</span> Craftsman since 2018</h4>
                 </div>
@@ -73,18 +73,6 @@ require './includes/nav.inc.php';
 
     <div class="xs">
         <div class="card-container">
-            <a href="cause-autism.php"><div class="card">
-                <img src="images/causes/causeHome/autism.png">
-                <div class="card-content">
-                    <a href="cause-autism.php"><h3>Excepteur Sint</h3></a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                    </p>
-                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-                </div>
-            </div></a>
             <div class="card">
                 <img src="images/causes/causeHome/boysgirlsclub.png">
                 <div class="card-content">
@@ -111,6 +99,18 @@ require './includes/nav.inc.php';
             </div>
             <div class="card">
                 <img src="images/causes/causeHome/coworker.jpg">
+                <div class="card-content">
+                    <a href="cause.php"><h3>Excepteur Sint</h3></a>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id est laborum.
+                    </p>
+                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/causes/causeHome/red.png">
                 <div class="card-content">
                     <a href="cause.php"><h3>Excepteur Sint</h3></a>
                     <p>
