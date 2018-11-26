@@ -54,4 +54,32 @@ if ($title == 'Faqs') {
 
 
 <body>
-<!--<div class="modal">-->
+
+<!-- The Modal -->
+<div id="login-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Log In</h2>
+            <hr/>
+        </div>
+        <div class="modal-body">
+            <form>
+                <fieldset id="login">
+                    <h1 id="welcome">Welcome Back!</h1>
+                    <input class="modal-input" type="text" placeholder="Username">
+                    <input class="modal-input" type="text" placeholder="Password">
+                    <p>Forgot your password? Click here.</p>
+                    <div class="modal-btns">
+                    <button class="modal-btn">Sign Up</button>
+                    <button type="submit" class="modal-btn" id="user-login">Log In</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</div>
+

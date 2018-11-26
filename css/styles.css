@@ -655,7 +655,7 @@ legend.title h3 {
     margin-bottom:20px;
     font-size:42px;
 }
-input {
+input.shipping {
     display: block;
     margin: 0 0 15px 5px;
     padding:7px;
@@ -669,25 +669,25 @@ input {
     border:1px solid #6b6b6b;
 }
 
-input, button, textarea, select, input[type="checkbox"] {
+input.shipping, button, textarea, select.shipping, input.shipping[type="checkbox"] {
     outline:none;
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input.shipping[type=number]::-webkit-inner-spin-button,
+input.shipping[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-input[type="checkbox"] {
+input.shipping[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-input:-webkit-autofill:focus {
+input.shipping:-webkit-autofill:focus {
     -webkit-box-shadow: /*your box-shadow*/0 0 0 30px white inset;
     -webkit-text-fill-color: #6b6b6b;
 }
-input:-webkit-autofill {
+input.shipping:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px white inset;
     -webkit-text-fill-color: #6b6b6b;
 }
@@ -696,8 +696,8 @@ input:-webkit-autofill {
 .checkbox {
     margin:15px 0 20px 5px;
 }
-input[type="checkbox"] { display: none; }
-input[type="checkbox"] + label {
+input.shipping[type="checkbox"] { display: none; }
+input.shipping[type="checkbox"] + label {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -709,8 +709,8 @@ input[type="checkbox"] + label {
     -moz-user-select: none;
     -ms-user-select: none;
 }
-input[type="checkbox"] + label:last-child { margin-bottom: 0; }
-input[type="checkbox"] + label:before {
+input.shipping[type="checkbox"] + label:last-child { margin-bottom: 0; }
+input.shipping[type="checkbox"] + label:before {
     content: '';
     display: block;
     width: 20px;
@@ -725,7 +725,7 @@ input[type="checkbox"] + label:before {
     -webkit-transition: all .12s, border-color .08s;
     transition: all .12s, border-color .08s;
 }
-input[type="checkbox"]:checked + label:before {
+input.shipping[type="checkbox"]:checked + label:before {
     width: 10px;
     top: -5px;
     left: 5px;
@@ -745,7 +745,7 @@ input[type="checkbox"]:checked + label:before {
     justify-content: space-between;
     /*background-color: lightcyan;*/
 }
-.zipGrp label, .zipGrp input {
+.zipGrp label, .zipGrp input.shipping {
     min-width: 75px;
     margin-left:15px;
     /*background-color: pink;*/
@@ -758,30 +758,30 @@ input[type="checkbox"]:checked + label:before {
 .stateGrp label.state  {
     margin: 0 0 5px 5px;
 }
-input#state, input#zip, input#bill_state, input#bill_zip {
+input.shipping#state, input.shipping#zip, input.shipping#bill_state, input.shipping#bill_zip {
     width:20%;
     min-width:100px;
 }
-.cardtypeGrp label, .cardtypeGrp input, .cvvGrp label, .cvvGrp input {
+.cardtypeGrp label, .cardtypeGrp input.shipping, .cvvGrp label, .cvvGrp input.shipping {
     min-width: 75px;
     /*background-color: pink;*/
 }
 /*.cityGrp label, .cityGrp input, .cardnumGrp label, .cardnumGrp input, .dateGrp label, .dateGrp input {*/
-.cardnumGrp input {
+.cardnumGrp input.shipping {
     margin:0 0 0 35px;
     min-width: 300px;
     /*background-color: yellow;*/
 }
-input#cardnum {
+input.shipping#cardnum {
     width:380px;
     margin-left: 5px;
 }
-input#visa {
+input.shipping#visa {
     /*width: 0px;*/
     padding-left:0;
     padding-right:0;
 }
-input#visa.visa {
+input.shipping#visa.visa {
     background-image: url("../images/icons/visa.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -810,7 +810,7 @@ input#visa.visa {
     margin: 0 0 0 0;
     display:block;
 }
-.dateGrp select {
+.dateGrp select.shipping {
     width:100px;
     min-width: 100px;
     display:inline-block;
@@ -1108,11 +1108,155 @@ footer {
 
 
 
+/* -------- MODAL -------- */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding:0;
+    width: 450px;  /* width of modal */
+    min-width:450px; /* minimum width of modal */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 4px;
+    background-color: white;  /* bg color of modal */
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #BCBEC0;
+    float: right;
+    padding-right:15px;
+    padding-top:0;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #8DC63F;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    /*padding: 2px 16px;*/
+    background-color: white;
+    color: #8e8e8e;
+    border-radius: 4px;
+    margin-bottom:40px;
+    border-bottom:1px solid #BCBEC0;
+}
+.modal-header h2 {
+    font-family: "Avenir", sans-serif;
+    font-size: 16px;
+    color:#BCBEC0;
+    width:100%;
+    padding-top:15px;
+    margin:20px;
+}
+h1#welcome {
+    font-size:30px;
+    margin-bottom:30px;
+}
+.modal-body {padding: 2px 16px; margin:0 auto;
+    }
+/* form: body area */
+.modal-body form {
+    padding:0;
+    margin:0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    /*background-color: lightcyan;*/
+}
+
+
+
+input.modal-input {
+    display: block;
+    margin: 0 auto 15px auto;
+    padding:7px;
+    font-size:16px;
+    border-radius: 3px;
+    background-color:rgba(174,215,122,0.3); /* Green w/ opacity */
+    color: #6b6b6b;
+    outline:none;
+    width:85%;
+    -webkit-box-shadow: none;
+    border:1px solid #6b6b6b;
+}
+
+input.modal-input, button {
+    outline:none;
+}
+input.modal-input:-webkit-autofill:focus {
+    -webkit-box-shadow: /*your box-shadow*/0 0 0 30px white inset;
+    -webkit-text-fill-color: #6b6b6b;
+}
+input.modal-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+    -webkit-text-fill-color: #6b6b6b;
+}
+button.modal-btn {
+    font-size:16px;
+    width:150px;
+    text-decoration: none;
+}
+button.modal-btn:hover {
+    background-color: white;
+    color:#8DC63F;
+    border:2px solid #8DC63F;
+}
+.modal-body a {
+    text-decoration: none;
+}
+button.modal-btn:first-child {
+    margin-right:30px;
+}
+.modal-btns {
+    margin-top: 70px;
+    margin-bottom:20px;
+}
 
 
 
 
-
+/*--------- User Page -------- */
+i.fa-user {
+    text-align: center;
+    font-size: 40px;
+}
 
 
 

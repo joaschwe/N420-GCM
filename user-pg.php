@@ -11,9 +11,10 @@ require './includes/nav.inc.php';
             <!---shipping form--->
 
 
-            <form id="shipForm" method="post" action="purchase.php" >
+            <form id="userForm" method="post" action="purchase.php" >
+                <i class="fa-user"></i>
                 <fieldset class="shippingInfo">
-                    <legend class="title"><h3>Shipping</h3></legend>
+                    <legend class="title"><i class="fa-user"></i></legend>
 
                     <label for="email" class="together">Email</label>
                     <label for="email" generated="true" class="error together"></label>
@@ -38,25 +39,13 @@ require './includes/nav.inc.php';
                     <label for="city" generated="true" class="error together"></label>
                     <input class="shipping" type="text" id="city" name="city"/>
 
-<!--                    <div class="zipState">-->
-<!--                        <div class="stateGrp">-->
                             <label for="state" class="state">State</label>
                             <label for="state" generated="true" class="error together"></label>
                             <input class="shipping" type="text" id="state" name="state"/>
-<!--                        </div>-->
-<!--                        <div class="zipGrp">-->
+
                             <label for="zip" class="zip">Zip Code</label>
                             <label for="zip" generated="true" class="error together"></label>
                             <input class="shipping" type="text" id="zip" name="zip"/>
-<!--                        </div>-->
-
-<!--                    </div>-->
-
-
-<!--                    <div class="buttons">-->
-<!--                        <button class="continue" type="button">Continue to Billing</button>-->
-<!--                    </div>-->
-                    <!--                    <button class="showAll">SHOW ALL INFO</button>-->
                 </fieldset>
 
                 <fieldset class="billingInfo">

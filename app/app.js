@@ -20,34 +20,31 @@ function setBindings() {
         });
     }
 
-    //various buttons
-    $("button.shipping").click(function (evt) {
-        var url = "shipping_information.php";
-        $(location).attr('href', url);
-        evt.preventDefault();
-    });
-    // $("button.checkout").click(function (evt) {
-    //     var url = "purchase.php";
-    //     $(location).attr('href', url);
-    //     evt.preventDefault();
-    //
-    // });
-    $("button.order").click(function () {
-        var url = "order_complete.php";
-        $(location).attr('href', url);
-    });
-    $("button.shopping").click(function () {
-        var url = "index.php";
-        $(location).attr('href', url);
-    });
-    $("button.back").click(function () {
-        window.history.back();
-    });
-    $("button.cartPg").click(function () {
-        var url = "your_cart.php";
-        $(location).attr('href', url);
+
+    // MODAL
+// When the user clicks the button, open the modal
+    $('#loginBtn').click(function() {
+        $('.modal').css('display', 'block')
     });
 
+// When the user clicks on <span> (x), close the modal
+    $('span').click(function(e) {
+            $('.modal').css('display', 'none');
+    });
+
+// When the user clicks anywhere outside of the modal, close it
+    $('window').click(function(e) {
+        if (e.target == modal) {
+            $(this).css('display', 'none');
+        }
+    });
+
+    // When the user clicks the login button, go to user page
+    $('button#user-login').click(function() {
+        var go_to_url = 'user-pg.php';
+        //this will redirect us in new tab
+        window.open(go_to_url, '_blank');
+    });
 
     //form copy ship info to billing
     $("#checkbox1").change(function () {

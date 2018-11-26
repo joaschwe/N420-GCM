@@ -9,6 +9,8 @@
 $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
 ?>
 
+
+
 <div class="navContainer">
 
 
@@ -27,7 +29,7 @@ $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
         <div><a href="#"><span>Become a Cause</span></a></div>
         <div><a href="#">Become a Vendor</a></div>
         <div><a href="#">Sign Up</a></div>
-        <div><a href="#">Log In</a></div>
+        <div id="loginBtn"><a href="#">Log In</a></div>
     </nav>
 
     </div>
