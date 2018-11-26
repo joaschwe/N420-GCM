@@ -6,8 +6,6 @@ require './includes/nav.inc.php';
 
 <div class="container">
 
-    <div class="craftman">
-
         <!--about content-->
         <div class="craftmanContent">
 
@@ -65,7 +63,7 @@ require './includes/nav.inc.php';
     </div>
 
 <div class="sort">
-    <p>Products (4)</p>
+    <p>Products by this Craftsman (4)</p>
     <div class="sort-box">
     <label for="sort-craftsman" id="inline">Sort by: </label>
     <input type="text" name="sort-craftsman" id="inline">

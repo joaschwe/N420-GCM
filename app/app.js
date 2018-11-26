@@ -46,6 +46,8 @@ function setBindings() {
         window.open(go_to_url, '_blank');
     });
 
+
+
     //form copy ship info to billing
     $("#checkbox1").change(function () {
         if (this.checked) {

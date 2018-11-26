@@ -6,7 +6,7 @@ require './includes/nav.inc.php';
 
 <div class="container">
 
-    <div class="craftman">
+    <div class="craftman" style="margin-bottom:50px;">
 
         <!--about content-->
         <div class="craftmanContent">
@@ -60,24 +60,23 @@ require './includes/nav.inc.php';
 
             </div>
         </div>
-
-
     </div>
 
-<div class="sort">
-    <p>Craftsmen (4)</p>
-    <div class="sort-box">
-    <label for="sort-craftsman" id="inline">Sort by: </label>
-    <input type="text" name="sort-craftsman" id="inline">
+    <div class="causeAmt" style="margin-bottom: 100px;">
+        <h3 class="amt"><span class="raised">$0.00</span> has been raised for this <span>Good</span> Cause</h3>
     </div>
+
+<div class="sort" style="height: 45px;">
+    <p style="width:100%; font-weight: bold;">More Causes</p>
+
 </div>
 
     <div class="xs">
         <div class="card-container">
             <div class="card">
-                <img src="images/craftsman/craftHome/craftsman1.png">
+                <img src="images/causes/causeHome/autism.png">
                 <div class="card-content">
-                    <a href="craftman.php"><h3>Excepteur Sint</h3></a>
+                    <a href="cause.php"><h3>Excepteur Sint</h3></a>
                     <p>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -87,9 +86,9 @@ require './includes/nav.inc.php';
                 </div>
             </div>
             <div class="card">
-                <img src="images/craftsman/craftHome/craftsman2.jpg">
+                <img src="images/causes/causeHome/boysgirlsclub.png">
                 <div class="card-content">
-                    <a href="craftman.php"><h3>Excepteur Sint</h3></a>
+                    <a href="cause.php"><h3>Excepteur Sint</h3></a>
                     <p>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -99,9 +98,9 @@ require './includes/nav.inc.php';
                 </div>
             </div>
             <div class="card">
-                <img src="images/craftsman/craftHome/craftsman3.png">
+                <img src="images/causes/causeHome/childrens.jpg">
                 <div class="card-content">
-                    <a href="craftman.php"><h3>Excepteur Sint</h3></a>
+                    <a href="cause.php"><h3>Excepteur Sint</h3></a>
                     <p>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -111,9 +110,9 @@ require './includes/nav.inc.php';
                 </div>
             </div>
             <div class="card">
-                <img src="images/craftsman/craftHome/craftsman4-small.jpg">
+                <img src="images/causes/causeHome/coworker.jpg">
                 <div class="card-content">
-                    <a href="craftman.php"><h3>Excepteur Sint</h3></a>
+                    <a href="cause.php"><h3>Excepteur Sint</h3></a>
                     <p>
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -123,10 +122,8 @@ require './includes/nav.inc.php';
                 </div>
             </div>
         </div>
+        <p class="more"><a href="good_causes.php">See All <span>Causes</span></a></p>
 
-        <div class="causeAmt">
-            <h3 class="amt"><span class="raised">$0.00</span> has been raised for this <span>Good</span> Cause</h3>
-        </div>
     </div>
 
 

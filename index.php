@@ -67,7 +67,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product1.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -79,7 +79,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product2.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -91,7 +91,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product3.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -103,7 +103,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product4.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -115,7 +115,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product5.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -127,7 +127,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product6.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -139,7 +139,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product7.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -151,7 +151,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/products/prodLand/product8.png">
             <div class="card-content">
-                <h4>Excepteur Sint Proident</h4>
+                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
                     est laborum.
@@ -174,7 +174,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftLand/craftsman1.png">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="good_craftsmen.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -186,7 +186,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftLand/craftsman2.jpg">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="good_craftsmen.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -198,7 +198,7 @@ require './includes/nav.inc.php';
         <div class="card">
             <img src="images/craftsman/craftLand/craftsman3.png">
             <div class="card-content">
-                <h3>Excepteur Sint</h3>
+                <a href="good_craftsmen.php"><h3>Excepteur Sint</h3></a>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -211,24 +211,21 @@ require './includes/nav.inc.php';
     </div>
 
 
-    <!--    </div>-->
-
-
     <!--CAUSES-->
-    <!--    <div class="causeSection">-->
+
     <h1 class="clicker"><span>Good</span> Causes</h1>
     <div class="card-container">
         <div class="card">
-            <img src="images/causes/cause1.png">
+            <a href="good_causes.php"><img src="images/causes/cause1.png"></a>
         </div>
         <div class="card">
-            <img src="images/causes/cause2.png">
+            <a href="good_causes.php"><img src="images/causes/cause2.png"></a>
         </div>
         <div class="card">
-            <img src="images/causes/cause3.png">
+            <a href="good_causes.php"><img src="images/causes/cause3.png"></a>
         </div>
         <div class="card">
-            <img src="images/causes/cause4.png">
+            <a href="good_causes.php"><img src="images/causes/cause4.png"></a>
         </div>
         <p class="more"><a href="good_causes.php">See More <span>Causes</span></a></p>
     </div>
