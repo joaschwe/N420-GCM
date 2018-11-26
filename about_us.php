@@ -39,7 +39,6 @@ require './includes/nav.inc.php';
         </div>
 
     </div>
-
 </div><!--end container-->
 
 
@@ -47,6 +46,9 @@ require './includes/nav.inc.php';
 <?php
 include './includes/footer.inc.php'
 ?>
+
+
+
 
 
 <!--

@@ -37,11 +37,12 @@ if ($title == 'Faqs') {
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">
     <title>GCM<?php echo '&#8212;' . $title; ?></title>
-    <link rel="stylesheet" type="text/css" href="../css/styles3.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/nav.css" />
     <link rel="stylesheet" type="text/css" href="../css/header.css" />
     <link rel="stylesheet" type="text/css" href="../css/cards.css" />
     <link rel="stylesheet" type="text/css" href="../css/fonts/clicker-font.css" />
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
 <!--    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />-->
 <!--    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
 <!--    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />-->
@@ -53,3 +54,4 @@ if ($title == 'Faqs') {
 
 
 <body>
+<!--<div class="modal">-->

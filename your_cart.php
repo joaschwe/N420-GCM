@@ -4,7 +4,7 @@ require './includes/nav.inc.php';
 ?>
 
     <div class="container">
-        <div class="container80">
+<!--        <div class="container80">-->
             <!--cart page title-->
             <div class="title">
                 <h3>2 Items In Your Bag</h3>
@@ -53,8 +53,8 @@ require './includes/nav.inc.php';
                         <p>Total (2 items)</p>
                         <p class="cost">$0.00</p>
                     </div>
-                    <div>
-                        <button class="shipping">Proceed to Shipping</button>
+                    <div class="single">
+                        <a href="shipping_information.php"><button>Proceed to Shipping</button></a>
                         <a href="#">Calculate shipping</a>
                     </div>
                 </div>
@@ -65,11 +65,14 @@ require './includes/nav.inc.php';
                 <h3 class="amt">$0.00 of this purchase will go to a <span>Good</span> Cause</h3>
             </div>
 
-        </div><!--end container80-->
-    </div><!--end container-->
+<!--        </div><!--end container80-->
 
 
     <!--FOOTER-->
 <?php
 include './includes/footer.inc.php';
 ?>
+
+</div><!--end container-->
+
+

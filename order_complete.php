@@ -15,9 +15,8 @@ require './includes/header.inc.php';
 
                 <h3>Your confirmation number is:</h3>
                 <h3>#000000</h3>
-                <div class="buttonsConfirm">
-                    <button class="shopping">Back to Shopping</button>
-<!--                    <button class="checkout" type="submit">Back to Cart</button>-->
+                <div>
+                    <a href="index.php" style="text-decoration: none;"><button>Back to Shopping</button></a>
 
                 </div>
             </div><!--end confirm-->

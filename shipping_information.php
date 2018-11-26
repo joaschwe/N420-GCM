@@ -1,6 +1,6 @@
 <?php
 require './includes/header.inc.php';
-require './includes/navLogoOnly.inc.php';
+require './includes/nav.inc.php';
 
 //<form id="shipForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);
 ?>
@@ -53,9 +53,9 @@ require './includes/navLogoOnly.inc.php';
 <!--                    </div>-->
 
 
-                    <div class="buttons">
-                        <button class="continue" type="button">Continue to Billing</button>
-                    </div>
+<!--                    <div class="buttons">-->
+<!--                        <button class="continue" type="button">Continue to Billing</button>-->
+<!--                    </div>-->
                     <!--                    <button class="showAll">SHOW ALL INFO</button>-->
                 </fieldset>
 
@@ -105,10 +105,10 @@ require './includes/navLogoOnly.inc.php';
 <!--                    </div>-->
 
 
-                    <div class="buttons">
-                        <button class="payment" type="button">Continue to Payment</button>
-
-                    </div>
+<!--                    <div class="buttons">-->
+<!--                        <button class="payment" type="button">Continue to Payment</button>-->
+<!---->
+<!--                    </div>-->
                 </fieldset>
 
                 <fieldset class="paymentInfo">

@@ -13,7 +13,7 @@ require './includes/nav.inc.php';
         <h1 class="clicker"><span>Good</span> Causes</h1>
         <div class="card-container">
             <div class="card">
-                <img src="images/causes/causeHome/Home-Brewers-Association.png">
+                <a href="cause.php"><img src="images/causes/causeHome/Home-Brewers-Association.png"></a>
             </div>
             <div class="card">
                 <img src="images/causes/causeHome/boysgirlsclub.png">
@@ -33,12 +33,13 @@ require './includes/nav.inc.php';
         </div>
 
     </div>
+</div><!--end container-->
 
     <!--FOOTER-->
     <?php
     include './includes/footer.inc.php';
     ?>
 
-</div><!--end container-->
+
 
 

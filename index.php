@@ -234,7 +234,7 @@ require './includes/nav.inc.php';
     </div>
 
 
-
+</div><!--end container-->
 
     <!--    </div>-->
 
@@ -243,6 +243,6 @@ require './includes/nav.inc.php';
     include './includes/footer.inc.php';
     ?>
 
-</div><!--end container-->
+
 
 

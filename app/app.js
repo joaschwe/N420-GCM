@@ -4,17 +4,21 @@
 
 function setBindings() {
 
+    //faqs
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-
-    //faqs questions
-    $(function() {
-        $("img").click(function() {
-            $(this).toggleClass("rotate");
-            // $('.question').css('border-bottom', 'none');
-            $('.answer').slideToggle('slow');
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
         });
-    });
-
+    }
 
     //various buttons
     $("button.shipping").click(function (evt) {

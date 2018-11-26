@@ -36,6 +36,7 @@ margin-left:20px; <--but then there's 20px added on to last child, too
 }
 .xs {
     min-width: 150px;
+    clear: both;
 }
 .x3 .card { /*-- 3 cards/row --*/
     background-color: white;

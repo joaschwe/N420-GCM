@@ -1,6 +1,6 @@
 <?php
 require './includes/header.inc.php';
-require './includes/navLogoOnly.inc.php';
+require './includes/nav.inc.php';
 ?>
 
     <div class="container">
@@ -53,16 +53,16 @@ require './includes/navLogoOnly.inc.php';
                         <p>Total (2 items)</p>
                         <p class="cost">$0.00</p>
                     </div>
-                    <div>
-                        <button class="order">Place Order</button>
-                        <button class="cartPg">Back to Cart</button>
+                    <div class="single">
+                        <a href="order_complete.php"><button>Place Order</button></a>
+                        <a href="your_cart.php"><span><button>Back to Cart</button></span></a>
                     </div>
                 </div>
 
             </div><!-- end cart -->
 
             <div class="causeAmt">
-                <h3 class="amt">$00.00 of this purchase will go to a Good Cause</h3>
+                <h3 class="amt">$0.00 of this purchase will go to a <span>Good</span> Cause</h3>
             </div>
 
         </div><!--end container80-->
