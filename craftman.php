@@ -60,7 +60,7 @@ require './includes/nav.inc.php';
         </div>
 
 
-    </div>
+
 
 <div class="sort">
     <p>Products by this Craftsman (4)</p>
@@ -124,13 +124,13 @@ require './includes/nav.inc.php';
     </div>
 
 
-
+</div><!--end container-->
 
 <!--FOOTER-->
 <?php
 include './includes/footer.inc.php'
 ?>
-</div><!--end container-->
+
 
 <!--
 h3.title {

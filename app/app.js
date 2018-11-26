@@ -24,7 +24,7 @@ function setBindings() {
     // MODAL
 // When the user clicks the button, open the modal
     $('#loginBtn').click(function() {
-        $('.modal').css('display', 'block')
+        $('.modal').css('display', 'block');
     });
 
 // When the user clicks on <span> (x), close the modal
@@ -41,7 +41,7 @@ function setBindings() {
 
     // When the user clicks the login button, go to user page
     $('button#user-login').click(function() {
-        var go_to_url = 'user-pg.php';
+        var go_to_url = 'profile.php';
         //this will redirect us in new tab
         window.open(go_to_url, '_blank');
     });

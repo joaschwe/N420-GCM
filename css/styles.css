@@ -51,7 +51,7 @@ p {
 .container {
     width: 90%;
     margin: auto;
-    height:100%;
+    height:auto;
     /*min-height: 100%;*/
     max-width: 1440px;
     position: relative;
@@ -249,6 +249,9 @@ p.more span {
     /*background-color: yellow;*/
 
 }
+.craftmanContent {
+    margin-bottom:100px;
+}
 .flex-craft, .flex-cause {
     display: flex;
     margin-bottom:40px;
@@ -272,7 +275,7 @@ p.more span {
     vertical-align: top;
     margin-left:15px;
 }
-i {
+.social-media i {
     font-family:'FontAwesome', sans-serif;
     font-style: normal;
     color: #8DC63F;
@@ -1254,8 +1257,10 @@ button.modal-btn:first-child {
 
 /*--------- User Page -------- */
 i.fa-user {
-    text-align: center;
-    font-size: 40px;
+    /*font-size: 70px;*/
+    font-family: 'FontAwesome', sans-serif;
+    font-style: normal;
+    color: #8DC63F;
 }
 
 

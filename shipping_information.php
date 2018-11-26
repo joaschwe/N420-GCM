@@ -174,7 +174,6 @@ require './includes/nav.inc.php';
 
                     <div class="buttons">
                         <button class="cartPg">Back to Cart</button>
-<!--                        <button class="checkout go-checkout" type="submit">Review Order</button>-->
                         <button class="checkout go-checkout" type="submit">Review Order</button>
                     </div>
                 </fieldset>

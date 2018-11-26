@@ -3,7 +3,7 @@ require './includes/header.inc.php';
 require './includes/nav.inc.php';
 ?>
 
-    <div class="container">
+    <div class="container" style="height: auto;">
 <!--        <div class="container80">-->
             <!--cart page title-->
             <div class="title">
@@ -66,13 +66,13 @@ require './includes/nav.inc.php';
             </div>
 
 <!--        </div><!--end container80-->
-
+    </div><!--end container-->
 
     <!--FOOTER-->
 <?php
 include './includes/footer.inc.php';
 ?>
 
-</div><!--end container-->
+
 
 
