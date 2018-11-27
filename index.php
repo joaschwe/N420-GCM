@@ -26,7 +26,7 @@ require './includes/nav.inc.php';
     <!--GCM DESCRIP PICS-->
     <div class="card-container" style="margin-bottom: 80px;">
         <div class="card">
-            <img src="images/logos/good.png">
+            <img src="images/cake.jpg">
             <div class="card-content">
                 <h2 class="clicker">Good</h2>
                 <p>
