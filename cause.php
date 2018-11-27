@@ -6,7 +6,7 @@ require './includes/nav.inc.php';
 
 <div class="container">
 
-    <div class="craftman" style="margin-bottom:50px;">
+    <div class="craftman" style="margin-bottom:-80px;">
 
         <!--about content-->
         <div class="craftmanContent">
@@ -127,13 +127,13 @@ require './includes/nav.inc.php';
     </div>
 
 
-
+</div><!--end container-->
 
 <!--FOOTER-->
 <?php
 include './includes/footer.inc.php'
 ?>
-</div><!--end container-->
+
 
 <!--
 h3.title {

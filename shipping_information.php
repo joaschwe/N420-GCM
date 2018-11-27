@@ -38,26 +38,25 @@ require './includes/nav.inc.php';
                     <label for="city" generated="true" class="error together"></label>
                     <input class="shipping" type="text" id="city" name="city"/>
 
-<!--                    <div class="zipState">-->
-<!--                        <div class="stateGrp">-->
+                    <div style="display: flex;">
+                        <div>
                             <label for="state" class="state">State</label>
                             <label for="state" generated="true" class="error together"></label>
                             <input class="shipping" type="text" id="state" name="state"/>
-<!--                        </div>-->
-<!--                        <div class="zipGrp">-->
-                            <label for="zip" class="zip">Zip Code</label>
-                            <label for="zip" generated="true" class="error together"></label>
-                            <input class="shipping" type="text" id="zip" name="zip"/>
-<!--                        </div>-->
+                        </div>
 
-<!--                    </div>-->
-
-
-<!--                    <div class="buttons">-->
-<!--                        <button class="continue" type="button">Continue to Billing</button>-->
-<!--                    </div>-->
-                    <!--                    <button class="showAll">SHOW ALL INFO</button>-->
+                        <div style="display: flex;">
+                            <div>
+                                <label for="zip" class="zip">Zip Code</label>
+                                <label for="zip" generated="true" class="error together"></label>
+                                <input class="shipping" type="text" id="zip" name="zip"/>
+                            </div>
+                        </div>
+                    </div>
                 </fieldset>
+
+
+
 
                 <fieldset class="billingInfo">
                     <legend class="title"><h3>Billing</h3></legend>
@@ -89,26 +88,23 @@ require './includes/nav.inc.php';
                     <label for="bill_city" class="city">City</label>
                     <label for="bill_city" generated="true" class="error together"></label>
                     <input class="shipping" type="text" id="bill_city" name="bill_city"/>
-<!--                    <div class="zipCity">-->
-<!--                        <div class="zipGrp">-->
-                    <label for="bill_state">State</label>
-                    <label for="bill_state" generated="true" class="error together"></label>
-                    <input class="shipping" type="text" id="bill_state" name="bill_state"/>
 
-                    <label for="bill_zip" class="zip">Zip Code</label>
-                    <label for="bill_zip" generated="true" class="error together"></label>
-                            <input class="shipping" type="text" id="bill_zip" name="bill_zip"/>
-<!--                        </div>-->
-<!--                        <div class="cityGrp">-->
-
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div style="display: flex;">
+                        <div>
+                            <label for="bill_state">State</label>
+                            <label for="bill_state" generated="true" class="error together"></label>
+                            <input class="shipping" type="text" id="bill_state" name="bill_state"/>
+                        </div>
 
 
-<!--                    <div class="buttons">-->
-<!--                        <button class="payment" type="button">Continue to Payment</button>-->
-<!---->
-<!--                    </div>-->
+                        <div style="display: flex;">
+                            <div>
+                                <label for="bill_zip" class="zip">Zip Code</label>
+                                <label for="bill_zip" generated="true" class="error together"></label>
+                                <input class="shipping" type="text" id="bill_zip" name="bill_zip"/>
+                            </div>
+                        </div>
+                    </div>
                 </fieldset>
 
                 <fieldset class="paymentInfo">
@@ -172,13 +168,13 @@ require './includes/nav.inc.php';
                         </div>
                     </div>
 
-                    <div class="buttons">
-                        <button class="cartPg">Back to Cart</button>
-                        <button class="checkout go-checkout" type="submit">Review Order</button>
-                    </div>
+
                 </fieldset>
             </form>
-
+            <div class="two-across">
+                <a href="your_cart.php"><button class="backBtn">Back</button></a>
+                <a href="purchase.php"><button class="continueBtn" type="submit">Review Order</button></a>
+            </div>
 
         </div><!--end container80-->
     </div><!--end container-->

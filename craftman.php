@@ -122,7 +122,7 @@ require './includes/nav.inc.php';
             </div>
         </div>
     </div>
-
+    <p class="more"><a href="good_craftsmen.php">See All <span>Craftsmen</span></a></p>
 
 </div><!--end container-->
 

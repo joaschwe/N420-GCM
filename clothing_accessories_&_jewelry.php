@@ -244,12 +244,13 @@ require './includes/nav.inc.php';
         </div>
     </div>
 </div>
-
+    <p class="more"><a href="good_products.php">See All <span>Products</span></a></p>
+</div><!--end container-->
     <!--FOOTER-->
     <?php
     include './includes/footer.inc.php';
     ?>
 
-</div><!--end container-->
+
 
 

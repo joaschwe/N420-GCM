@@ -55,7 +55,7 @@ require './includes/nav.inc.php';
                     </div>
                     <div class="single">
                         <a href="order_complete.php"><button>Place Order</button></a>
-                        <a href="your_cart.php"><span><button>Back to Cart</button></span></a>
+                        <a href="shipping_information.php"><span><button>Back to Payment</button></span></a>
                     </div>
                 </div>
 
