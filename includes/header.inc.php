@@ -73,7 +73,7 @@ if ($title == 'Faqs') {
                     <input class="modal-input" type="text" placeholder="Password">
                     <p>Forgot your password? Click here.</p>
                     <div class="modal-btns">
-                    <button class="modal-btn">Sign Up</button>
+                    <button class="modal-btn" id="user-signup">Sign Up</button>
                     <button type="submit" class="modal-btn" id="user-login">Log In</button>
                     </div>
                 </fieldset>

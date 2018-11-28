@@ -79,7 +79,7 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
-                                <a href="#">Remove Item</a>
+<!--                                <a href="#">Remove Item</a>-->
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
-                                <a href="#">Remove Item</a>
+<!--                                <a href="#">Remove Item</a>-->
                             </div>
                         </div>
                     </div>

@@ -13,43 +13,44 @@ require './includes/nav.inc.php';
     <!-- PRODUCTS -> clothing access & jewel -->
 
     <h1 class="clicker">Clothing, Accessories & Jewelry</h1>
-<div class="inline">
-    <aside class="filterPanel">
-        <h5>Filters</h5>
-        <hr>
-        <div class="cat">
-            <h5>Category</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
-        </div>
-        <div class="cat">
-            <h5>Brand</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
-        </div>
-        <div class="cat">
-            <h5>Organize by:</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">
-        </div>
-        <div>
-            <label>Price</label>
-            <input type="range" id="range">
-        </div>
-        <div class="radios">
-            <h5>Color</h5>
-            <div class="radio-row" id="radio-row">
-                <input type="radio" value="Blue" id="blue" checked>
-                <label for="radio" id="label-blue">Blue</label>
-                <input type="radio" value="Orange" id="orange" checked>
-                <label for="radio" id="label-orange">Orange</label>
-            </div>
-            <div class="radio-row">
-                <input type="radio" value="Blue" checked>
-                <label for="radio">Yellow</label>
-                <input type="radio" value="Blue" checked>
-                <label for="radio">Green</label>
-            </div>
-        </div>
-        <hr>
-        <button type="submit" value="Apply Filter">Apply Filter</button>
-
-    </aside>
-    <div class="card-container inline-card-container">
+<!--<div class="inline">-->
+<!--    <aside class="filterPanel">-->
+<!--        <h5>Filters</h5>-->
+<!--        <hr>-->
+<!--        <div class="cat">-->
+<!--            <h5>Category</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">-->
+<!--        </div>-->
+<!--        <div class="cat">-->
+<!--            <h5>Brand</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">-->
+<!--        </div>-->
+<!--        <div class="cat">-->
+<!--            <h5>Organize by:</h5><img src="images/icons/kisspng-arrow-button-icon-down-arrow.png">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <label>Price</label>-->
+<!--            <input type="range" id="range">-->
+<!--        </div>-->
+<!--        <div class="radios">-->
+<!--            <h5>Color</h5>-->
+<!--            <div class="radio-row" id="radio-row">-->
+<!--                <input type="radio" value="Blue" id="blue" checked>-->
+<!--                <label for="radio" id="label-blue">Blue</label>-->
+<!--                <input type="radio" value="Orange" id="orange" checked>-->
+<!--                <label for="radio" id="label-orange">Orange</label>-->
+<!--            </div>-->
+<!--            <div class="radio-row">-->
+<!--                <input type="radio" value="Blue" checked>-->
+<!--                <label for="radio">Yellow</label>-->
+<!--                <input type="radio" value="Blue" checked>-->
+<!--                <label for="radio">Green</label>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--        <button type="submit" value="Apply Filter">Apply Filter</button>-->
+<!---->
+<!--    </aside>-->
+<!--    <div class="card-container inline-card-container">-->
+    <div class="card-container">
         <div class="card xs">
             <img src="images/products/prodLand/product1.png">
             <div class="card-content">
