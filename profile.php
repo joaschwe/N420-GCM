@@ -51,9 +51,8 @@ require './includes/nav.inc.php';
 
                 </fieldset>
                 <div class="buttons" style="margin-top:10px;">
-                    <button type="submit" formaction="/index.php" class="cartPg" style="font-size: 14px; width: 200px; padding:5px;">Back To Shopping 2</button>
-                    <a href="index.php" style="text-decoration: none;"><button class="cartPg" style="font-size: 14px; width: 200px; padding:5px;">Back to Shopping</button></a>
-                    <a href="index.php" style="text-decoration: none;"><button class="checkout go-checkout" type="submit" style="font-size: 14px; width: 200px;">Save Changes</button></a>
+                    <a href="index.php" style="text-decoration: none;"><button type="submit" formaction="/index.php" class="cartPg" style="font-size: 14px; width: 200px; padding:5px;">Back to Shopping</button></a>
+                    <a href="index.php" style="text-decoration: none;"><button class="checkout go-checkout" type="submit" formaction="/index.php" style="font-size: 14px; width: 200px;">Save Changes</button></a>
                 </div>
             </form>
 

@@ -46,6 +46,12 @@ function setBindings() {
         window.open(go_to_url, '_blank');
     });
 
+    //when the user clicks the sign up button, go to sign up page
+    $('button#user-signup').click(function() {
+        var go_to_url = 'signup.php';
+        //this will redirect us in new tab
+        window.open(go_to_url, '_blank');
+    });
 
     $('button#back').click(function() {
         var url = "order_complete.php";
