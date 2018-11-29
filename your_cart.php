@@ -62,7 +62,7 @@ require './includes/nav.inc.php';
             </div><!-- end cart -->
 
             <div class="causeAmt">
-                <h3 class="amt">$0.00 of this purchase will go to a <span>Good</span> Cause</h3>
+                <h3 class="amt">$0.00 of this purchase will go to your <span>Good</span> Cause</h3>
             </div>
 
 <!--        </div><!--end container80-->

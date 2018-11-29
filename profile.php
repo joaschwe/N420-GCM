@@ -6,6 +6,10 @@ require './includes/nav.inc.php';
 ?>
 
     <div class="container">
+<!--        <div class="container80">-->
+
+            <!---shipping form--->
+<!--        <i class="fa-user"></i>-->
 
             <form id="userForm" method="post" action="" >
 
@@ -47,6 +51,7 @@ require './includes/nav.inc.php';
 
                 </fieldset>
                 <div class="buttons" style="margin-top:10px;">
+                    <button type="submit" formaction="/index.php" class="cartPg" style="font-size: 14px; width: 200px; padding:5px;">Back To Shopping 2</button>
                     <a href="index.php" style="text-decoration: none;"><button class="cartPg" style="font-size: 14px; width: 200px; padding:5px;">Back to Shopping</button></a>
                     <a href="index.php" style="text-decoration: none;"><button class="checkout go-checkout" type="submit" style="font-size: 14px; width: 200px;">Save Changes</button></a>
                 </div>
@@ -75,6 +80,7 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
+<!--                                 <a href="#">Remove Item</a> -->
                             </div>
                         </div>
                     </div>
@@ -90,10 +96,22 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
+<!--                                 <a href="#">Remove Item</a> -->
                             </div>
                         </div>
                     </div>
                 </div>
+
+<!--                <div class="costCol">-->
+<!--                    <div class="itemCost">-->
+<!--                        <p>Total (2 items)</p>-->
+<!--                        <p class="cost">$0.00</p>-->
+<!--                    </div>-->
+<!--                    <div class="single">-->
+<!--                        <a href="shipping_information.php"><button>Proceed to Shipping</button></a>-->
+<!--                        <a href="#">Calculate shipping</a>-->
+<!--                    </div>-->
+<!--                </div>-->
 
             </div><!-- end cart -->
 

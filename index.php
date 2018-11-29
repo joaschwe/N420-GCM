@@ -216,16 +216,16 @@ require './includes/nav.inc.php';
     <h1 class="clicker"><span>Good</span> Causes</h1>
     <div class="card-container">
         <div class="card">
-            <a href="good_causes.php"><img src="images/causes/cause1.png"></a>
+            <a href="cause.php"><img src="images/causes/cause1.png"></a>
         </div>
         <div class="card">
-            <a href="good_causes.php"><img src="images/causes/cause2.png"></a>
+            <a href="cause.php"><img src="images/causes/cause2.png"></a>
         </div>
         <div class="card">
-            <a href="good_causes.php"><img src="images/causes/cause3.png"></a>
+            <a href="cause.php"><img src="images/causes/cause3.png"></a>
         </div>
         <div class="card">
-            <a href="good_causes.php"><img src="images/causes/cause4.png"></a>
+            <a href="cause.php"><img src="images/causes/cause4.png"></a>
         </div>
         <p class="more"><a href="good_causes.php">See More <span>Causes</span></a></p>
     </div>
