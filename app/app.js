@@ -46,15 +46,11 @@ function setBindings() {
         window.open(go_to_url, '_blank');
     });
 
-    // When the user clicks the login button, go to user page
-    $('button#user-signup').click(function() {
-        var go_to_url = 'profile.php';
-        //this will redirect us in new tab
-        window.open(go_to_url, '_blank');
+
+    $('button#back').click(function() {
+        var url = "order_complete.php";
+        $(location).attr('href', url);
     });
-
-
-
 
     //form copy ship info to billing
     $("#checkbox1").change(function () {
@@ -131,6 +127,5 @@ function setBindings() {
 
 
 $(document).ready(function () {
-
     setBindings();
 });

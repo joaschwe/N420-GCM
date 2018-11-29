@@ -6,10 +6,6 @@ require './includes/nav.inc.php';
 ?>
 
     <div class="container">
-<!--        <div class="container80">-->
-
-            <!---shipping form--->
-<!--        <i class="fa-user"></i>-->
 
             <form id="userForm" method="post" action="" >
 
@@ -79,7 +75,6 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
-<!--                                <a href="#">Remove Item</a>-->
                             </div>
                         </div>
                     </div>
@@ -95,22 +90,10 @@ require './includes/nav.inc.php';
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                                     mollit
                                     anim id est laborum.</p>
-<!--                                <a href="#">Remove Item</a>-->
                             </div>
                         </div>
                     </div>
                 </div>
-
-<!--                <div class="costCol">-->
-<!--                    <div class="itemCost">-->
-<!--                        <p>Total (2 items)</p>-->
-<!--                        <p class="cost">$0.00</p>-->
-<!--                    </div>-->
-<!--                    <div class="single">-->
-<!--                        <a href="shipping_information.php"><button>Proceed to Shipping</button></a>-->
-<!--                        <a href="#">Calculate shipping</a>-->
-<!--                    </div>-->
-<!--                </div>-->
 
             </div><!-- end cart -->
 

@@ -47,7 +47,7 @@ if ($title == 'Faqs') {
 <!--    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">-->
 <!--    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />-->
 
-    <script src="../app/lib/jquery-3.1.1.js"></script>
+    <script src="../lib/jquery-3.1.1.min.js"></script>
 <!--    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 
 </head>
