@@ -34,9 +34,9 @@ require './includes/nav.inc.php';
         </div>
 
         <!--about image-->
-        <div class="about-img">
-            <img src="images/logos/GCM-knot.png">
-        </div>
+<!--        <div class="about-img">-->
+<!--            <img src="images/logos/GCM-knot.png">-->
+<!--        </div>-->
 
     </div>
 </div><!--end container-->
