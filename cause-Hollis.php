@@ -14,7 +14,7 @@ require './includes/nav.inc.php';
             <!--about image-->
             <div class="flex-craft">
                 <div class="craft-img">
-                    <img src="images/causes/hollisAdams.PNG">
+                    <img src="images/causes/Hill_Adams_Cause.jpg">
                     <div class="social-media">
                         <i class="fa-globe"></i>
                         <i class="fa-twitter"></i>

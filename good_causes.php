@@ -13,7 +13,7 @@ require './includes/nav.inc.php';
         <h1 class="clicker"><span>Good</span> Causes</h1>
         <div class="card-container">
             <div class="card">
-                <a href="cause-Hollis.php"><img src="images/causes/hollisAdams.PNG"></a>
+                <a href="cause-Hollis.php"><img src="images/causes/Hill_Adams_Cause.jpg"></a>
             </div>
             <div class="card">
                 <a href="cause.php"><img src="images/causes/causeHome/Home-Brewers-Association.png"></a>
