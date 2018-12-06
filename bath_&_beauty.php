@@ -52,22 +52,22 @@ require './includes/nav.inc.php';
 <!--    <div class="card-container inline-card-container">-->
     <div class="card-container">
         <div class="card xs">
-            <img src="images/products/bathBeauty/hickoryRidgeSoaps/loveSpell.PNG">
+            <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
             <div class="card-content">
-                <a href="#"><h4>Love Spell Jelly Soap</h4></a>
+                <a href="good_product_item.php"><h4>Island Fresh Jelly Soap</h4></a>
                 <p>
-                    This absolutely perfect aromatic blend of  mandarin oranges, bergamot, tangerine, with hints of fresh peaches, strawberries, and raspberries on an...
+                    Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose,...
                 </p>
                 <p class="price">$11.95</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
         <div class="card xs">
-            <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+            <img src="images/products/bathBeauty/hickoryRidgeSoaps/loveSpell.PNG">
             <div class="card-content">
-                <a href="#"><h4>Island Fresh Jelly Soap</h4></a>
+                <a href="#"><h4>Love Spell Jelly Soap</h4></a>
                 <p>
-                    Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose,...
+                    This absolutely perfect aromatic blend of  mandarin oranges, bergamot, tangerine, with hints of fresh peaches, strawberries, and raspberries on an...
                 </p>
                 <p class="price">$11.95</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
