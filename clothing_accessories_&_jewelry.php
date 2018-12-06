@@ -52,26 +52,24 @@ require './includes/nav.inc.php';
 <!--    <div class="card-container inline-card-container">-->
     <div class="card-container">
         <div class="card xs">
-            <img src="images/products/prodLand/product1.png">
+            <img src="images/products/clothingAccessJewel/twoSeasideBabes/beanieBaby.PNG">
             <div class="card-content">
-                <a href="#"><h4>Excepteur Sint Proident</h4></a>
+                <a href="#"><h4>Flower Beanie</h4></a>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    These handmade Flower Beanies are crocheted in baby, toddler, girl, & women's sizes. These warm, thick winter hats are cozy and fashionable bea...
                 </p>
-                <p class="price">$0.00</p>
+                <p class="price">$32.00</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
         <div class="card xs">
-            <img src="images/products/prodLand/product2.png">
+            <img src="images/products/clothingAccessJewel/twoSeasideBabes/buttonScarf.PNG">
             <div class="card-content">
-                <a href="#"><h4>Excepteur Sint Proident</h4></a>
+                <a href="#"><h4>Button Scarf</h4></a>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    These handmade Button Scarves are crocheted in toddler, kid, & adult sizes. These scarflettes feature coordinating buttons and are the perfect cozy...
                 </p>
-                <p class="price">$0.00</p>
+                <p class="price">$31.00</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
