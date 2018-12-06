@@ -30,8 +30,7 @@ require './includes/nav.inc.php';
             <div class="card-content">
                 <h2 class="clicker">Good</h2>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    It is Good fundraising because it is virtually effortless. It is good because it raises funds all year long for Causes. The products are all hand-crafted by local artisans. It is Good to raise money for your organization.   Everything made in Indiana is a good thing too. 
                 </p>
             </div>
         </div>
@@ -40,8 +39,7 @@ require './includes/nav.inc.php';
             <div class="card-content">
                 <h2 class="clicker">Cause</h2>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    Good Cause Market gives half of its profit to your Cause. When you make a purchase, not only do you support the Cause, you support small business owner/craftsman. Fill out the Cause registration form by clicking the "Become a Cause" button above right and we'll contact you soon.
                 </p>
             </div>
         </div>
@@ -50,8 +48,9 @@ require './includes/nav.inc.php';
             <div class="card-content">
                 <h2 class="clicker">Market</h2>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    Full of Indiana, artisan made, extraordinary, hand-crafted, high quality Goods. Read about these highly skilled and talented Hoosiers and how they came to their craft.  Go to the Market by clicking the 
+Go Fundshopping  button above.
+
                 </p>
             </div>
         </div>
