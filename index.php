@@ -65,6 +65,17 @@ require './includes/nav.inc.php';
     <!--GALLERY-->
     <div class="card-container">
         <div class="card">
+            <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+            <div class="card-content">
+                <a href="good_product_item.php"><h4>Island Fresh Jelly Soap</h4></a>
+                <p>
+                    Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose,...
+                </p>
+                <p class="price">$11.95</p>
+                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
+            </div>
+        </div>
+        <div class="card">
             <img src="images/products/prodLand/product1.png">
             <div class="card-content">
                 <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
@@ -138,18 +149,6 @@ require './includes/nav.inc.php';
         </div>
         <div class="card">
             <img src="images/products/prodLand/product7.png">
-            <div class="card-content">
-                <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
-                <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-                <p class="price">$0.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/products/prodLand/product8.png">
             <div class="card-content">
                 <a href="good_products.php"><h4>Excepteur Sint Proident</h4></a>
                 <p>

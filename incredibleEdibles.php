@@ -12,7 +12,7 @@ require './includes/nav.inc.php';
 
     <!-- PRODUCTS -> clothing access & jewel -->
 
-    <h1 class="clicker">Clothing, Accessories & Jewelry</h1>
+    <h1 class="clicker">Incredible Edibles</h1>
 <!--<div class="inline">-->
 <!--    <aside class="filterPanel">-->
 <!--        <h5>Filters</h5>-->
@@ -52,36 +52,35 @@ require './includes/nav.inc.php';
 <!--    <div class="card-container inline-card-container">-->
     <div class="card-container">
         <div class="card xs">
-            <img src="images/products/clothingAccessJewel/twoSeasideBabes/beanieBaby.PNG">
+            <img src="images/products/incredEdibles/johntomsbbq/hoosierHeat.PNG">
             <div class="card-content">
-                <a href="#"><h4>Flower Beanie</h4></a>
+                <a href="#"><h4>Hoosier Heat</h4></a>
                 <p>
-                    These handmade Flower Beanies are crocheted in baby, toddler, girl, & women's sizes. These warm, thick winter hats are cozy and fashionable bea...
+                    There’s nothing sneaky about this sauce. It’s Hot. But not so hot you can’t enjoy your food....
                 </p>
-                <p class="price">$32.00</p>
+                <p class="price">$8.49</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
         <div class="card xs">
-            <img src="images/products/clothingAccessJewel/twoSeasideBabes/buttonScarf.PNG">
+            <img src="images/products/incredEdibles/johntomsbbq/originalHeat.PNG">
             <div class="card-content">
-                <a href="#"><h4>Button Scarf</h4></a>
+                <a href="#"><h4>Original Heat</h4></a>
                 <p>
-                    These handmade Button Scarves are crocheted in toddler, kid, & adult sizes. These scarflettes feature coordinating buttons and are the perfect cozy...
+                    Finely blended herbs, brown sugar and a hint of fruit juice....
                 </p>
-                <p class="price">$31.00</p>
+                <p class="price">$8.49</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
         <div class="card xs">
-            <img src="images/products/prodLand/product3.png">
+            <img src="images/products/incredEdibles/johntomsbbq/sneakyHotHeat.PNG">
             <div class="card-content">
-                <a href="#"><h4>Excepteur Sint Proident</h4></a>
+                <a href="#"><h4>Sneaky Heat</h4></a>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
+                    Our best seller. Starts off sweet, then gradually brings the heat...
                 </p>
-                <p class="price">$0.00</p>
+                <p class="price">$8.49</p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>

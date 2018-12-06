@@ -12,7 +12,7 @@ require './includes/nav.inc.php';
 
     <!-- PRODUCTS -> clothing access & jewel -->
 
-    <h1 class="clicker">Clothing, Accessories & Jewelry</h1>
+    <h1 class="clicker">Kiddos</h1>
 <!--<div class="inline">-->
 <!--    <aside class="filterPanel">-->
 <!--        <h5>Filters</h5>-->
@@ -51,28 +51,28 @@ require './includes/nav.inc.php';
 <!--    </aside>-->
 <!--    <div class="card-container inline-card-container">-->
     <div class="card-container">
-        <div class="card xs">
-            <img src="images/products/clothingAccessJewel/twoSeasideBabes/beanieBaby.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Flower Beanie</h4></a>
-                <p>
-                    These handmade Flower Beanies are crocheted in baby, toddler, girl, & women's sizes. These warm, thick winter hats are cozy and fashionable bea...
-                </p>
-                <p class="price">$32.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card xs">
-            <img src="images/products/clothingAccessJewel/twoSeasideBabes/buttonScarf.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Button Scarf</h4></a>
-                <p>
-                    These handmade Button Scarves are crocheted in toddler, kid, & adult sizes. These scarflettes feature coordinating buttons and are the perfect cozy...
-                </p>
-                <p class="price">$31.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/clothingAccessJewel/twoSeasideBabes/beanieBaby.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Flower Beanie</h4></a>-->
+<!--                <p>-->
+<!--                    These handmade Flower Beanies are crocheted in baby, toddler, girl, & women's sizes. These warm, thick winter hats are cozy and fashionable bea...-->
+<!--                </p>-->
+<!--                <p class="price">$32.00</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/clothingAccessJewel/twoSeasideBabes/buttonScarf.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Button Scarf</h4></a>-->
+<!--                <p>-->
+<!--                    These handmade Button Scarves are crocheted in toddler, kid, & adult sizes. These scarflettes feature coordinating buttons and are the perfect cozy...-->
+<!--                </p>-->
+<!--                <p class="price">$31.00</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="card xs">
             <img src="images/products/prodLand/product3.png">
             <div class="card-content">

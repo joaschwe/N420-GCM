@@ -21,37 +21,37 @@ require './includes/nav.inc.php';
             <div class="card">
                 <img src="images/products/prodHome/rugged.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Rugged</button></a>
+                <a href="rugged.php"><button class="over">Rugged</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/candles.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Candles</button></a>
+                <a href="candles.php"><button class="over">Candles</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/incredEd.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Incredible Edibles</button></a>
+                <a href="incredibleEdibles.php"><button class="over">Incredible Edibles</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/pet-dept.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Pet Department</button></a>
+                <a href="pets.php"><button class="over">Pet Department</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/kiddos.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Kiddos</button></a>
+                <a href="kiddos.php"><button class="over">Kiddos</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/bath-beauty.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Bath & Beauty</button></a>
+                <a href="bath_&_beauty.php"><button class="over">Bath & Beauty</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/home.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Home</button></a>
+                <a href="homeProducts.php"><button class="over">Home</button></a>
             </div>
 
         </div>
