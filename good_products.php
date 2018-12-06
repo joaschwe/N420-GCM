@@ -46,7 +46,7 @@ require './includes/nav.inc.php';
             <div class="card">
                 <img src="images/products/prodHome/bath-beauty.jpg">
                 <div class="overlay"></div>
-                <a href="#"><button class="over">Bath & Beauty</button></a>
+                <a href="bath_&_beauty.php"><button class="over">Bath & Beauty</button></a>
             </div>
             <div class="card">
                 <img src="images/products/prodHome/home.jpg">
