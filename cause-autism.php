@@ -27,7 +27,7 @@ require './includes/nav.inc.php';
                 <div class="maintitle-craft">
                     <h3 class="clicker-sansSerif">Ambitious about Autism</h3>
                     <h3 class="craft-subhead">sub-header</h3>
-                    <h4 class="location">Location area here | a <span>Good</span> Craftsman since 2018</h4>
+                    <h4 class="location">Location area here | a <span>Good</span> Cause since 2018</h4>
                 </div>
             </div>
             <div class="quote-section">
