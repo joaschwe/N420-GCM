@@ -12,7 +12,7 @@ require './includes/nav.inc.php';
         <!--about image-->
         <div class="flex-craft">
             <div class="craft-img">
-                <img src="images/craftsman/craftHome/johnTom2.PNG">
+                <img src="images/craftsman/craftHome/johnTom1.PNG">
                 <div class="social-media">
                     <i class="fa-globe"></i>
                     <i class="fa-twitter"></i>
@@ -32,7 +32,7 @@ require './includes/nav.inc.php';
 
             <p>
                 <img src="images/icons/quote-left.png" style="margin-left:-35px; padding-right:5px;">
-                John Tom Branson had a very non-traditional background. Southerner, turned midwesterner.
+                John Tom Branson (pictured) had a very non-traditional background. Southerner, turned midwesterner.
                 Assembly-line factory worker, turned charcoal miner. His leisure time was spent barbecuing and wood
                 smoking meat, but his sauce was the real MVP. Perfecting the small-batch craft before it was a movement,
                 John Tom brought his southern values to midwest flavor.
