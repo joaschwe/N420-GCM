@@ -12,24 +12,30 @@ require './includes/nav.inc.php';
 
             <div class="maintitle">
                 <img src="images/logos/GCM-knot.png" style="display: inline;">
-            <h3 class="clicker-sansSerif">About <span>Good Cause Market</span></h3>
+                <h3 class="clicker-sansSerif">About <span>Good Cause Market</span></h3>
             </div>
             <p>
-                Beablery Distribution, LLC, DBA Good Cause Market, is an e-store that raises funds on a year round basis targeting the beneficiaries, family and friends of a wide group of non-profit organizations. Good Cause Market also has an advantage  in that it provides a target customer base for small, independent businesses. 
-<br /><br />
-The exceptional products that Good Cause Market offers, will satisfy the consumer's desire to not only purchase unique, out of the ordinary, hand-crafted, unconventional products, but also give back to a charitable entity of their choice, at any time, throughout the year.  Good Cause Market (as a gateway service for these organizations, their clientele, customers and the community) allows them to make purchases knowing a portion of it will go to their charity.  There will be no "window of time to purchase" and no door to door selling.
-<br /><br />
-Good Cause Market gives charitable organizations such as schools, church youth groups, boys and girls clubs, sports teams, school clubs and other not for profit organizations that find their budgets in need of other sources, a continuous income stream through its e-tail platform.   These non-profit groups will accomplish this through the purchase of goods from small, independent artisans, craftspeople and etsy-like companies .  
-<br /><br />
-Good Cause Market  has a four-fold uniqueness and advantageous aspect that is unlike any other fundraising company. It provides funding sources for charities.  It provides this funding on a year-round basis. It allows the consumer to purchase exceptional quality items.  It allows the non-profits clients to give back through that purchase. Lastly, it provides a steady, revenue source for small business owners. Good Cause Market will be able to incrementally broaden and increase their market reach by the nature of the focused community/client targeted audience. 
+                Good Cause Market was created out of a need to give charitable organizations a new and unique way to
+                fundraise. The typical fundraiser for schools, churches, clubs and sports is a lot of work and
+                organization. Fundraisers most often run for a short period of time and so the actual funds raised, are
+                limited. Typically, there is an enormous amount of effort involved. Many fundraisers take a lot of
+                planning time and a lot of volunteers. It lasts one day and boom, it's over! All that effort and
+                hopefully it was worth it. But life is pretty compact these days and non-profits need something that
+                will allow them to have revenue all year long with minimal commitment from volunteers and take even less
+                time. GoodCauseMarket.com is an e-store that is open all the time. There is no time-span limit at Good
+                Cause Market. Fundraising for the charitable organization becomes a steady stream of revenue. Plus, the
+                hand-crafted, local, small business products that are offered, replace that unhealthy cookie dough or
+                pizza fundraiser of yester year. Good Cause Market requires only the time it takes to shop for unique,
+                artisan made crafts. 50% of the purchase is sent to the Cause. It's a way for customers to give back
+                without breaking their back! We're glad you came. Now, go do some Fundshopping©!
             </p>
 
         </div>
 
         <!--about image-->
-<!--        <div class="about-img">-->
-<!--            <img src="images/logos/GCM-knot.png">-->
-<!--        </div>-->
+        <!--        <div class="about-img">-->
+        <!--            <img src="images/logos/GCM-knot.png">-->
+        <!--        </div>-->
 
     </div>
 </div><!--end container-->
@@ -39,9 +45,6 @@ Good Cause Market  has a four-fold uniqueness and advantageous aspect that is un
 <?php
 include './includes/footer.inc.php'
 ?>
-
-
-
 
 
 <!--
