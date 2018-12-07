@@ -73,50 +73,50 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card xs">
-            <img src="images/products/bathBeauty/hickoryRidgeSoaps/blackRaspberryVanilla.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Black Raspberry Vanilla Bath Bomb</h4></a>
-                <p>
-                    Silken smooth skin will be yours after warm raspberries and plums mix with soothing vanilla, salts and clays in this bath bomb that will melt your worries away!
-                </p>
-                <p class="price">$4.99</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card xs">
-            <img src="images/products/bathBeauty/hickoryRidgeSoaps/sweetPeaWhippedBodyFrosting.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Sweet Pea Fluffy Whipped Soap Body Frosting</h4></a>
-                <p>
-                    A rich and creamy lather awaits you with  Fluffy Whipped Soap Body Frostings.  An explosion of suds arrive as the soap gently cleans your skin. A perfect shaving...
-                </p>
-                <p class="price">$7.99</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card xs">
-            <img src="images/products/bathBeauty/hickoryRidgeSoaps/loveSpellWhippedBodyFrosting.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Love Spell Fluffy Whipped Soap Body Frosting</h4></a>
-                <p>
-                    A rich and creamy lather awaits you with  Fluffy Whipped Soap Body Frostings.  An explosion of suds arrive as the soap gently cleans your skin. A perfect shaving...
-                </p>
-                <p class="price">$7.99</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card xs">
-            <img src="images/products/bathBeauty/frangipani/blemishSerumFront.PNG">
-            <div class="card-content">
-                <a href="#"><h4>Blemish Serum</h4></a>
-                <p>
-                    When you have acne, the last thing you want to do is put more oil on your face, right? Not necessarily! In fact, there are some oils that have healing,...
-                </p>
-                <p class="price">$21.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/bathBeauty/hickoryRidgeSoaps/blackRaspberryVanilla.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Black Raspberry Vanilla Bath Bomb</h4></a>-->
+<!--                <p>-->
+<!--                    Silken smooth skin will be yours after warm raspberries and plums mix with soothing vanilla, salts and clays in this bath bomb that will melt your worries away!-->
+<!--                </p>-->
+<!--                <p class="price">$4.99</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/bathBeauty/hickoryRidgeSoaps/sweetPeaWhippedBodyFrosting.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Sweet Pea Fluffy Whipped Soap Body Frosting</h4></a>-->
+<!--                <p>-->
+<!--                    A rich and creamy lather awaits you with  Fluffy Whipped Soap Body Frostings.  An explosion of suds arrive as the soap gently cleans your skin. A perfect shaving...-->
+<!--                </p>-->
+<!--                <p class="price">$7.99</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/bathBeauty/hickoryRidgeSoaps/loveSpellWhippedBodyFrosting.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Love Spell Fluffy Whipped Soap Body Frosting</h4></a>-->
+<!--                <p>-->
+<!--                    A rich and creamy lather awaits you with  Fluffy Whipped Soap Body Frostings.  An explosion of suds arrive as the soap gently cleans your skin. A perfect shaving...-->
+<!--                </p>-->
+<!--                <p class="price">$7.99</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/bathBeauty/frangipani/blemishSerumFront.PNG">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Blemish Serum</h4></a>-->
+<!--                <p>-->
+<!--                    When you have acne, the last thing you want to do is put more oil on your face, right? Not necessarily! In fact, there are some oils that have healing,...-->
+<!--                </p>-->
+<!--                <p class="price">$21.00</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
         <div class="card xs">
             <img src="images/products/bathBeauty/frangipani/exfoliatingFaceGelFront.PNG">
             <div class="card-content">

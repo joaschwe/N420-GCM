@@ -109,18 +109,18 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card">
-            <img src="images/craftsman/craftHome/craftsman9-small.jpg">
-            <div class="card-content">
-                <a href="craftman.php"><h3>Excepteur Sint</h3></a>
-                <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                    anim id est laborum.
-                </p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
+<!--        <div class="card">-->
+<!--            <img src="images/craftsman/craftHome/craftsman9-small.jpg">-->
+<!--            <div class="card-content">-->
+<!--                <a href="craftman.php"><h3>Excepteur Sint</h3></a>-->
+<!--                <p>-->
+<!--                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla-->
+<!--                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit-->
+<!--                    anim id est laborum.-->
+<!--                </p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
 
         </div>
 

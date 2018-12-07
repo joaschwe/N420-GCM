@@ -64,7 +64,8 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     background-color: lightcyan;
 }
 .card img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .card:hover {
     box-shadow: 0 0 40px 2px #e6e6e6;
