@@ -16,11 +16,11 @@ require './includes/nav.inc.php';
 
     <div class="card-container">
         <div class="card">
-            <img src="images/craftsman/craftHome/johnTom1.PNG">
+            <img src="images/craftsman/craftHome/johnTom2.PNG">
             <div class="card-content">
                 <a href="craftman_johntomsBBQ.php"><h3>John Tom's BBQ</h3></a>
                 <p>
-                    John Tom Branson (pictured), had a very non-traditional background. Southerner, turned midwesterner. Assembly-line factory worker, turned...
+                    John Tom Branson had a very non-traditional background. Southerner, turned midwesterner. Assembly-line factory worker, turned...
                 </p>
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
