@@ -13,6 +13,9 @@ require './includes/nav.inc.php';
         <h1 class="clicker"><span>Good</span> Causes</h1>
         <div class="card-container">
             <div class="card">
+                <a href="cause-Hollis.php"><img src="images/causes/Hill_Adams_Cause.jpg"></a>
+            </div>
+            <div class="card">
                 <a href="cause.php"><img src="images/causes/causeHome/Home-Brewers-Association.png"></a>
             </div>
             <div class="card">
@@ -27,9 +30,9 @@ require './includes/nav.inc.php';
             <div class="card">
                 <img src="images/causes/causeHome/childrens.jpg">
             </div>
-            <div class="card">
-                <img src="images/causes/causeHome/coworker.jpg">
-            </div>
+<!--            <div class="card">-->
+<!--                <img src="images/causes/causeHome/coworker.jpg">-->
+<!--            </div>-->
         </div>
 
     </div>

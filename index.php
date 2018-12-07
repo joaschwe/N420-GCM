@@ -214,6 +214,9 @@ Go Fundshopping  button above.
     <h1 class="clicker"><span>Good</span> Causes</h1>
     <div class="card-container">
         <div class="card">
+            <a href="cause-Hollis.php"><img src="images/causes/Hill_Adams_Cause.jpg"></a>
+        </div>
+        <div class="card">
             <a href="cause.php"><img src="images/causes/cause1.png"></a>
         </div>
         <div class="card">
@@ -222,9 +225,9 @@ Go Fundshopping  button above.
         <div class="card">
             <a href="cause.php"><img src="images/causes/cause3.png"></a>
         </div>
-        <div class="card">
-            <a href="cause.php"><img src="images/causes/cause4.png"></a>
-        </div>
+<!--        <div class="card">-->
+<!--            <a href="cause.php"><img src="images/causes/cause4.png"></a>-->
+<!--        </div>-->
         <p class="more"><a href="good_causes.php">See More <span>Causes</span></a></p>
     </div>
 
