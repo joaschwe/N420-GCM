@@ -217,30 +217,30 @@ require './includes/nav.inc.php';
                 <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
             </div>
         </div>
-        <div class="card xs">
-            <img src="images/products/clothingAccessJewel/caj12.jpg">
-            <div class="card-content">
-                <a href="#"><h4>Excepteur Sint Proident</h4></a>
-                <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-                <p class="price">$0.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
-        <div class="card xs">
-            <img src="images/products/clothingAccessJewel/caj6.jpg">
-            <div class="card-content">
-                <a href="#"><h4>Excepteur Sint Proident</h4></a>
-                <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-                <p class="price">$0.00</p>
-                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-            </div>
-        </div>
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/clothingAccessJewel/caj12.jpg">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Excepteur Sint Proident</h4></a>-->
+<!--                <p>-->
+<!--                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id-->
+<!--                    est laborum.-->
+<!--                </p>-->
+<!--                <p class="price">$0.00</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card xs">-->
+<!--            <img src="images/products/clothingAccessJewel/caj6.jpg">-->
+<!--            <div class="card-content">-->
+<!--                <a href="#"><h4>Excepteur Sint Proident</h4></a>-->
+<!--                <p>-->
+<!--                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id-->
+<!--                    est laborum.-->
+<!--                </p>-->
+<!--                <p class="price">$0.00</p>-->
+<!--                <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
     <p class="more"><a href="good_products.php">See All <span>Products</span></a></p>
