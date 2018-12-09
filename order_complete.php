@@ -11,7 +11,7 @@ require './includes/header.inc.php';
                     <img class="smallLogo" src="images/logos/GCM-logo-short.png">
                 </div>
                 <h3>It is on the way!</h3>
-                <img class="truck" src="images/icons/truck.png">
+                <img class="truck" src="images/icons/truckNew.png">
 
                 <h3>Your confirmation number is:</h3>
                 <h3>#000000</h3>

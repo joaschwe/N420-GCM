@@ -8,8 +8,8 @@ require './includes/nav.inc.php';
 
     <!--QUESTIONS-->
     <div class="questions">
-        <h3 class="clicker-serif-question">Have a <span>good</span> question?</h3>
-        <h4 class="sansSerif-question">Get some good answers to common questions.</h4>
+        <h3 class="clicker-serif-question">Have a <span>Good</span> Question?</h3>
+        <h4 class="sansSerif-question">Get some Good answers to common questions.</h4>
 
 
         <button class="accordion">How does this work?</button>
