@@ -30,8 +30,7 @@
 <p class="regText">
     You agree to update and manage your inventory and products on the GCM website to insure products and inventory are
     accurate and available for our customers. This includes replenishment of inventory, removal of discontinued products
-    and timely updates of the site with current information pertinent to the products sold on GCM. You also agree to
-    ship your products for GoodCauseMarket.com in a timely manner and notify us of any problems as soon as possible
+    and timely updates of the site with current information pertinent to the products sold on GCM.
 </p>
 <input type="checkbox" required>I Agree</input>
 
@@ -44,7 +43,8 @@
     estimate costs using USPS, Fedex, and UPS at a minimum. You agree to offer shipping with at least one of the
     previously listed shippers. If you receive discounted shipping rates, you allow GCM to estimate shipping costs with
     the discounted rate. To estimate rates, GCM will need information about your Shipper Accounts. All items shipped
-    must have a tracking number.
+    must have a tracking number. You agree to ship your product for GoodCauseMarket.com in a timely manner and notify us
+    of any problems as soon as possible.
 </p>
 <p class="regText">
     Funnel Shipping is another shipping method GCM uses. It saves the customer on shipping costs by doing a bulk ship
@@ -57,7 +57,10 @@
     Returns
 </h4>
 <p class="regText">
-    I agree that only exchanges are allowed. Because of the handmade nature of the products sold through GCM, returns nor refunds are not allowed unless the product itself is faulty or damaged in shipping. It must be returned to you unused and unopened.  GCM will direct the customer to conduct the return with you so that you are aware of any problem that caused the return.
+    I agree that only exchanges are allowed. Because of the handmade nature of the products sold through GCM, returns
+    nor refunds are not allowed unless the product itself is faulty or damaged in shipping. It must be returned to you
+    unused and unopened. GCM will direct the customer to conduct the return with you so that you are aware of any
+    problem that caused the return.
 </p>
 <input type="checkbox" required>I Agree</input>
 
