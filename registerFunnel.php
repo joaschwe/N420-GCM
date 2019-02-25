@@ -1,3 +1,8 @@
+<?php
+include("includes/db_connect.php");
+include("includes/dropdowns.php");
+
+?>
 <!doctype html>
 <html lang="en">
 <head>

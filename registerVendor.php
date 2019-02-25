@@ -1,3 +1,8 @@
+<?php
+include("includes/db_connect.php");
+include("includes/dropdowns.php");
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -65,36 +70,57 @@
 <input type="checkbox" required>I Agree</input>
 
 <h4 class="sectionTitle">Your Info</h4>
-<form id="formRegVendor" name="formRegVendor" method="" action="">
+<form id="formRegVendor" name="formRegVendor" method="POST" action="submitVendor.php">
     <div class="formGroup">
         <label for="companyName" name="companyName">Company Name</label>
-        <input type="text" id="registerCompanyName" required>
+        <input type="text" id="registerCompanyName" name="companyName" required>
     </div>
     <div class="formGroup">
         <label for="contactName" name="contactName">Contact Name</label>
-        <input type="text" id="registerContactName" required>
+        <input type="text" id="registerContactName" name="firstname" required>
+        <input type="text" id="registerContactName" name="lastname" required>
     </div>
     <div class="formGroup">
         <label for="websiteAddress" name="websiteAddress">Website URL</label>
-        <input type="text" id="registerWebsiteURL" required>
+        <input type="text" id="registerWebsiteURL" name="websiteAddress" required>
+    </div>
+    <div class="formGroup">
+        <label for="addressType" name="addressType">Address Type</label>
+        <select name="addressType" id="registerAddressType" required>
+            <?php
+            while ($row = mysqli_fetch_array($addresstypeResult, MYSQLI_BOTH)){
+                echo '<option id="addressType'.$row["ID"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+            }
+            ?>
+        </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddress" name="physicalAddress">Address</label>
-        <input type="text" id="registerPhysicalAddress" required>
+        <input type="text" id="registerPhysicalAddress" name="physicalAddress" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressCity" name="physicalAddressCity">City</label>
-        <input type="text" id="registerPhysicalAddressCity" required>
+        <input type="text" id="registerPhysicalAddressCity" name="physicalAddressCity" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressState" name="physicalAddressState">State</label>
-        <select name="registerPhysicalAddressState" id="registerPhysicalAddressState" required>
-            <option value="IN">Indiana</option>
+        <select name="physicalAddressState" id="registerPhysicalAddressState" required>
+            <?php
+            // Create dropdown for states
+            while ($row = mysqli_fetch_array($statesResult, MYSQLI_BOTH)){
+                // Set the default state to Indiana
+                if ($row["Abbreviation"] == "IN" ) {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'" selected=selected >'.$row["Name"].'</option>';
+                } else {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+                }
+            }
+            ?>
         </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddressZip" name="physicalAddressZip">Zip</label>
-        <input type="text" id="registerPhysicalAddressZip" required>
+        <input type="text" id="registerPhysicalAddressZip" name="physicalAddressZip" required>
     </div>
     <div class="formGroup">
         <label for="emailCommunication" name="emailCommunication">Email for Communication</label>
@@ -103,6 +129,10 @@
     <div class="formGroup">
         <label for="emailOrders" name="emailOrders">Email for New Orders</label>
         <input type="email" id="registerEmailOrders" required>
+    </div>
+    <div class="formGroup">
+        <label for="phone" name="phone">Phone Number</label>
+        <input type="tel" id="registerPhone" name="phone" required>
     </div>
     <div class="formGroup">
         <label for="itemMadeInIndiana" name="itemMadeInIndiana">Are all your products made in Indiana?</label>
