@@ -1,3 +1,16 @@
+<?php
+include("includes/db_connect.php");
+
+$addresstypeQuery = "SELECT ID, Name from addresstypes";
+$addresstypeResult = mysqli_query($link, $addresstypeQuery);
+
+$causetypesQuery = "SELECT ID, Name FROM causetypes";
+$causetypeResult = mysqli_query($link, $causetypesQuery);
+
+$statesQuery = "SELECT ID, Name, Abbreviation FROM states";
+$statesResult = mysqli_query($link, $statesQuery);
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -50,59 +63,74 @@
 <input type="checkbox" required>I Agree</input>
 
 <h4 class="sectionTitle">Your Info</h4>
-<form id="formRegCause" name="formRegCause" method="" action="">
+<form id="formRegCause" name="formRegCause" method="POST" action="submitCause.php">
     <div class="formGroup">
         <label for="companyName" name="companyName">Company Name</label>
-        <input type="text" id="registerCompanyName" required>
+        <input type="text" id="registerCompanyName" name="companyName" required>
     </div>
     <div class="formGroup">
         <label for="contactName" name="contactName">Contact Name</label>
-        <input type="text" id="registerContactName" required>
+        <input type="text" id="registerContactName" name="firstname" required>
+        <input type="text" id="registerContactName" name="lastname" required>
     </div>
     <div class="formGroup">
         <label for="websiteAddress" name="websiteAddress">Website URL</label>
-        <input type="text" id="registerWebsiteURL" required>
+        <input type="text" id="registerWebsiteURL" name="websiteAddress" required>
+    </div>
+    <div class="formGroup">
+        <label for="addressType" name="addressType">Address Type</label>
+        <select name="addressType" id="registerAddressType" required>
+        <?php
+        while ($row = mysqli_fetch_array($addresstypeResult, MYSQLI_BOTH)){
+            echo '<option id="addressType'.$row["ID"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+        }
+        ?>
+        </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddress" name="physicalAddress">Address</label>
-        <input type="text" id="registerPhysicalAddress" required>
+        <input type="text" id="registerPhysicalAddress" name="physicalAddress" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressCity" name="physicalAddressCity">City</label>
-        <input type="text" id="registerPhysicalAddressCity" required>
+        <input type="text" id="registerPhysicalAddressCity" name="physicalAddressCity" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressState" name="physicalAddressState">State</label>
-        <select name="registerPhysicalAddressState" id="registerPhysicalAddressState" required>
-            <option value="IN">Indiana</option>
+        <select name="physicalAddressState" id="registerPhysicalAddressState" required>
+            <?php
+            // Create dropdown for states
+            while ($row = mysqli_fetch_array($statesResult, MYSQLI_BOTH)){
+                // Set the default state to Indiana
+                if ($row["Abbreviation"] == "IN" ) {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'" selected=selected >'.$row["Name"].'</option>';
+                } else {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+                }
+            }
+            ?>
         </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddressZip" name="physicalAddressZip">Zip</label>
-        <input type="text" id="registerPhysicalAddressZip" required>
+        <input type="text" id="registerPhysicalAddressZip" name="physicalAddressZip" required>
     </div>
     <div class="formGroup">
         <label for="emailCommunication" name="emailCommunication">Email for Communication</label>
-        <input type="email" id="registerEmailCommunication" required>
+        <input type="email" id="registerEmailCommunication" name="emailCommunication" required>
     </div>
     <div class="formGroup">
         <label for="phone" name="phone">Phone Number</label>
-        <input type="tel" id="registerPhone" required>
+        <input type="tel" id="registerPhone" name="phone" required>
     </div>
     <div class="formGroup">
         <label for="typeOfOrganization" name="typeOfOrganization">Type of Organization</label>
         <select name="typeOfOrganization" id="typeOfOrganization" required>
-            <option value="religious">Religious</option>
-            <option value="educational">Educational</option>
-            <option value="sports">Sports Leagues</option>
-            <option value="sportsYouth">Sports Youth Leagues</option>
-            <option value="civic">Civic Clubs</option>
-            <option value="civicYouth">Civic Youth Clubs</option>
-            <option value="conservation">Conservation</option>
-            <option value="communityService">Community Service</option>
-            <option value="communityOutreach">Community Outreach</option>
-            <option value="scientific">Scientific</option>
-            <option value="other">Other</option>
+            <?php
+            while ($row = mysqli_fetch_array($causetypeResult, MYSQLI_BOTH)){
+                echo '<option id="causeType'.$row["ID"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+            }
+            ?>
         </select>
         <input type="text" name="typeOfOrganizationOther">
     </div>
@@ -111,27 +139,27 @@
         <input type="file">
     </div>
     <div class="formGroup">
-        <label for="purpose" name="purpose">What is the purpose of your organization?</label>
+        <label for="purposeInput" name="purpose">What is the purpose of your organization?</label>
         <textarea name="purposeInput" id="purposeInput" cols="30" rows="5"></textarea>
     </div>
     <div class="formGroup">
         <label for="fundsUsed" name="fundsUsed">How will you use your funds?</label>
-        <textarea name="useFundsInput" id="useFundsInput" cols="30" rows="4"></textarea>
+        <textarea name="fundsUsed" id="fundsUsed" cols="30" rows="4"></textarea>
     </div>
     <div class="formGroup">
-        <label for="campaignSelection" name="campaignSelection">Please select a campaign term.</label>
-        <input type="radio" name="campaignSelectionOngoing" value="Ongoing"> Ongoing
-        <input type="radio" name="campaignSelectionTerminate" value="Terminate"> Specific End Date
+        <label for="campaignEndDate" name="campaignSelection">Please select a campaign term.</label>
+        <input type="radio" name="campaignEndDate" value="9999-12-31 23:59:59"> Ongoing
+        <input type="radio" name="campaignEndDate" value=""> Specific End Date
         <input type="date">
     </div>
     <div class="formGroup">
         <label for="peopleBenefit" name="peopleBenefit">How many people benefit from your fundraising?</label>
-        <input type="number" required>
+        <input type="number" name="peopleBenefit" required>
     </div>
     <div class="formGroup">
-        <label for="cause501c" name="cause501c">Is your cause a 501 c 3 organization?</label>
-        <input type="radio" name="cause501cYN" value="Yes"> Yes
-        <input type="radio" name="cause501cYN" value="No"> No
+        <label for="cause501cYN" name="cause501cYN">Is your cause a 501 c 3 organization?</label>
+        <input type="radio" name="cause501cYN" value="1"> Yes
+        <input type="radio" name="cause501cYN" value="0"> No
     </div>
 
     <div class="formGroup">
