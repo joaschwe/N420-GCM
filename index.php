@@ -13,7 +13,7 @@ require './includes/nav.inc.php';
     <!--BANNER-->
     <div class="banner">
         <img src="images/logos/GCM-logo-w-tag2019.png">
-        <button>Go Fundshopping!</button>
+        <a href="good_products.php"><button>Go Fundshopping!</button></a>
     </div>
 
     <!--KNOT-->

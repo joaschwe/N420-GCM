@@ -137,6 +137,11 @@ h1.clicker span { color: #8DC63F;
     margin: auto;
     display: block;
 }
+
+.banner a{
+    text-decoration: none;
+}
+
 .banner button {
     margin: 8% auto 0 auto;
     display: block;
@@ -149,6 +154,7 @@ h1.clicker span { color: #8DC63F;
     background-color: #8DC63F;
     border-radius: 10px;
     border: 3px solid #8DC63F;
+    cursor: pointer;
 }
 .banner button:hover {
     color: #8DC63F;
