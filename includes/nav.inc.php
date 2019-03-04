@@ -26,8 +26,8 @@ $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
 
     <!--TOP NAV-->
     <nav class="top">
-        <div><a href="#"><span>Become a Cause</span></a></div>
-        <div><a href="#">Become a Vendor</a></div>
+        <div><a href="pages/cause/registerCause.php"><span>Become a Cause</span></a></div>
+        <div><a href="pages/vendor/registerVendor.php">Become a Vendor</a></div>
 <!--        <div><a href="#">Sign Up</a></div>-->
         <div id="loginBtn"><a href="#">Log In</a></div>
         <div><a href="../sitemap.php">Site Map</a></div>
