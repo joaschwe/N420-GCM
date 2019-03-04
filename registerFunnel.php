@@ -17,9 +17,11 @@ include("includes/dropdowns.php");
 <h1 class="pageTitle">Funnel Leader Registration</h1>
 
 <h4 class="sectionTitle">Getting Started</h4>
-<p class="regText">Customers have a choice of shipping methods. Pay individual shipping and order is shipped to
-    designated destination. OR To help keep shipping costs low, we can ship using a funnel method. Customers pay one
-    shipping fee and pick up their order in 10-14 days from your organizations dedicated "Funnel Leader". Please fill in
+<p class="regText">Customers have a choice of shipping methods. Pay direct shipping and the order is shipped to
+    the designated destination. OR, to help keep shipping costs low, we can ship using a funnel method. Customers pay
+    one
+    shipping fee and pick up their order once it has shipped from your organizations dedicated "Funnel Leader". Please
+    fill in
     the Funnel Leader's name and contact information below.
 </p>
 <h4 class="sectionTitle">
@@ -29,14 +31,14 @@ include("includes/dropdowns.php");
     Funnel Shipping is another shipping method GCM uses. It saves the customer on shipping costs by doing a bulk ship
     order. If the customer chooses "Funnel Shipping" at checkout, the Craftsmen will be notified to hold the orders.
     Once enough
-    orders have been received, the Craftsman will fulfill the order and send to the funnel leader for distribution.
+    orders have been received, the Craftsman will fulfill the order and send it to the funnel leader for distribution.
 </p>
 <p class="regText">
-    If your Cause will be participating in funnel shipping, a funnel leader will need to be designated. It is the
-    Cause's
-    responsibility to upkeep the funnel leaders and their contact information. It is the funnel leader's responsibility
-    to upkeep the pickup locations and verify
-    products
+    If your Cause thinks it might participate in the Funnel Shipping option, a Funnel Leader will need to be assigned.
+    You can always sign back into your account and revise this information. It will be the Funnel Leader’s
+    responsibility to provide pick up location and times to the customers as well as verify receipt of the orders. To
+    make your job as the Funnel Leader as simple as possible, GoodCauseMarket.com will provide an email template for you
+    to send to the customers regarding their order.
 </p>
 <input type="checkbox" required>I Agree</input>
 
@@ -81,10 +83,6 @@ include("includes/dropdowns.php");
         <input type="tel" id="registerPhone" required>
     </div>
     <div class="formGroup">
-        <label for="profileImage" name="profileImage">Upload a picture of you</label>
-        <input type="file">
-    </div>
-    <div class="formGroup">
         <label for="pickupDay" name="pickupDay">What days can orders be picked up?</label>
         <input type="checkbox" name="pickupDay" value="Sunday"> Sunday
         <input type="checkbox" name="pickupDay" value="Monday"> Monday
@@ -93,10 +91,6 @@ include("includes/dropdowns.php");
         <input type="checkbox" name="pickupDay" value="Thursday"> Thursday
         <input type="checkbox" name="pickupDay" value="Friday"> Friday
         <input type="checkbox" name="pickupDay" value="Saturday"> Saturday
-    </div>
-    <div class="formGroup">
-        <label for="pickupStarting" name="pickupStarting">Pickup available starting</label>
-        <input type="date">
     </div>
     <div class="formGroup">
         <input type="checkbox" checked>
@@ -109,6 +103,8 @@ include("includes/dropdowns.php");
         <p class="regText">
             We will put your website’s link onto the GoodCauseMarket.com website. Will you put Good Cause Market’s link
             on your landing page saying you are teaming with us for a Good Cause?
+        </p>
+        <p>
             Returned products are not included in the profit amount. The profit is tabulated by and defined as the
             selling price of the product and does not include tax, shipping, handling etc.
         </p>
@@ -116,7 +112,8 @@ include("includes/dropdowns.php");
 
     <div class="formGroup">
         <input type="checkbox" required>
-        <label for="finalAgreement" name="finalAgreement">By enrolling, I confirm I have read, understood, and agree to the <a>Terms and Conditions</a> of Good Cause Market.</label>
+        <label for="finalAgreement" name="finalAgreement">By enrolling, I confirm I have read, understood, and agree to
+            the <a>Terms and Conditions</a> of Good Cause Market.</label>
     </div>
 
     <input type="submit" value="Submit">

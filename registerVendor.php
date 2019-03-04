@@ -17,7 +17,7 @@ include("includes/dropdowns.php");
 <h1 class="pageTitle">Craftsman Registration</h1>
 
 <h4 class="sectionTitle">Getting Started</h4>
-<p class="regText">Welcome to GoodCauseMarket.com! GCM is an e-commerce store selling local Indiana made products and
+<p class="regText">Welcome to GoodCauseMarket.com! GCM is an e-commerce store, selling local, Indiana made products like yours and
     then donating 50% of the profit to charitable organizations. Our customers come to us from many non-profits such as
     a PTO, high school bands, robotics club, youth group, sports organizations and the list goes on. You will be part of
     helping the greater good by shipping your products to these customers. It's a win-win for everyone! Thank you for
@@ -26,7 +26,7 @@ include("includes/dropdowns.php");
 </p>
 <p class="regText">Once you fill out the information on this page and click AGREE below, you will receive an email from
     GoodCauseMarket usually within 48hours. Once you receive the email, you will be
-    able to login to your GCM page and set up your account and upload your images, description, enter your inventory
+    able to login to your GCM page, set up your account and upload your images, descriptions, then enter your inventory
     etc.</p>
 
 <h4 class="sectionTitle">
@@ -47,7 +47,7 @@ include("includes/dropdowns.php");
     estimate costs correctly, you will need to enter the physical dimensions and weight of each item. GCM will try to
     estimate costs using USPS, Fedex, and UPS at a minimum. You agree to offer shipping with at least one of the
     previously listed shippers. If you receive discounted shipping rates, you allow GCM to estimate shipping costs with
-    the discounted rate. To estimate rates, GCM will need information about your Shipper Accounts. All items shipped
+    the discounted rate. To estimate discounted rates, GCM will need information about your Shipper Accounts. All items shipped
     must have a tracking number. You agree to ship your product for GoodCauseMarket.com in a timely manner and notify us
     of any problems as soon as possible.
 </p>
@@ -123,6 +123,10 @@ include("includes/dropdowns.php");
         <input type="text" id="registerPhysicalAddressZip" name="physicalAddressZip" required>
     </div>
     <div class="formGroup">
+        <label for="logoImage" name="logoImage">Upload your logo</label>
+        <input type="file">
+    </div>
+    <div class="formGroup">
         <label for="emailCommunication" name="emailCommunication">Email for Communication</label>
         <input type="email" id="registerEmailCommunication" required>
     </div>
@@ -185,7 +189,7 @@ include("includes/dropdowns.php");
         <input type="radio" name="signatureRequiredYN" value="No">No
     </div>
     <div class="formGroup">
-        <label for="averageShippingCost" name="averageShippingCost">What is your average shipping cost per item?</label>
+        <label for="averageShippingCost" name="averageShippingCost">In order to help us with our Funnel Shipping, can you estimate an average shipping cost?</label>
         <input type="text" name="averageShippingCostInput" id="averageShippingCostInput" required>
     </div>
     <div class="formGroup">
