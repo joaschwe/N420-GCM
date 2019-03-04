@@ -2,8 +2,11 @@
 $addresstypeQuery = "SELECT ID, Name from addresstypes";
 $addresstypeResult = mysqli_query($link, $addresstypeQuery);
 
-$causetypesQuery = "SELECT ID, Name FROM causetypes";
-$causetypeResult = mysqli_query($link, $causetypesQuery);
+$causetypeQuery = "SELECT ID, Name FROM causetypes";
+$causetypeResult = mysqli_query($link, $causetypeQuery);
+
+$causeQuery = "SELECT ID, CauseName FROM causes";
+$causeResult = mysqli_query($link, $causeQuery);
 
 $statesQuery = "SELECT ID, Name, Abbreviation FROM states";
 $statesResult = mysqli_query($link, $statesQuery);
