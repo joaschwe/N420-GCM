@@ -200,6 +200,10 @@ require '../../includes/nav.inc.php';
             rates.</label>
         <textarea name="discountedRateShippers" id="discountedRateShippers" cols="30" rows="3"></textarea>
     </div>
+    <div class="formGroup">
+        <label for="bioTextArea" name="bioTextArea"></label>Short Bio:
+        <textarea name="bioTextArea" id="bioTextArea" cols="40" rows="4"></textarea>
+    </div>
 
     <div class="formGroup">
         <h4 class="sectionTitle">Further Agreements</h4>

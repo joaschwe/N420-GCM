@@ -24,6 +24,7 @@ $RateType = $_POST["rateType"];
 $SignatureRequiredYN = $_POST["signatureRequiredYN"];
 $AverageShippingCostInput = $_POST["averageShippingCostInput"];
 $DiscountedRateShippers = $_POST["discountedRateShippers"];
+$BioTextArea = $_POST["bioTextArea"];
 
 echo $VendorName . '<br/>' .
 $FirstName . '<br/>' .
@@ -47,9 +48,10 @@ $AdditionalShippersInput . '<br/>' .
 $RateType . '<br/>' .
 $SignatureRequiredYN . '<br/>' .
 $AverageShippingCostInput . '<br/>' .
-$DiscountedRateShippers . '<br/>';
+$DiscountedRateShippers . '<br/>'.
+$BioTextArea;
 
-$addCraftsmanSQL = "INSERT INTO craftsmen (Name, CauseTypeID, OtherType, ImageURL, OrganizationPurpose, Is501c3) VALUES ('" . $VendorName . "', '" . $CauseType . "', '" . $CauseTypeOther . "', '" . $ImageURL . "', '" . $Purpose . "', '" . $Is501c3 . "');";
+$addCraftsmanSQL = "INSERT INTO craftsmen (Name, DescriptionAbout, WebsiteURL) VALUES ('" . $VendorName . "', '" . $BioTextArea . "', '" . $WebAddress . "');";
 mysqli_query($link, $addCraftsmanSQL);
 $craftsmanID = mysqli_insert_id($link);
 
