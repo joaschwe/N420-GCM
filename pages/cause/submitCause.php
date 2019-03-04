@@ -17,7 +17,8 @@ $CauseTypeOther = $_POST["typeOfOrganizationOther"];
 $ImageURL = "";
 $Purpose = $_POST["purposeInput"];
 $FundsUsed = $_POST["fundsUsed"];
-$EndDate = $_POST["campaignEndDate"];
+$StartDate = date("Y-m-d H:i:s");
+$EndDate = $_POST["campaignEndDateDate"];
 $PeopleBenefit = $_POST["peopleBenefit"];
 $Is501c3 = $_POST["cause501cYN"];
 
@@ -37,6 +38,7 @@ echo $CauseName . '<br/>' .
     $ImageURL . '<br/>' .
     $Purpose . '<br/>' .
     $FundsUsed . '<br/>' .
+    $StartDate . '<br/>' .
     $EndDate . '<br/>' .
     $PeopleBenefit . '<br/>' .
     $Is501c3.'<br/>';
@@ -53,8 +55,8 @@ $AddressID = mysqli_insert_id($link);
 
 echo $addCauseAddressSQL.'<br/>';
 
-$addCauseScheduleSQL = "INSERT INTO causeschedules (CauseID, StartDate, EndDate) VALUES ('".$CauseID."', 'now', '".$EndDate."');";
-mysqli_query($link, $addFunnelLeaderSQL);
+$addCauseScheduleSQL = "INSERT INTO causeschedules (CauseID, StartDate, EndDate) VALUES ('".$CauseID."','". $StartDate ."', '".$EndDate."');";
+mysqli_query($link, $addCauseScheduleSQL);
 $CauseScheduleID = mysqli_insert_id($link);
 
 echo $addCauseScheduleSQL.'<br/>';
