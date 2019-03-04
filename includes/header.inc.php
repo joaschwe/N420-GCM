@@ -80,6 +80,11 @@ if ($title == 'Faqs') {
             </form>
         </div>
     </div>
-
 </div>
 
+<script>
+    $("#login .modal-btn").click(function (e) {
+        e.preventDefault();
+
+    })
+</script>
