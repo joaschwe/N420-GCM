@@ -1,6 +1,6 @@
 <?php
-include("includes/db_connect.php");
-include("includes/dropdowns.php");
+include("../../includes/db_connect.php");
+include("../../includes/dropdowns.php");
 
 ?>
 <!doctype html>
@@ -43,57 +43,84 @@ include("includes/dropdowns.php");
 <input type="checkbox" required>I Agree</input>
 
 <h4 class="sectionTitle">Your Info</h4>
-<form id="formRegCause" name="formRegCause" method="" action="">
+<form id="formRegFunnelLeader" name="formRegFunnelLeader" method="POST" action="submitFunnel.php">
     <div class="formGroup">
         <label for="selectCause" name="selectCause">Select Your Cause</label>
-        <select name="availableCauses" id="availableCauses">
-            <option value="HollisAdams">Hollis Adams</option>
-            <option value="BoyScouts">Boy Scouts of America</option>
-            <option value="ThirdCause">Third Cause</option>
+        <select name="selectCause" id="availableCauses">
+            <?php
+            while ($row = mysqli_fetch_array($causeResult, MYSQLI_BOTH)){
+                echo '<option id="cause'.$row["ID"].'" value="'.$row["ID"].'">'.$row["CauseName"].'</option>';
+            }
+            ?>
         </select>
     </div>
     <div class="formGroup">
         <label for="contactName" name="contactName">Contact Name</label>
-        <input type="text" id="registerContactName" required>
+        <input type="text" id="registerContactName" name="firstName" placeholder="First Name" required>
+        <input type="text" id="registerContactName" name="lastName" placeholder="Last Name" required>
+    </div>
+    <div class="formGroup">
+        <label for="addressType" name="addressType">Address Type</label>
+        <select name="addressType" id="registerAddressType" required>
+            <?php
+            while ($row = mysqli_fetch_array($addresstypeResult, MYSQLI_BOTH)){
+                if ($row["Name"] == "PRODUCT PICK-UP"){
+                    echo '<option id="addressType'.$row["ID"].'" value="'.$row["ID"].'" selected=selected>'.$row["Name"].'</option>';
+                } else {
+                    echo '<option id="addressType'.$row["ID"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+                }
+            }
+            ?>
+        </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddress" name="physicalAddress">Address</label>
-        <input type="text" id="registerPhysicalAddress" required>
+        <input type="text" id="registerPhysicalAddress" name="physicalAddress" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressCity" name="physicalAddressCity">City</label>
-        <input type="text" id="registerPhysicalAddressCity" required>
+        <input type="text" id="registerPhysicalAddressCity" name="physicalAddressCity" required>
     </div>
     <div class="formGroup">
         <label for="physicalAddressState" name="physicalAddressState">State</label>
-        <select name="registerPhysicalAddressState" id="registerPhysicalAddressState" required>
-            <option value="IN">Indiana</option>
+        <select id="registerPhysicalAddressState" name="physicalAddressState" required>
+            <?php
+            // Create dropdown for states
+            while ($row = mysqli_fetch_array($statesResult, MYSQLI_BOTH)){
+                // Set the default state to Indiana
+                if ($row["Abbreviation"] == "IN" ) {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'" selected=selected >'.$row["Name"].'</option>';
+                } else {
+                    echo '<option id="'.$row["Abbreviation"].'" value="'.$row["ID"].'">'.$row["Name"].'</option>';
+                }
+            }
+            ?>
         </select>
     </div>
     <div class="formGroup">
         <label for="physicalAddressZip" name="physicalAddressZip">Zip</label>
-        <input type="text" id="registerPhysicalAddressZip" required>
+        <input type="text" id="registerPhysicalAddressZip" name="physicalAddressZip" required>
     </div>
     <div class="formGroup">
         <label for="emailCommunication" name="emailCommunication">Email for Communication</label>
-        <input type="email" id="registerEmailCommunication" required>
+        <input type="email" id="registerEmailCommunication" name="emailCommunication" required>
     </div>
     <div class="formGroup">
         <label for="phone" name="phone">Phone Number</label>
-        <input type="tel" id="registerPhone" required>
+        <input type="tel" id="registerPhone" name="phone" required>
     </div>
     <div class="formGroup">
-        <label for="pickupDay" name="pickupDay">What days can orders be picked up?</label>
-        <input type="checkbox" name="pickupDay" value="Sunday"> Sunday
-        <input type="checkbox" name="pickupDay" value="Monday"> Monday
-        <input type="checkbox" name="pickupDay" value="Tuesday"> Tuesday
-        <input type="checkbox" name="pickupDay" value="Wednesday"> Wednesday
-        <input type="checkbox" name="pickupDay" value="Thursday"> Thursday
-        <input type="checkbox" name="pickupDay" value="Friday"> Friday
-        <input type="checkbox" name="pickupDay" value="Saturday"> Saturday
+        <label for="pickupDayArray" name="pickupDay">What days can orders be picked up?</label>
+        <input type="checkbox" name="pickupDayArray[]" value="0"> Sunday
+        <input type="checkbox" name="pickupDayArray[]" value="1"> Monday
+        <input type="checkbox" name="pickupDayArray[]" value="2"> Tuesday
+        <input type="checkbox" name="pickupDayArray[]" value="3"> Wednesday
+        <input type="checkbox" name="pickupDayArray[]" value="4"> Thursday
+        <input type="checkbox" name="pickupDayArray[]" value="5"> Friday
+        <input type="checkbox" name="pickupDayArray[]" value="6"> Saturday
     </div>
     <div class="formGroup">
-        <input type="checkbox" checked>
+        <input type="checkbox" name="newslettersAndUpdates" value="true" checked>
         <label for="newslettersAndUpdates" name="newslettersAndUpdates">I would like to receive newsletters and updates
             from Good Cause Market.</label>
     </div>
