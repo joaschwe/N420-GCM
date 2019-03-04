@@ -12,7 +12,7 @@ require './includes/nav.inc.php';
 
     <!--BANNER-->
     <div class="banner">
-        <img src="images/logos/GCM-logo-w-tag.png">
+        <img src="images/logos/GCM-logo-w-tag2019.png">
         <button>Go Fundshopping!</button>
     </div>
 
