@@ -1,7 +1,7 @@
 <?php
 include("includes/db_connect.php");
 
-$vendorsQuery = "SELECT ID, Name, CraftsmenID_translation, BillToAddressID, ShipToAddressID, PickupLocationID, FedexAcctNumber, UPSAccountNumber, USPSAccountNumber, DescriptionAbout, WebsiteURL, Active FROM craftsmen";
+$vendorsQuery = "SELECT ID, Name, FedexAcctNumber, UPSAccountNumber, USPSAccountNumber, DescriptionAbout, WebsiteURL, Active FROM craftsmen";
 $vendorsResult = mysqli_query($link, $vendorsQuery);
 
 ?>
