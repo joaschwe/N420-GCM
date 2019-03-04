@@ -6,7 +6,7 @@
 //define('DB_NAME', 'stroth7_GCM');
 
 
-$dbhost = 'localhost:3306';
+$dbhost = 'goodcausemarket.strotherit.com';
 $dbuser = 'stroth7_gcm_dbAdmin';
 $dbpwd  = 'vbRxr9BUQEN7VGw6zS7eDf5J';
 $dbname = 'stroth7_GCM';
