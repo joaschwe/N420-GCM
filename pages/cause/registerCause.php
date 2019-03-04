@@ -2,6 +2,9 @@
 include("../../includes/db_connect.php");
 include("../../includes/dropdowns.php");
 
+require '../../includes/header.inc.php';
+require '../../includes/nav.inc.php';
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -209,3 +212,7 @@ include("../../includes/dropdowns.php");
 
 </body>
 </html>
+
+<?php
+include '../../includes/footer.inc.php';
+?>
