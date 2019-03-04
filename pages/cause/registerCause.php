@@ -148,8 +148,8 @@ require '../../includes/nav.inc.php';
     <div class="formGroup">
         <label for="campaignEndDate" name="campaignSelection">Please select a campaign term.</label>
         <input type="radio" name="campaignEndDate" value="9999-12-31 23:59:59"> Ongoing
-        <input type="radio" name="campaignEndDate" value="" checked> Specific End Date
-        <input type="date">
+        <input type="radio" name="campaignEndDate" checked> Specific End Date
+        <input type="date" name="campaignEndDateDate">
     </div>
     <div class="formGroup">
         <label for="peopleBenefit" name="peopleBenefit">How many people benefit from your fundraising?</label>
