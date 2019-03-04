@@ -2,6 +2,9 @@
 include("../../includes/db_connect.php");
 include("../../includes/dropdowns.php");
 
+require '../../includes/header.inc.php';
+require '../../includes/nav.inc.php';
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -77,8 +80,8 @@ include("../../includes/dropdowns.php");
     </div>
     <div class="formGroup">
         <label for="contactName" name="contactName">Contact Name</label>
-        <input type="text" id="registerContactName" name="firstname" required>
-        <input type="text" id="registerContactName" name="lastname" required>
+        <input type="text" id="registerContactName" name="firstName" required>
+        <input type="text" id="registerContactName" name="lastName" required>
     </div>
     <div class="formGroup">
         <label for="websiteAddress" name="websiteAddress">Website URL</label>
@@ -124,15 +127,15 @@ include("../../includes/dropdowns.php");
     </div>
     <div class="formGroup">
         <label for="logoImage" name="logoImage">Upload your logo</label>
-        <input type="file">
+        <input type="file" name="logoImage">
     </div>
     <div class="formGroup">
         <label for="emailCommunication" name="emailCommunication">Email for Communication</label>
-        <input type="email" id="registerEmailCommunication" required>
+        <input type="email" id="registerEmailCommunication" name="emailCommunication" required>
     </div>
     <div class="formGroup">
         <label for="emailOrders" name="emailOrders">Email for New Orders</label>
-        <input type="email" id="registerEmailOrders" required>
+        <input type="email" id="registerEmailOrders" name="emailOrders" required>
     </div>
     <div class="formGroup">
         <label for="phone" name="phone">Phone Number</label>
@@ -140,8 +143,8 @@ include("../../includes/dropdowns.php");
     </div>
     <div class="formGroup">
         <label for="itemMadeInIndiana" name="itemMadeInIndiana">Are all your products made in Indiana?</label>
-        <input type="radio" name="itemMadeInIndianaYN" value="Yes" required> Yes
-        <input type="radio" name="itemMadeInIndianaYN" value="No"> No
+        <input type="radio" name="itemMadeInIndianaYN" value="1" required> Yes
+        <input type="radio" name="itemMadeInIndianaYN" value="0"> No
     </div>
     <div class="formGroup">
         <label for="otherPlacesSelling" name="otherPlacesSelling">Please list other websites where you sell your
@@ -152,8 +155,8 @@ include("../../includes/dropdowns.php");
         <label for="paymentProcessing" name="paymentProcessing">GCM will use Stripe for payment processing. Do you
             currently
             have a Stripe Account?</label>
-        <input type="radio" name="paymentProcessingYN" value="Yes"> Yes
-        <input type="radio" name="paymentProcessingYN" value="No"> No
+        <input type="radio" name="paymentProcessingYN" value="1"> Yes
+        <input type="radio" name="paymentProcessingYN" value="0"> No
     </div>
     <div class="formGroup">
         <label for="paymentProcessingNo" name="paymentProcessingNo">You will need to create a Stripe account in order to
@@ -225,3 +228,6 @@ include("../../includes/dropdowns.php");
 
 </body>
 </html>
+<?php
+include '../../includes/footer.inc.php';
+?>
