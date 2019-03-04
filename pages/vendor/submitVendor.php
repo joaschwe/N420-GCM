@@ -1,4 +1,6 @@
 <?php
+include("../../includes/db_connect.php");
+
 $VendorName = $_POST["companyName"];
 $FirstName = $_POST["firstname"];
 $LastName = $_POST["lastname"];
@@ -42,15 +44,24 @@ echo $VendorName . '<br/>' .
 $VendorID = "1";
 
 $addCauseSQL = "INSERT INTO causes (CauseName, CauseTypeID, OtherType, ImageURL, OrganizationPurpose, Is501c3) VALUES ('" . $VendorName . "', '" . $CauseType . "', '" . $CauseTypeOther . "', '" . $ImageURL . "', '" . $Purpose . "', '" . $Is501c3 . "');";
-$addCauseAddressSQL = "INSERT INTO addresses (AddressTypeID, VendorID, FirstName, LastName, Email, PhoneNumber, BillToAddress1, BillToCity, BillToStateID, BillToPostal, ShipToSameAsBillTo, DefaultBilling, DefaultShipping) VALUES (".$AddressType.", ".$VendorID.", '".$FirstName."', '".$LastName."', '".$EmailCommunication."', '".$Phone."', '".$AddressAddress."', '".$AddressCity."', '".$AddressState."', '".$AddressZip."', '1', '1', '1');";
+mysqli_query($link, $addFunnelLeaderSQL);
+$FunnelID = mysqli_insert_id($link);
+
+$addCauseAddressSQL = "INSERT INTO addresses (AddressTypeID, VendorID, FirstName, LastName, Email, PhoneNumber, Address1, City, StateID, Postal, ShipToSameAsBillTo) VALUES (".$AddressType.", ".$VendorID.", '".$FirstName."', '".$LastName."', '".$EmailCommunication."', '".$Phone."', '".$AddressAddress."', '".$AddressCity."', '".$AddressState."', '".$AddressZip."', '1');";
+mysqli_query($link, $addFunnelLeaderSQL);
+$FunnelID = mysqli_insert_id($link);
+
 $addCauseScheduleSQL = "INSERT INTO causeschedules (CauseID, StartDate, EndDate) VALUES ('".$VendorID."', 'now', '".$EndDate."');";
+mysqli_query($link, $addFunnelLeaderSQL);
+$FunnelID = mysqli_insert_id($link);
+
 echo $addCauseSQL.'<br/>';
 echo $addCauseAddressSQL.'<br/>';
 echo $addCauseScheduleSQL.'<br/>';
 
 $deleteCauseScheduleSQL = "DELETE FROM causeschedules WHERE causeschedules.ID = 1;";
-$deleteCauseAddressSQL = "DELETE FROM addresses WHERE addresses.ID = 1";
-$deleteCauseSQL = "DELETE FROM causes WHERE causes.ID = 1";
+$deleteCauseAddressSQL = "DELETE FROM addresses WHERE addresses.ID = 1;";
+$deleteCauseSQL = "DELETE FROM causes WHERE causes.ID = 1;";
 
 echo $deleteCauseScheduleSQL.'<br/>';
 echo $deleteCauseAddressSQL.'<br/>';
