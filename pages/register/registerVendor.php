@@ -70,7 +70,7 @@ include("includes/dropdowns.php");
 <input type="checkbox" required>I Agree</input>
 
 <h4 class="sectionTitle">Your Info</h4>
-<form id="formRegVendor" name="formRegVendor" method="POST" action="submitVendor.php">
+<form id="formRegVendor" name="formRegVendor" method="POST" action="../../submitVendor.php">
     <div class="formGroup">
         <label for="companyName" name="companyName">Company Name</label>
         <input type="text" id="registerCompanyName" name="companyName" required>
