@@ -50,8 +50,8 @@ $AddressID = mysqli_insert_id($link);
 echo $addFunnelLeaderAddressSQL .'<br/>';
 
 
-$deleteFunnelLeaderAddressSQL = "DELETE FROM addresses WHERE addresses.ID = ".$AddressID;
-$deleteFunnelLeaderSQL = "DELETE FROM funnel WHERE funnel.ID = ".$FunnelID;
+$deleteFunnelLeaderAddressSQL = "DELETE FROM addresses WHERE addresses.ID = ".$AddressID.";";
+$deleteFunnelLeaderSQL = "DELETE FROM funnel WHERE funnel.ID = ".$FunnelID.";";
 
 echo $deleteFunnelLeaderAddressSQL.'<br/>';
 echo $deleteFunnelLeaderSQL.'<br/>';
