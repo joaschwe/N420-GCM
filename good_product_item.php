@@ -28,6 +28,8 @@ require './includes/nav.inc.php';
                     <h3 class="clicker-sansSerif">Island Fresh Jelly Soap</h3>
                     <h3 class="craft-subhead">8oz Jar</h3>
                     <h4 class="location">$11.95</h4>
+                    <input type="number" name="Qty" value="1" min="1" max="5">
+                    <input type="button" value="Add to Cart">
                 </div>
             </div>
             <div class="quote-section">

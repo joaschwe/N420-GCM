@@ -26,8 +26,8 @@ $absolutePath = $_SERVER['SCRIPT_FILENAME'];
 
 
 //database info
-define('DB_HOST', 'localhost');
-define('DB_USER', 'joaschwe');
-define('DB_PASS', 'joaschwe');
-define('DB_NAME', 'joaschwe_db');
+//define('DB_HOST', 'localhost');
+//define('DB_USER', 'joaschwe');
+//define('DB_PASS', 'joaschwe');
+//define('DB_NAME', 'joaschwe_db');
 ?>

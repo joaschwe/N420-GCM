@@ -1,4 +1,7 @@
 <?php
+
+include './includes/db_connect.php';
+
 require './includes/header.inc.php';
 require './includes/nav.inc.php';
 
